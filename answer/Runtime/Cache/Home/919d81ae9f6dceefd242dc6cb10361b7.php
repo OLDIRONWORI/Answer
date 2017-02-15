@@ -69,6 +69,8 @@
     </div>
 </div>
 
+<a href="<?php echo u('Login/selectRegister');?>">去注册</a>
+
 <!-- jQuery Version 1.11.0 -->
 <script src="/Answer/Public/js/jquery-1.11.0.js"></script>
 

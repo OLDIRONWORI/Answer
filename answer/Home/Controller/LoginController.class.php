@@ -5,9 +5,18 @@ use Think\Controller;
 
 class LoginController extends Controller
 {
+    // 跳转到注册选择界面
+    public function selectRegister()
+    {
+        $this->display();
+    }
+
     // 跳转到注册界面
     public function register()
     {
+        $select = I("post.select");
+
+        $this->assign('select' , $select);
         $this->display();
     }
 

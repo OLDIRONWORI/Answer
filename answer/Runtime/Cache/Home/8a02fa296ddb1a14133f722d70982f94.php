@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>学生注册</title>
+        <title>后台注册</title>
         <!--<?php echo ($student_list); ?>-->
         <!--/Answer/Public-->
             <!-- Bootstrap Core CSS -->
@@ -69,6 +69,8 @@
                 </div>
             </div>
         </div>
+
+        <?php echo ($select); ?>
 
         <!-- jQuery Version 1.11.0 -->
         <script src="/Answer/Public/js/jquery-1.11.0.js"></script>
