@@ -49,6 +49,30 @@ class LoginController extends Controller
     {
         $this->display();
     }
+
+    // 登录处理
+    public function loginAct()
+    {
+        // 获取用户输入的登录信息
+        $post = I("post.");
+
+        // 实例化student
+        $stu = D('student');
+        // 验证学生登录凭证
+        $stulogin = $stu->verifyLogin($post['code'] , $post['password']);
+
+        // 实例化teacher
+        $tea = D('teacher');
+        // 验证学生登录凭证
+        $tealogin = $tea->verifyLogin($post['code'] , $post['password']);
+
+        // 成功与否的重定向
+        if($stulogin || $tealogin){
+            $this->success('登录成功', 'Index/home');
+        }else{
+            $this->error('登录失败,请检查输入');
+        }
+    }
 }
 
 ?>

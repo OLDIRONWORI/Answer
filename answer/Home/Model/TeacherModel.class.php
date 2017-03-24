@@ -3,10 +3,10 @@
 
     use Think\Model;
 
-    class StudentModel extends Model
+    class TeacherModel extends Model
     {
-        // 查询所有学生信息
-        public function getStudentList(){
+        // 查询所有教师信息
+        public function getTeacherList(){
 
             return $this->select();
 
@@ -18,11 +18,11 @@
             $where['phone'] = $phone;
             $where['password'] = md5($password);
 
-            $stuinfo = $this->where($where)->find();
+            $teainfo = $this->where($where)->find();
 
-            if($stuinfo){
-                $stuinfo['type'] = 'student';
-                cookie('userinfo' , $stuinfo , 24*60*60*7);
+            if($teainfo){
+                $teainfo['type'] = 'teacher';
+                cookie('userinfo' , $teainfo , 24*60*60*7);
                 return true;
             }else{
                 return false;
