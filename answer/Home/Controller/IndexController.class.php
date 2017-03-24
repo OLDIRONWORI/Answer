@@ -14,7 +14,6 @@ class IndexController extends Controller
     // 后台主页面
     public function home()
     {
-        echo 2213;
         $this->display();
     }
 
