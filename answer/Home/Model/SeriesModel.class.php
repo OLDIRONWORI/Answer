@@ -1,15 +1,17 @@
 <?php
-namespace Home\Model;
+    namespace Home\Model;
 
-use Think\Model;
+    use Think\Model;
 
-class StudentModel extends Model
-{
-    public function getStudentList(){
+    class SeriesModel extends Model
+    {
+        public function getSeriesList(){
 
-        return $this->select();
+            $where['gradeid'] = I("post.gid");
 
+            return $this->where($where)->select();
+
+        }
     }
-}
 
 ?>

@@ -3,9 +3,9 @@
 
     use Think\Model;
 
-    class SeriesModel extends Model
+    class StudentModel extends Model
     {
-        public function getSeriesList(){
+        public function getStudentList(){
 
             return $this->select();
 

@@ -7,7 +7,9 @@ class GradeModel extends Model
 {
     public function getGradetList(){
 
-        return $this->select();
+        $where['seriesid'] = I("post.sid");
+
+        return $this->where($where)->select();
 
     }
 }
