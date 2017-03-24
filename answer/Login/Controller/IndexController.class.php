@@ -5,11 +5,14 @@ use Think\Controller;
 
 class IndexController extends Controller
 {
-    public function index()
+    public function register()
     {
 
         $stu = D("student");
 
-        $stu->test();
+        $student_list = $stu->getStudentList();
+
+        $this->assign('student_list' , $student_list);
+        $this->display();
     }
 }

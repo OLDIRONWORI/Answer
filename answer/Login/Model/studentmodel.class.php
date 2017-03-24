@@ -5,8 +5,10 @@ use Think\Model;
 
 class StudentModel extends Model
 {
-    public function test(){
-        echo 12333;
+    public function getStudentList(){
+
+        return $this->select();
+
     }
 }
 
