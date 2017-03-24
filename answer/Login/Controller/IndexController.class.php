@@ -21,6 +21,5 @@ class IndexController extends Controller
 
     public function registerAct(){
         I('post.realname');
-        I('post.');
     }
 }
