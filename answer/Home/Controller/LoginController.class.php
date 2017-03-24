@@ -68,7 +68,7 @@ class LoginController extends Controller
 
         // 成功与否的重定向
         if($stulogin || $tealogin){
-            $this->success('登录成功', 'Index/home');
+            $this->redirect('Index/home');
         }else{
             $this->error('登录失败,请检查输入');
         }
