@@ -5,6 +5,7 @@ use Think\Controller;
 
 class IndexController extends Controller
 {
+    // 进入注册页面
     public function register()
     {
 
@@ -16,5 +17,10 @@ class IndexController extends Controller
 
         $this->assign('student_list' , $student_list);
         $this->display();
+    }
+
+    public function registerAct(){
+        I('post.realname');
+        I('post.');
     }
 }
