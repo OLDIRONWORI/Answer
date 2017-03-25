@@ -5,23 +5,23 @@
 
     class AdminModel extends Model
     {
-        // 查询所有教师信息
-        public function getTeacherList(){
+        // 查询所有管理员信息
+        public function getAdminList(){
 
             return $this->select();
 
         }
 
         // 验证登录是否成功
-        public function verifyLogin($phone , $password)
+        public function verifyLogin($username , $password)
         {
-            $where['phone'] = $phone;
+            $where['username'] = $username;
             $where['password'] = md5($password);
 
             $teainfo = $this->where($where)->find();
 
             if($teainfo){
-                $teainfo['type'] = 'teacher';
+                $teainfo['type'] = 'admin';
                 cookie('userinfo' , $teainfo , 24*60*60*7);
                 return true;
             }else{

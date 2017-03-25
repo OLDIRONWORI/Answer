@@ -75,8 +75,13 @@ class LoginController extends Controller
         // 验证学生登录凭证
         $tealogin = $tea->verifyLogin($post['code'] , $post['password']);
 
+        // 实例化admin
+        $tea = D('admin');
+        // 验证学生登录凭证
+        $admlogin = $tea->verifyLogin($post['code'] , $post['password']);
+
         // 成功与否的重定向
-        if($stulogin || $tealogin){
+        if($stulogin || $tealogin || $admlogin){
             $this->redirect('Index/home');
         }else{
             $this->error('登录失败,请检查输入');
