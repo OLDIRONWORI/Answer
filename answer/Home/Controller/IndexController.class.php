@@ -5,10 +5,14 @@ use Think\Controller;
 
 class IndexController extends Controller
 {
-    // 入口
-    public function index()
+    public function __construct()
     {
-        $this->redirect('Login/login');
+        parent::__construct();
+
+        // 是否登录
+        if (!cookie('userinfo')) {
+            redirect('Home/Login/login');
+        }
     }
 
     // 后台主页面
@@ -25,7 +29,6 @@ class IndexController extends Controller
     // 获取系信息
     public function getSeriesList()
     {
-
         $series = D("series");
         $series_list = $series->getGradeList();
 
