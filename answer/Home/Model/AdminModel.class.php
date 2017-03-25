@@ -21,7 +21,16 @@
             $teainfo = $this->where($where)->find();
 
             if($teainfo){
+                // 标识为管理员
                 $teainfo['type'] = 'admin';
+
+                // 统一值为realname
+                $teainfo['realname'] = $teainfo['username'];
+
+                // 销毁username
+                unset($teainfo['username']);
+
+                // 设置cookie
                 cookie('userinfo' , $teainfo , 24*60*60*7);
                 return true;
             }else{

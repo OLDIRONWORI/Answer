@@ -14,9 +14,10 @@ class IndexController extends Controller
     // 后台主页面
     public function home()
     {
-
+        // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
 
+        // 分配信息到模板
         $this->assign('userinfo' , $userinfo);
         $this->display();
     }

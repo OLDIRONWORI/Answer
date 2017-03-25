@@ -77,7 +77,7 @@ class LoginController extends Controller
 
         // 实例化admin
         $tea = D('admin');
-        // 验证学生登录凭证
+        // 验证管理员登录凭证
         $admlogin = $tea->verifyLogin($post['code'] , $post['password']);
 
         // 成功与否的重定向
