@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>后台管理的主页面</title>
+    <title><?php echo $_COOKIE['userinfo']['username'];?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/Answer/Public/css/bootstrap.min.css" rel="stylesheet">

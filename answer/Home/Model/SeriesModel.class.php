@@ -7,9 +7,7 @@
     {
         public function getSeriesList(){
 
-            $where['gradeid'] = I("post.gid");
-
-            return $this->where($where)->select();
+            return $this->select();
 
         }
     }

@@ -7,7 +7,9 @@
     {
         public function getClassList(){
 
-            return $this->select();
+            $where['seriesid'] = I("post.gid");
+
+            return $this->where($where)->select();
 
         }
     }

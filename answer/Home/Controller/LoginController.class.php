@@ -26,15 +26,6 @@ class LoginController extends Controller
         $post = I('post.');
     }
 
-    // 获取年级信息
-    public function getGradeList(){
-
-        $grade = D("grade");
-        $grade_list = $grade->getGradeList();
-
-        $this->ajaxReturn($grade_list);
-    }
-
     // 获取系信息
     public function getSeriesList(){
 
@@ -42,6 +33,15 @@ class LoginController extends Controller
         $series_list = $series->getGradeList();
 
         $this->ajaxReturn($series_list);
+    }
+
+    // 获取年级信息
+    public function getGradeList(){
+
+        $grade = D("grade");
+        $grade_list = $grade->getGradeList();
+
+        $this->ajaxReturn($grade_list);
     }
 
     // 获取班级信息

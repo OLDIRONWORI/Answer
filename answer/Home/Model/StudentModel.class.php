@@ -22,7 +22,7 @@
 
             if($stuinfo){
                 $stuinfo['type'] = 'student';
-                cookie('userinfo' , $stuinfo , 24*60*60*7);
+                session('userinfo' , $stuinfo , 24*60*60*7);
                 return true;
             }else{
                 return false;
