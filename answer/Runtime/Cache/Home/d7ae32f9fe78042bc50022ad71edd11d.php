@@ -39,7 +39,6 @@
 
 <div id="wrapper">
 
-    <!-- Navigation -->
 
     <!-- Navigation -->
 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -56,9 +55,9 @@
 
     <ul class="nav navbar-top-links navbar-right">
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+     <!--       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
-            </a>
+            </a>-->
             <ul class="dropdown-menu dropdown-messages">
                 <li>
                     <a href="#">
