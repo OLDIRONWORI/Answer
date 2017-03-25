@@ -16,7 +16,7 @@ class LoginController extends Controller
     {
         $select = I("post.select");
 
-        $this->assign('select' , $select);
+        $this->assign('select', $select);
         $this->display();
     }
 
@@ -41,22 +41,22 @@ class LoginController extends Controller
         // 实例化student
         $stu = D('student');
         // 验证学生登录凭证
-        $stulogin = $stu->verifyLogin($post['code'] , $post['password']);
+        $stulogin = $stu->verifyLogin($post['code'], $post['password']);
 
         // 实例化teacher
         $tea = D('teacher');
         // 验证学生登录凭证
-        $tealogin = $tea->verifyLogin($post['code'] , $post['password']);
+        $tealogin = $tea->verifyLogin($post['code'], $post['password']);
 
         // 实例化admin
         $tea = D('admin');
         // 验证管理员登录凭证
-        $admlogin = $tea->verifyLogin($post['code'] , $post['password']);
+        $admlogin = $tea->verifyLogin($post['code'], $post['password']);
 
         // 成功与否的重定向
-        if($stulogin || $tealogin || $admlogin){
+        if ($stulogin || $tealogin || $admlogin) {
             $this->redirect('Index/home');
-        }else{
+        } else {
             $this->error('登录失败,请检查输入');
         }
     }
@@ -64,7 +64,7 @@ class LoginController extends Controller
     // 退出登录
     public function loginOut()
     {
-        cookie('userinfo' , null);
+        cookie('userinfo', null);
 
         $this->redirect('login');
     }

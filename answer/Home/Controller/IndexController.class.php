@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 
-use Think\Controller;
+use Home\CommenController;
 
 class IndexController extends CommenController
 {
@@ -18,12 +18,13 @@ class IndexController extends CommenController
         $userinfo = cookie('userinfo');
 
         // 分配信息到模板
-        $this->assign('userinfo' , $userinfo);
+        $this->assign('userinfo', $userinfo);
         $this->display();
     }
 
     // 获取系信息
-    public function getSeriesList(){
+    public function getSeriesList()
+    {
 
         $series = D("series");
         $series_list = $series->getGradeList();
@@ -32,7 +33,8 @@ class IndexController extends CommenController
     }
 
     // 获取年级信息
-    public function getGradeList(){
+    public function getGradeList()
+    {
 
         $grade = D("grade");
         $grade_list = $grade->getGradeList();
@@ -41,7 +43,8 @@ class IndexController extends CommenController
     }
 
     // 获取班级信息
-    public function getClassList(){
+    public function getClassList()
+    {
 
         $class = D("class");
         $class_list = $class->getGradeList();
