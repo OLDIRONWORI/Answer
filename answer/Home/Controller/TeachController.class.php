@@ -3,20 +3,18 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class IndexController extends Controller
+class TeachController extends Controller
 {
     public function __construct()
     {
         parent::__construct();
-
         // 是否登录
         if (!cookie('userinfo')) {
             redirect('Home/Login/login');
         }
     }
-
     // 后台主页面
-    public function home()
+    public function asked()
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');

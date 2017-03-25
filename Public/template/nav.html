@@ -76,7 +76,6 @@
                 <li>
                     <!--href="{:U('Home/Login/loginOut')}"-->
                     <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
-
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -107,9 +106,14 @@
                 <!--</div>-->
                 <!--&lt;!&ndash; /input-group &ndash;&gt;-->
                 <!--</li>-->
-
                 <div class="sidebar-nav navbar-collapse">
                     <if condition="$userinfo.type == 'admin'">
+
+
+
+
+
+                        <!--管理员-->
                         <ul class="nav in" id="side-menu">
                             <li>
                                 <a href="#"><i class="fa fa-dashboard fa-fw"></i> 学生管理<span class="fa arrow"></span></a>
@@ -167,9 +171,9 @@
                             </li>
                         </ul>
 
-
-
                         <elseif condition="$userinfo.type == 'teacher'"/>
+
+                        <!--教师-->
                         <ul class="nav in" id="side-menu">
                             <li>
                                 <a href="index.html"><i class="fa fa-edit fa-fw"></i> 回答问题</a>
@@ -195,39 +199,23 @@
                         </ul>
 
 
-
-
-
-
-
-
-
                         <else />
-
+                        <!--学生-->
                         <ul class="nav in" id="side-menu">
                             <li>
-                                <a href="index.html"><i class="fa fa-edit fa-fw"></i> 提问</a>
+                                <a href="{:u('Stu/ask')}" class="{$active}"><i class="fa fa-edit fa-fw"></i> 提问</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-files-o fa-fw"></i>收藏夹</a>
+                                <a href="{:u('Stu/collect')}" class="{$collect}"><i class="fa fa-files-o fa-fw"></i>收藏夹</a>
                             </li>
                             <li>
-                                <a href="index.html" ><i class="fa fa-wrench fa-fw"></i>寻找教师</a>
+                                <a href="{:u('Stu/find')}" class="{$find}"><i class="fa fa-wrench fa-fw"></i>寻找教师</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-table fa-fw"></i>历史问题</a>
+                                <a href="{:u('Stu/question')}" class="{$question}"><i class="fa fa-table fa-fw"></i>历史问题</a>
                             </li>
                         </ul>
                     </if>
-
-
-
-
-
-
-
-
-
                 </div>
 
 

@@ -115,7 +115,7 @@
                 </li>
                 <!--      <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                       </li>-->
-                <li class="divider"> <?php echo ($userinfo["username"]); ?>  </li>
+                <li class="divider"> <?php echo ($userinfo["realname"]); ?>  </li>
                 <li>
                     <!--href="<?php echo U('Home/Login/loginOut');?>"-->
                     <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
@@ -211,7 +211,7 @@
 
 
 
-                        <?php elseif($userinfo["type"] == 'student'): ?>
+                        <?php elseif($userinfo["type"] == 'teacher'): ?>
                         <ul class="nav in" id="side-menu">
                             <li>
                                 <a href="index.html"><i class="fa fa-edit fa-fw"></i> 回答问题</a>
@@ -295,7 +295,7 @@
     <div id="page-wrapper" style="min-height: 475px;">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">用户名:<?php echo ($userinfo["username"]); ?></h1>
+                <h1 class="page-header">用户:<?php echo ($userinfo["realname"]); ?></h1>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -304,7 +304,9 @@
                 <div class="jumbotron" style="padding: 48px 20px">
                     <h1>登录成功</h1>
                     <p>欢迎使用后台管理系统</p>
-                    <p><a class="btn btn-primary btn-lg" role="button">退出</a>
+                    <p>
+                        <a role="button"  data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg"> 退出</a>
+                        <!--<a class="btn btn-primary btn-lg" role="button">退出</a>-->
                     </p>
                 </div>
             </div>
