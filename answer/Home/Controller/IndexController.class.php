@@ -3,7 +3,7 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class IndexController extends Controller
+class IndexController extends CommenController
 {
     // 入口
     public function index()
@@ -20,6 +20,33 @@ class IndexController extends Controller
         // 分配信息到模板
         $this->assign('userinfo' , $userinfo);
         $this->display();
+    }
+
+    // 获取系信息
+    public function getSeriesList(){
+
+        $series = D("series");
+        $series_list = $series->getGradeList();
+
+        $this->ajaxReturn($series_list);
+    }
+
+    // 获取年级信息
+    public function getGradeList(){
+
+        $grade = D("grade");
+        $grade_list = $grade->getGradeList();
+
+        $this->ajaxReturn($grade_list);
+    }
+
+    // 获取班级信息
+    public function getClassList(){
+
+        $class = D("class");
+        $class_list = $class->getGradeList();
+
+        $this->ajaxReturn($class_list);
     }
 
 }
