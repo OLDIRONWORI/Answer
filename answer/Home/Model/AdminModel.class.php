@@ -22,7 +22,7 @@
 
             if($teainfo){
                 $teainfo['type'] = 'admin';
-                session('userinfo' , $teainfo , 24*60*60*7);
+                cookie('userinfo' , $teainfo , 24*60*60*7);
                 return true;
             }else{
                 return false;

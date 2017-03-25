@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo $_COOKIE['userinfo']['username'];?></title>
+    <title>后台管理的主页面</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/Answer/Public/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-
+<?php echo ($userinfo["username"]); ?>1
 <div id="wrapper">
 
     <!-- Navigation -->

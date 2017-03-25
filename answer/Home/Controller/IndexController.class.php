@@ -14,6 +14,10 @@ class IndexController extends Controller
     // 后台主页面
     public function home()
     {
+
+        $userinfo = cookie('userinfo');
+
+        $this->assign('userinfo' , $userinfo);
         $this->display();
     }
 
