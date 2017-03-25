@@ -1,0 +1,55 @@
+
+
+<!--底部-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">确认退出</h4>
+            </div>
+            <div class="modal-body">
+                退出后，可重新登录
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <a href="{:U('Home/Login/loginOut')}" type="button" class="btn btn-primary">确定</a>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- jQuery -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="__PUBLIC__/js/raphael.min.js"></script>
+<script src="__PUBLIC__/js/morris.min.js"></script>
+<script src="__PUBLIC__/js/morris-data.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="__PUBLIC__/js/sb-admin-2.js"></script>
+
+<script>
+    // tooltip demo
+    $('.tooltip-demo').tooltip({
+        selector: "[data-toggle=tooltip]",
+        container: "body"
+    })
+    // popover demo
+    $("[data-toggle=popover]")
+        .popover()
+</script>
+
+
+</body>
+
+</html>

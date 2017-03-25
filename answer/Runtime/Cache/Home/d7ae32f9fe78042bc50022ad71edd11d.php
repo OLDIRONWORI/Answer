@@ -116,7 +116,10 @@
                 <!--      <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                       </li>-->
                 <li class="divider"> <?php echo ($userinfo["username"]); ?>  </li>
-                <li><a href="<?php echo U('Home/Login/loginOut');?>"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+                <li>
+                    <!--href="<?php echo U('Home/Login/loginOut');?>"-->
+                    <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -124,6 +127,14 @@
         <!-- /.dropdown -->
     </ul>
     <!-- /.navbar-top-links -->
+
+
+
+
+
+
+
+
 
     <div class="navbar-default sidebar" role="navigation">
         <div class="sidebar-nav navbar-collapse">
@@ -280,12 +291,51 @@
     </div>
     <!-- /.navbar-static-side -->
 </nav>
+
     <div id="page-wrapper" style="min-height: 475px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">用户名:<?php echo ($userinfo["username"]); ?></h1>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="jumbotron" style="padding: 48px 20px">
+                    <h1>登录成功</h1>
+                    <p>欢迎使用后台管理系统</p>
+                    <p><a class="btn btn-primary btn-lg" role="button">退出</a>
+                    </p>
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
     </div>
     <!-- /#page-wrapper -->
-
 </div>
 <!-- /#wrapper -->
+
+
+<!--底部-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">确认退出</h4>
+            </div>
+            <div class="modal-body">
+                退出后，可重新登录
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <a href="<?php echo U('Home/Login/loginOut');?>" type="button" class="btn btn-primary">确定</a>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
 
 <!-- jQuery -->
 <script src="/Answer/Public/js/jquery.min.js"></script>
@@ -304,7 +354,16 @@
 <!-- Custom Theme JavaScript -->
 <script src="/Answer/Public/js/sb-admin-2.js"></script>
 
-
+<script>
+    // tooltip demo
+    $('.tooltip-demo').tooltip({
+        selector: "[data-toggle=tooltip]",
+        container: "body"
+    })
+    // popover demo
+    $("[data-toggle=popover]")
+        .popover()
+</script>
 
 
 </body>

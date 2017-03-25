@@ -73,7 +73,10 @@
                 <!--      <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                       </li>-->
                 <li class="divider"> {$userinfo.username}  </li>
-                <li><a href="{:U('Home/Login/loginOut')}"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+                <li>
+                    <!--href="{:U('Home/Login/loginOut')}"-->
+                    <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -81,6 +84,14 @@
         <!-- /.dropdown -->
     </ul>
     <!-- /.navbar-top-links -->
+
+
+
+
+
+
+
+
 
     <div class="navbar-default sidebar" role="navigation">
         <div class="sidebar-nav navbar-collapse">

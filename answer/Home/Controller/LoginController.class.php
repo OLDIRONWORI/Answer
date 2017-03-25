@@ -93,7 +93,7 @@ class LoginController extends Controller
     {
         cookie('userinfo' , null);
 
-        $this->success('login');
+        $this->redirect('login');
     }
 }
 
