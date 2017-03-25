@@ -108,11 +108,6 @@
                 <!--</li>-->
                 <div class="sidebar-nav navbar-collapse">
                     <if condition="$userinfo.type == 'admin'">
-
-
-
-
-
                         <!--管理员-->
                         <ul class="nav in" id="side-menu">
                             <li>
@@ -170,34 +165,32 @@
                                 <!-- /.nav-second-level -->
                             </li>
                         </ul>
-
                         <elseif condition="$userinfo.type == 'teacher'"/>
 
                         <!--教师-->
                         <ul class="nav in" id="side-menu">
                             <li>
-                                <a href="index.html"><i class="fa fa-edit fa-fw"></i> 回答问题</a>
+                                <a href="index.html" class="{$tea_article}">><i class="fa fa-edit fa-fw"></i> 回答问题</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> 收藏夹<span class="fa arrow"></span></a>
+                                <a href="#" class="{$tea_collect}"><i class="fa fa-bar-chart-o fa-fw"></i> 收藏夹<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse">
                                     <li>
-                                        <a href="flot.html">问题</a>
+                                        <a href="flot.html" class="{$tea_question}">问题</a>
                                     </li>
                                     <li>
-                                        <a href="morris.html">文章</a>
+                                        <a href="morris.html" class="{$tea_publics}">文章</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="index.html" ><i class="fa fa-wrench fa-fw"></i>发表文章（扩展:存草稿）</a>
+                                <a href="index.html" class="{$tea_}"><i class="fa fa-wrench fa-fw"></i>发表文章（扩展:存草稿）</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-table fa-fw"></i>已回答问题</a>
+                                <a href="index.html" class="{$tea_publics}"><i class="fa fa-table fa-fw"></i>已回答问题</a>
                             </li>
                         </ul>
-
 
                         <else />
                         <!--学生-->
