@@ -3,7 +3,7 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class CommenController extends Controller
+class CommonController extends Controller
 {
     public function __construct()
     {

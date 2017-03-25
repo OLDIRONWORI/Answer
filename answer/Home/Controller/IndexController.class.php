@@ -1,9 +1,9 @@
 <?php
 namespace Home\Controller;
 
-use Home\CommenController;
+use Home\CommonController;
 
-class IndexController extends CommenController
+class IndexController extends CommonController
 {
     // 入口
     public function index()
