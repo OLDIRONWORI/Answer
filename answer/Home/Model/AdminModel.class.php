@@ -21,7 +21,7 @@
             $teainfo = $this->where($where)->find();
 
             if($teainfo){
-                // 标识为管理员
+                // 标识为管理员4w
                 $teainfo['type'] = 'admin';
 
                 // 统一值为realname

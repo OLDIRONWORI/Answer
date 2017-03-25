@@ -87,6 +87,14 @@ class LoginController extends Controller
             $this->error('登录失败,请检查输入');
         }
     }
+
+    // 退出登录
+    public function loginOut()
+    {
+        cookie('userinfo' , null);
+
+        $this->success('login');
+    }
 }
 
 ?>

@@ -36,9 +36,9 @@
 </head>
 
 <body>
-<?php echo ($userinfo["username"]); ?>1
-<div id="wrapper">
 
+<div id="wrapper">
+    <?php echo U('Home/Login/loginOut');?>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
