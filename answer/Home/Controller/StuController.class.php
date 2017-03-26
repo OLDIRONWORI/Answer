@@ -18,6 +18,12 @@ class StuController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 获取keys数据
+        $keys = D('keys');
+        $keysList = $keys->getKeysList();
+        dump($keysList);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -28,15 +34,9 @@ class StuController extends Controller
     // 学生提问提交处理
     public function askAct()
     {
-        // 接受参数
-        $title = I('post.title');
-        $content = I('post.content');
-        $keys = rtrim(I('post.keys') , ','); // 1,2,3,4,
+        $article = D('article');
 
-        // 剥离标签处理(预留)
-
-        // 插入数据库
-        
+        $insert = $article->askAct();
     }
 
     //收藏夹
