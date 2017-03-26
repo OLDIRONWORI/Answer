@@ -24,6 +24,13 @@ class StuController extends Controller
         $this->assign('active', $active);
         $this->display();
     }
+
+    // 学生提问提交处理
+    public function askAct()
+    {
+        
+    }
+
     //收藏夹
     public function collect()
     {
