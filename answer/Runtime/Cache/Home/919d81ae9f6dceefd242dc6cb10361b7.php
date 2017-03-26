@@ -9,18 +9,18 @@
     <meta name="author" content="">
     <title>后台登陆</title>
     <!--<?php echo ($student_list); ?>-->
-    <!--/Answer/Public-->
+    <!--/waibao/Answer/Public-->
     <!-- Bootstrap Core CSS -->
-    <link href="/Answer/Public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/waibao/Answer/Public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- MetisMenu CSS -->
-    <link href="/Answer/Public/css/metisMenu.min.css" rel="stylesheet" type="text/css">
+    <link href="/waibao/Answer/Public/css/metisMenu.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <link href="/Answer/Public/css/sb-admin-2.css" rel="stylesheet" type="text/css">
+    <link href="/waibao/Answer/Public/css/sb-admin-2.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href="/Answer/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/waibao/Answer/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
 
@@ -72,10 +72,10 @@
 <!--<a href="<?php echo u('Login/selectRegister');?>">去注册</a>-->
 
 <!-- jQuery Version 1.11.0 -->
-<script src="/Answer/Public/js/jquery-1.11.0.js"></script>
+<script src="/waibao/Answer/Public/js/jquery-1.11.0.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/Answer/Public/js/bootstrap.min.js"></script>
+<script src="/waibao/Answer/Public/js/bootstrap.min.js"></script>
 
 <script>
 

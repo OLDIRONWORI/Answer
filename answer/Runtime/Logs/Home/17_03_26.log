@@ -1,0 +1,1371 @@
+[ 2017-03-26T12:08:00+08:00 ] ::1 /waibao/Answer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-03-26T12:08:00+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.127522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.127651s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-03-26T12:13:46+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'all'@'localhost' (using password: YES)
+
+[ 2017-03-26T12:14:04+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'all'@'localhost' (using password: YES)
+
+[ 2017-03-26T12:14:06+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-03-26T12:14:07+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-26T12:14:07+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2017-03-26T12:14:07+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-26T12:14:07+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-03-26T12:14:16+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'all'@'localhost' (using password: YES)
+
+[ 2017-03-26T12:14:37+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'all'@'localhost' (using password: YES)
+
+[ 2017-03-26T12:15:44+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-03-26T12:15:45+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-03-26T12:15:45+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-26T12:15:45+08:00 ] ::1 /waibao/Answer/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2017-03-26T12:15:53+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'all'@'localhost' (using password: YES)
+
+[ 2017-03-26T12:30:36+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012995s ]
+SQL: SHOW COLUMNS FROM `an_student` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `an_student` WHERE `phone` = 'admin' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `an_teacher` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `an_teacher` WHERE `phone` = 'admin' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `an_admin` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `an_admin` WHERE `username` = 'admin' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-26T12:30:36+08:00 ] ::1 /waibao/Answer/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.061791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.061850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009768s ]
+
+[ 2017-03-26T12:40:45+08:00 ] ::1 /waibao/Answer/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-03-26T12:40:46+08:00 ] ::1 /waibao/Answer/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-03-26T12:40:50+08:00 ] ::1 /waibao/Answer/Home/Login/loginOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+
+[ 2017-03-26T12:40:51+08:00 ] ::1 /waibao/Answer/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-03-26T12:41:01+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `an_student` [ RunTime:0.0737s ]
+SQL: SELECT * FROM `an_student` WHERE `phone` = '1311' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `an_teacher` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `an_teacher` WHERE `phone` = '1311' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `an_admin` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `an_admin` WHERE `username` = '1311' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-26T12:41:01+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-03-26T12:41:24+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-03-26T12:52:09+08:00 ] ::1 /waibao/Answer/Home/Teach/publics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 222 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 225 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 228 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 231 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 237 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-03-26T12:52:09+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2017-03-26T12:52:11+08:00 ] ::1 /waibao/Answer/Home/Teach/question.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-03-26T12:52:12+08:00 ] ::1 /waibao/Answer/Home/Teach/question.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-03-26T12:52:13+08:00 ] ::1 /waibao/Answer/Home/Teach/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-03-26T12:52:14+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-03-26T12:52:15+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-03-26T12:52:16+08:00 ] ::1 /waibao/Answer/Home/Teach/publics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 222 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 225 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 228 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 231 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 237 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-03-26T12:52:18+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-03-26T12:55:51+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-03-26T12:55:52+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-03-26T12:55:54+08:00 ] ::1 /waibao/Answer/Home/Teach/publics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 222 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 225 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 228 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 231 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-03-26T12:55:55+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-03-26T12:55:59+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-03-26T12:56:02+08:00 ] ::1 /waibao/Answer/Home/Teach/question.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-03-26T12:56:04+08:00 ] ::1 /waibao/Answer/Home/Teach/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\75e13b62671f3af66a56acab50a6165b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-03-26T12:56:05+08:00 ] ::1 /waibao/Answer/Home/Teach/publics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 222 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 225 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 228 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 231 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2017-03-26T12:56:07+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-03-26T12:56:09+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-03-26T12:56:10+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-03-26T12:56:10+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-03-26T12:56:10+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-03-26T12:56:10+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-03-26T12:56:23+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-03-26T12:56:24+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-03-26T12:56:24+08:00 ] ::1 /waibao/Answer/Home/Teach/publics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 222 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 225 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 228 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 231 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\f2ee284c2236b10e7215a30c1bffc78a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-03-26T12:56:25+08:00 ] ::1 /waibao/Answer/Home/Teach/questioned.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1f3b2b0d5e89787f077d23c5005325ea.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-03-26T12:56:44+08:00 ] ::1 /waibao/Answer/Home/Teach/asked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 224 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\5520d45fdc19c316ef521290c9cc2e74.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-03-26T12:56:45+08:00 ] ::1 /waibao/Answer/Home/Teach/question.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: tea_asked E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 218 行.
+NOTIC: [8] Undefined variable: tea_collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 221 行.
+NOTIC: [8] Undefined variable: tea_article E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 227 行.
+NOTIC: [8] Undefined variable: tea_publics E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 233 行.
+NOTIC: [8] Undefined variable: tea_questioned E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\ef389b75e9ea8db781b85ebd62d123fb.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-03-26T12:56:49+08:00 ] ::1 /waibao/Answer/Home/Login/loginOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-03-26T12:56:49+08:00 ] ::1 /waibao/Answer/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: student_list E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\919d81ae9f6dceefd242dc6cb10361b7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-03-26T12:57:33+08:00 ] ::1 /waibao/Answer/Home/Login/loginAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `an_student` [ RunTime:0.0587s ]
+SQL: SELECT * FROM `an_student` WHERE `phone` = '15818708414' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `an_teacher` [ RunTime:0.0628s ]
+SQL: SELECT * FROM `an_teacher` WHERE `phone` = '15818708414' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `an_admin` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `an_admin` WHERE `username` = '15818708414' AND `password` = '4a7d1ed414474e4033ac29ccb8653d9b' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name E:\phpBAK\waibao\Answer\answer\Home\Controller\LoginController.class.php 第 59 行.
+
+[ 2017-03-26T12:57:33+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-03-26T12:57:38+08:00 ] ::1 /waibao/Answer/Home/Stu/collect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: active E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\9cc941053e8211e21e20c4a5c92e4631.php 第 257 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\9cc941053e8211e21e20c4a5c92e4631.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\9cc941053e8211e21e20c4a5c92e4631.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-03-26T12:57:38+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-03-26T12:57:40+08:00 ] ::1 /waibao/Answer/Home/Stu/find.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: active E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1038896be6ef30d78e25c51b8b173a05.php 第 257 行.
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1038896be6ef30d78e25c51b8b173a05.php 第 260 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1038896be6ef30d78e25c51b8b173a05.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-03-26T12:57:40+08:00 ] ::1 /waibao/Answer/Home/Stu/question.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: active E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\e7532ffa5361ef2636345b210c897c4d.php 第 257 行.
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\e7532ffa5361ef2636345b210c897c4d.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\e7532ffa5361ef2636345b210c897c4d.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-03-26T12:57:41+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-03-26T12:57:41+08:00 ] ::1 /waibao/Answer/Home/Stu/find.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: active E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1038896be6ef30d78e25c51b8b173a05.php 第 257 行.
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1038896be6ef30d78e25c51b8b173a05.php 第 260 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\1038896be6ef30d78e25c51b8b173a05.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+

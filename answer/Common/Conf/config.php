@@ -4,10 +4,10 @@ return array(
 
     /* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  '192.168.0.110', // 服务器地址
+    'DB_HOST'               =>  'localhost', // 服务器地址
     'DB_NAME'               =>  'answer',          // 数据库名
-    'DB_USER'               =>  'all',      // 用户名
-    'DB_PWD'                =>  '000000',          // 密码
+    'DB_USER'               =>  'root',      // 用户名
+    'DB_PWD'                =>  '123456',          // 密码
     'DB_PORT'               =>  '3306',        // 端口
     'DB_PREFIX'             =>  'an_',    // 数据库表前缀
     'DB_PARAMS'          	=>  array(), // 数据库连接参数

@@ -12,19 +12,19 @@
     <title>后台管理的主页面</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/Answer/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/waibao/Answer/Public/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="/Answer/Public/css/metisMenu.min.css" rel="stylesheet">
+    <link href="/waibao/Answer/Public/css/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/Answer/Public/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/waibao/Answer/Public/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/Answer/Public/css/morris.css" rel="stylesheet">
+    <link href="/waibao/Answer/Public/css/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/Answer/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/waibao/Answer/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -119,7 +119,6 @@
                 <li>
                     <!--href="<?php echo U('Home/Login/loginOut');?>"-->
                     <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
-
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -150,9 +149,9 @@
                 <!--</div>-->
                 <!--&lt;!&ndash; /input-group &ndash;&gt;-->
                 <!--</li>-->
-
                 <div class="sidebar-nav navbar-collapse">
-                    <?php if($userinfo["type"] == 'admin'): ?><ul class="nav in" id="side-menu">
+                    <?php if($userinfo["type"] == 'admin'): ?><!--管理员-->
+                        <ul class="nav in" id="side-menu">
                             <li>
                                 <a href="#"><i class="fa fa-dashboard fa-fw"></i> 学生管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
@@ -208,31 +207,33 @@
                                 <!-- /.nav-second-level -->
                             </li>
                         </ul>
-
-
-
                         <?php elseif($userinfo["type"] == 'teacher'): ?>
+
+
+
+
+                        <!--教师-->
                         <ul class="nav in" id="side-menu">
                             <li>
-                                <a href="index.html"><i class="fa fa-edit fa-fw"></i> 回答问题</a>
+                                <a href="<?php echo u('Teach/asked');?>" class="<?php echo ($tea_asked); ?>">><i class="fa fa-edit fa-fw"></i> 回答问题</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> 收藏夹<span class="fa arrow"></span></a>
+                                <a href="<?php echo u('Teach/collect');?>" class="<?php echo ($tea_collect); ?>"><i class="fa fa-bar-chart-o fa-fw"></i> 收藏夹<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse">
                                     <li>
-                                        <a href="flot.html">问题</a>
+                                        <a href="<?php echo u('Teach/question');?>" class="<?php echo ($tea_question); ?>">问题</a>
                                     </li>
                                     <li>
-                                        <a href="morris.html">文章</a>
+                                        <a href="<?php echo u('Teach/article');?>" class="<?php echo ($tea_article); ?>">文章</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="index.html" ><i class="fa fa-wrench fa-fw"></i>发表文章（扩展:存草稿）</a>
+                                <a href="<?php echo u('Teach/publics');?>" class="<?php echo ($tea_publics); ?>"><i class="fa fa-wrench fa-fw"></i>发表文章（扩展:存草稿）</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-table fa-fw"></i>已回答问题</a>
+                                <a href="<?php echo u('Teach/questioned');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-table fa-fw"></i>已回答问题</a>
                             </li>
                         </ul>
 
@@ -244,32 +245,33 @@
 
 
 
-                        <?php else: ?>
 
+
+
+
+
+                        <?php else: ?>
+                        <!--学生-->
                         <ul class="nav in" id="side-menu">
                             <li>
-                                <a href="index.html"><i class="fa fa-edit fa-fw"></i> 提问</a>
+                                <a href="<?php echo u('Stu/ask');?>" class="<?php echo ($active); ?>"><i class="fa fa-edit fa-fw"></i> 提问</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-files-o fa-fw"></i>收藏夹</a>
+                                <a href="<?php echo u('Stu/collect');?>" class="<?php echo ($collect); ?>"><i class="fa fa-files-o fa-fw"></i>收藏夹</a>
                             </li>
                             <li>
-                                <a href="index.html" ><i class="fa fa-wrench fa-fw"></i>寻找教师</a>
+                                <a href="<?php echo u('Stu/find');?>" class="<?php echo ($find); ?>"><i class="fa fa-wrench fa-fw"></i>寻找教师</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-table fa-fw"></i>历史问题</a>
+                                <a href="<?php echo u('Stu/question');?>" class="<?php echo ($question); ?>"><i class="fa fa-table fa-fw"></i>历史问题</a>
                             </li>
                         </ul><?php endif; ?>
-
-
-
-
-
-
-
-
-
                 </div>
+
+
+
+
+
 
 
                 <!--      <li>
@@ -340,21 +342,21 @@
 </div>
 
 <!-- jQuery -->
-<script src="/Answer/Public/js/jquery.min.js"></script>
+<script src="/waibao/Answer/Public/js/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/Answer/Public/js/bootstrap.min.js"></script>
+<script src="/waibao/Answer/Public/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="/Answer/Public/js/metisMenu.min.js"></script>
+<script src="/waibao/Answer/Public/js/metisMenu.min.js"></script>
 
 <!-- Morris Charts JavaScript -->
-<script src="/Answer/Public/js/raphael.min.js"></script>
-<script src="/Answer/Public/js/morris.min.js"></script>
-<script src="/Answer/Public/js/morris-data.js"></script>
+<script src="/waibao/Answer/Public/js/raphael.min.js"></script>
+<script src="/waibao/Answer/Public/js/morris.min.js"></script>
+<script src="/waibao/Answer/Public/js/morris-data.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/Answer/Public/js/sb-admin-2.js"></script>
+<script src="/waibao/Answer/Public/js/sb-admin-2.js"></script>
 
 <script>
     // tooltip demo

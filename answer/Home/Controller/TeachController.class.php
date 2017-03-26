@@ -19,6 +19,8 @@ class TeachController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+        $active='active';
+        $this->assign('tea_asked', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
@@ -28,6 +30,8 @@ class TeachController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+        $active='active';
+        $this->assign('tea_collect', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
@@ -37,6 +41,8 @@ class TeachController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+        $active='active';
+        $this->assign('tea_question', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
@@ -46,6 +52,8 @@ class TeachController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+        $active='active';
+        $this->assign('tea_article', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
@@ -55,6 +63,8 @@ class TeachController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+        $active='active';
+        $this->assign('tea_publics', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
@@ -64,6 +74,8 @@ class TeachController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+         $active='active';
+        $this->assign('tea_questioned', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
