@@ -221,19 +221,19 @@
                                 <a href="<?php echo u('Teach/collect');?>" class="<?php echo ($tea_collect); ?>"><i class="fa fa-bar-chart-o fa-fw"></i> 收藏夹<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse">
                                     <li>
-                                        <a href="<?php echo u('Teach/question');?>" class="<?php echo ($tea_question); ?>">问题</a>
+                                        <a href="<?php echo u('Teach/question');?>" class="<?php echo ($tea_question); ?>"> 问题</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo u('Teach/article');?>" class="<?php echo ($tea_article); ?>">文章</a>
+                                        <a href="<?php echo u('Teach/article');?>" class="<?php echo ($tea_article); ?>"> 文章</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="<?php echo u('Teach/publics');?>" class="<?php echo ($tea_publics); ?>"><i class="fa fa-wrench fa-fw"></i>发表文章（扩展:存草稿）</a>
+                                <a href="<?php echo u('Teach/publics');?>" class="<?php echo ($tea_publics); ?>"><i class="fa fa-wrench fa-fw"></i> 发表文章（扩展:存草稿）</a>
                             </li>
                             <li>
-                                <a href="<?php echo u('Teach/questioned');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-table fa-fw"></i>已回答问题</a>
+                                <a href="<?php echo u('Teach/questioned');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-table fa-fw"></i> 已回答问题</a>
                             </li>
                         </ul>
 
@@ -257,22 +257,16 @@
                                 <a href="<?php echo u('Stu/ask');?>" class="<?php echo ($active); ?>"><i class="fa fa-edit fa-fw"></i> 提问</a>
                             </li>
                             <li>
-                                <a href="<?php echo u('Stu/collect');?>" class="<?php echo ($collect); ?>"><i class="fa fa-files-o fa-fw"></i>收藏夹</a>
+                                <a href="<?php echo u('Stu/collect');?>" class="<?php echo ($collect); ?>"><i class="fa fa-files-o fa-fw"></i> 收藏夹</a>
                             </li>
                             <li>
-                                <a href="<?php echo u('Stu/find');?>" class="<?php echo ($find); ?>"><i class="fa fa-wrench fa-fw"></i>寻找教师</a>
+                                <a href="<?php echo u('Stu/find');?>" class="<?php echo ($find); ?>"><i class="fa fa-wrench fa-fw"></i> 寻找教师</a>
                             </li>
                             <li>
-                                <a href="<?php echo u('Stu/question');?>" class="<?php echo ($question); ?>"><i class="fa fa-table fa-fw"></i>历史问题</a>
+                                <a href="<?php echo u('Stu/question');?>" class="<?php echo ($question); ?>"><i class="fa fa-table fa-fw"></i> 历史问题</a>
                             </li>
                         </ul><?php endif; ?>
                 </div>
-
-
-
-
-
-
 
                 <!--      <li>
                           <a href="index.html" class="active"><i class="fa fa-edit fa-fw"></i> 提问</a>
@@ -295,28 +289,58 @@
 </nav>
 
 <div id="page-wrapper" style="min-height: 475px;">
-    <!-- <div class="row">
-         <div class="col-lg-12">
-             <h1 class="page-header">用户:<?php echo ($userinfo["realname"]); ?></h1>
-         </div>
-         &lt;!&ndash; /.col-lg-12 &ndash;&gt;
-     </div>
-     <div class="row">
-         <div class="col-lg-12">
-             <div class="jumbotron" style="padding: 48px 20px">
-                 <h1>登录成功</h1>
-                 <p>欢迎使用后台管理系统</p>
-                 <p>
-                     <a role="button"  data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg"> 退出</a>
-                     &lt;!&ndash;<a class="btn btn-primary btn-lg" role="button">退出</a>&ndash;&gt;
-                 </p>
-             </div>
-         </div>
-         &lt;!&ndash; /.col-lg-12 &ndash;&gt;
-     </div>-->
+    <div class="col-lg-12">
+        <h1 class="page-header">历史问题</h1>
+    </div>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              历史问题表格展示
+            </div>
+            <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
 </div>
 <!-- /#page-wrapper -->
-</div>
+
 <!-- /#wrapper -->
 
 
