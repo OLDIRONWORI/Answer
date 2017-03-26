@@ -22,11 +22,10 @@ class StuController extends Controller
         // 获取keys数据
         $keys = D('keys');
         $keysList = $keys->getKeysList();
-        dump($keysList);
-
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
+        $this->assign('keysList', $keysList);
         $this->assign('active', $active);
         $this->display();
     }

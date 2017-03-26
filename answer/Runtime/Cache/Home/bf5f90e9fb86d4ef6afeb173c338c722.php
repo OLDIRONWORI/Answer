@@ -304,7 +304,7 @@
                          提问
                      </div> -->
                         <div class="panel-body">
-                           <form role="form">
+                           <form role="form" method="post" action="askAct">
                                    <div class="form-group">
                                         <label>标题</label>
                                         <input class="form-control" placeholder="请输入标题">
@@ -313,18 +313,13 @@
                                         <label>内容</label>
                                         <input class="form-control" placeholder="请输入内容">
                                    </div>
-                                   <div class="form-group">
-                                            <label>关键词 : </label>
-                                            <label class="radio-inline">
-                                                <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked="">1
-                                            </label>
-                                            <label class="radio-inline">
-                                                <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2
-                                            </label>
-                                            <label class="radio-inline">
-                                                <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3
-                                            </label>
-                                        </div>
+
+                               <div class="form-group">
+                                   <label>关键词 : </label>
+                                   <?php if(is_array($keysList)): $i = 0; $__LIST__ = $keysList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label class="checkbox-inline">
+                                           <input type="checkbox"><?php echo ($vo["keyname"]); ?>
+                                       </label><?php endforeach; endif; else: echo "" ;endif; ?>
+                               </div>
                                    <button type="button" class="btn btn-primary">提交</button>
                                <!--    <button type="button" class="btn btn-outline btn-primary btn-lg btn-block">提交</button> -->
                            </form>

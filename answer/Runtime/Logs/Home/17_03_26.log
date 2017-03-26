@@ -3358,3 +3358,307 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
 
+[ 2017-03-26T15:21:46+08:00 ] ::1 /waibao/Answer/Home/Stu/collect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: active E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\9cc941053e8211e21e20c4a5c92e4631.php 第 257 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\9cc941053e8211e21e20c4a5c92e4631.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\9cc941053e8211e21e20c4a5c92e4631.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-03-26T15:51:24+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-03-26T16:03:00+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.1503s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.1199s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-03-26T16:03:02+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-03-26T16:03:31+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-03-26T16:03:31+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-03-26T16:04:32+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-03-26T16:04:32+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-03-26T16:05:22+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2017-03-26T16:05:22+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+NOTIC: [8] Undefined variable: keysList E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-03-26T16:06:04+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-03-26T16:06:04+08:00 ] ::1 /waibao/Answer/Home/Stu/ask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `an_keys` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `an_keys` ORDER BY `order` desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: collect E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 260 行.
+NOTIC: [8] Undefined variable: find E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 263 行.
+NOTIC: [8] Undefined variable: question E:\phpBAK\waibao\Answer\answer\Runtime\Cache\Home\bf5f90e9fb86d4ef6afeb173c338c722.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
