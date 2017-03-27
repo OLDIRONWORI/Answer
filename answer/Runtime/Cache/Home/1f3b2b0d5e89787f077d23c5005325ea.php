@@ -12,19 +12,19 @@
     <title>后台管理的主页面</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/Answer/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/working/Answer/Public/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="/Answer/Public/css/metisMenu.min.css" rel="stylesheet">
+    <link href="/working/Answer/Public/css/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/Answer/Public/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/working/Answer/Public/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/Answer/Public/css/morris.css" rel="stylesheet">
+    <link href="/working/Answer/Public/css/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/Answer/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/working/Answer/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -156,10 +156,10 @@
                                 <a href="#"><i class="fa fa-dashboard fa-fw"></i> 学生管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
                                     <li>
-                                        <a href="/Answer/Home/Admin/stu_add" class="<?php echo ($ad_adds); ?>">学生添加</a>
+                                        <a href="/working/Answer/Home/Admin/stu_add" class="<?php echo ($ad_adds); ?>">学生添加</a>
                                     </li>
                                     <li>
-                                        <a href="/Answer/Home/Admin/stu_table" class="<?php echo ($ad_table); ?>">学生列表</a>
+                                        <a href="/working/Answer/Home/Admin/stu_table" class="<?php echo ($ad_table); ?>">学生列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
@@ -168,40 +168,40 @@
                                 <a href="#" ><i class="fa fa-files-o fa-fw"></i> 教师管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
                                     <li>
-                                        <a href="/Answer/Home/Admin/teach_add" class="<?php echo ($teach_add); ?>">教师添加</a>
+                                        <a href="/working/Answer/Home/Admin/teach_add" class="<?php echo ($teach_add); ?>">教师添加</a>
                                     </li>
                                     <li>
-                                        <a href="/Answer/Home/Admin/teach_add" class="<?php echo ($teach_table); ?>">教师列表</a>
+                                        <a href="/working/Answer/Home/Admin/teach_add" class="<?php echo ($teach_table); ?>">教师列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="/Answer/Home/Admin/article" class="<?php echo ($teach_article); ?>"></i> 文章列表</a>
+                                <a href="/working/Answer/Home/Admin/article" class="<?php echo ($teach_article); ?>"></i> 文章列表</a>
                             </li>
                             <li>
-                                <a href="/Answer/Home/Admin/question" class="<?php echo ($question); ?>"></i> 问题列表</a>
+                                <a href="/working/Answer/Home/Admin/question" class="<?php echo ($question); ?>"></i> 问题列表</a>
                             </li>
                             <li>
-                                <a href="/Answer/Home/Admin/order" class="<?php echo ($order); ?>"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
+                                <a href="/working/Answer/Home/Admin/order" class="<?php echo ($order); ?>"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
                             </li>
                             <li>
-                                <a href="/Answer/Home/Admin/keywords" class="<?php echo ($keywords); ?>"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
+                                <a href="/working/Answer/Home/Admin/keywords" class="<?php echo ($keywords); ?>"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
                             </li>
                             <li class="">
                                 <a href="#"><i class="fa fa-tasks fa-fw"></i> 班级管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
                                     <li>
-                                        <a href="/Answer/Home/Admin/add_grade" class="<?php echo ($add_grade); ?>">添加班级</a>
+                                        <a href="/working/Answer/Home/Admin/add_grade" class="<?php echo ($add_grade); ?>">添加班级</a>
                                     </li>
                                     <li>
-                                        <a href="/Answer/Home/Admin/add_class" class="<?php echo ($add_class); ?>">添加系</a>
+                                        <a href="/working/Answer/Home/Admin/add_class" class="<?php echo ($add_class); ?>">添加系</a>
                                     </li>
                                     <li>
-                                        <a href="/Answer/Home/Admin/add_tie" class="<?php echo ($add_tie); ?>">添加班级</a>
+                                        <a href="/working/Answer/Home/Admin/add_tie" class="<?php echo ($add_tie); ?>">添加班级</a>
                                     </li>
                                     <li>
-                                        <a href="/Answer/Home/Admin/classList" class="<?php echo ($classList); ?>">班级列表</a>
+                                        <a href="/working/Answer/Home/Admin/classList" class="<?php echo ($classList); ?>">班级列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
@@ -285,29 +285,44 @@
 </nav>
 
 <div id="page-wrapper" style="min-height: 475px;">
-    <!-- <div class="row">
-         <div class="col-lg-12">
-             <h1 class="page-header">用户:<?php echo ($userinfo["realname"]); ?></h1>
-         </div>
-         &lt;!&ndash; /.col-lg-12 &ndash;&gt;
-     </div>
-     <div class="row">
-         <div class="col-lg-12">
-             <div class="jumbotron" style="padding: 48px 20px">
-                 <h1>登录成功</h1>
-                 <p>欢迎使用后台管理系统</p>
-                 <p>
-                     <a role="button"  data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg"> 退出</a>
-                     &lt;!&ndash;<a class="btn btn-primary btn-lg" role="button">退出</a>&ndash;&gt;
-                 </p>
-             </div>
-         </div>
-         &lt;!&ndash; /.col-lg-12 &ndash;&gt;
-     </div>-->
+    <div class="col-lg-12">
+        <h1 class="page-header">已回答问题</h1>
+    </div>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                已回答问题列表
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>题目(title)</th>
+                            <th>内容(content)</th>
+                            <th>类型(type)</th>
+                            <th>时间(time)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php if(is_array($reply_list)): $i = 0; $__LIST__ = $reply_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                <td><?php echo ($vo["title"]); ?></td>
+                                <td><?php echo ($vo["content"]); ?></td>
+                                <td><?php echo ($vo["type"]); ?></td>
+                                <td><?php echo ($vo["time"]); ?></td>
+                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
 </div>
-<!-- /#page-wrapper -->
 </div>
-<!-- /#wrapper -->
 
 
 <!--底部-->
@@ -332,21 +347,21 @@
 </div>
 
 <!-- jQuery -->
-<script src="/Answer/Public/js/jquery.min.js"></script>
+<script src="/working/Answer/Public/js/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/Answer/Public/js/bootstrap.min.js"></script>
+<script src="/working/Answer/Public/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="/Answer/Public/js/metisMenu.min.js"></script>
+<script src="/working/Answer/Public/js/metisMenu.min.js"></script>
 
 <!-- Morris Charts JavaScript -->
-<script src="/Answer/Public/js/raphael.min.js"></script>
-<script src="/Answer/Public/js/morris.min.js"></script>
-<script src="/Answer/Public/js/morris-data.js"></script>
+<script src="/working/Answer/Public/js/raphael.min.js"></script>
+<script src="/working/Answer/Public/js/morris.min.js"></script>
+<script src="/working/Answer/Public/js/morris-data.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/Answer/Public/js/sb-admin-2.js"></script>
+<script src="/working/Answer/Public/js/sb-admin-2.js"></script>
 
 <script>
     // tooltip demo
