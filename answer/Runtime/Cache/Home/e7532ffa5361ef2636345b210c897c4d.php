@@ -295,7 +295,7 @@
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-              历史问题表格展示
+              历史问题表格
             </div>
             <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -309,9 +309,8 @@
                                             <th>Username</th>
                                         </tr>
                                     </thead>
-
                                     <tbody>
-                                    <?php if(is_array($keysList)): $i = 0; $__LIST__ = $keysList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                    <?php if(is_array($article_list)): $i = 0; $__LIST__ = $article_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                             <td>1</td>
                                             <td>Mark</td>
                                             <td>Otto</td>

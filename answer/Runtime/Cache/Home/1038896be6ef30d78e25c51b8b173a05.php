@@ -289,27 +289,43 @@
 </nav>
 
 <div id="page-wrapper" style="min-height: 475px;">
-    <!-- <div class="row">
-         <div class="col-lg-12">
-             <h1 class="page-header">用户:<?php echo ($userinfo["realname"]); ?></h1>
-         </div>
-         &lt;!&ndash; /.col-lg-12 &ndash;&gt;
-     </div>
-     <div class="row">
-         <div class="col-lg-12">
-             <div class="jumbotron" style="padding: 48px 20px">
-                 <h1>登录成功</h1>
-                 <p>欢迎使用后台管理系统</p>
-                 <p>
-                     <a role="button"  data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg"> 退出</a>
-                     &lt;!&ndash;<a class="btn btn-primary btn-lg" role="button">退出</a>&ndash;&gt;
-                 </p>
-             </div>
-         </div>
-         &lt;!&ndash; /.col-lg-12 &ndash;&gt;
-     </div>-->
+    <div class="col-lg-12">
+        <h1 class="page-header">寻找教师</h1>
+    </div>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                教师列表
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>教师名字(realname)</th>
+                            <th>联系电话(phone)</th>
+                            <th>班级编号(classid)</th>
+                            <th>空闲时间(leisuretime)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php if(is_array($article_lists)): $i = 0; $__LIST__ = $article_lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                <td><?php echo ($vo["realname"]); ?></td>
+                                <td><?php echo ($vo["phone"]); ?></td>
+                                <td><?php echo ($vo["classid"]); ?></td>
+                                <td>@<?php echo ($vo["leisuretime"]); ?></td>
+                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
 </div>
-<!-- /#page-wrapper -->
 </div>
 <!-- /#wrapper -->
 

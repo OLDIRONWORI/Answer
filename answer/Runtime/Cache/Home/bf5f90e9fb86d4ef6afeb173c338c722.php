@@ -316,7 +316,7 @@
                                <div class="form-group">
                                    <label>关键词 : </label>
                                    <?php if(is_array($keysList)): $i = 0; $__LIST__ = $keysList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label class="checkbox-inline">
-                                           <input type="checkbox" name="keys"><?php echo ($vo["keyname"]); ?>
+                                           <input type="checkbox" name="keys" value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["keyname"]); ?>
                                        </label><?php endforeach; endif; else: echo "" ;endif; ?>
                                </div>
                                    <input type="submit" class="btn btn-primary" value="提交">
