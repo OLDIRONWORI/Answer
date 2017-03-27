@@ -22,5 +22,21 @@
 
             $this->data($data)->add();
         }
+
+        // 传入id获取文章
+        public function getArticleDetail($article_id)
+        {
+            $where['id'] = $article_id;
+            $list = $this->where($where)->field('id,title,content,type,time')->find();
+
+            // 格式化时间
+            $list['time'] = date('Y-m-d H:i:s' , $list['time']);
+
+            // 格式化类型
+            $type = array('问题','已解答的问题','文章');
+            $list['type'] = $type[$list['type']];
+
+            return $list;
+        }
     }
 ?>

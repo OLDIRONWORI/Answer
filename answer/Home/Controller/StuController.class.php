@@ -49,10 +49,27 @@ class StuController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 查询出所有收藏的内容
+        $collect = D('collect');
+        $collect_list = $collect->getCollectList();
+
+        // 查询出所有内容的详情
+        $article = D('article');
+        $article_lists = array();
+
+        // 遍历存查询出所有详情
+        foreach($collect_list as $key => $val){
+            $article_lists[] = $article->getArticleDetail($val['id']);
+        }
+
+        dump($article_lists);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('collect', $active);
+        $this->assign('article_lists', $article_lists);
         $this->display();
     }
     //寻找老师
