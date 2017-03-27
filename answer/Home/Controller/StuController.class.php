@@ -93,8 +93,6 @@ class StuController extends Controller
         $teacher = D('teacher');
         $teacher_list = $teacher->getTeacherList();
 
-        dump($teacher_list);
-
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -110,8 +108,6 @@ class StuController extends Controller
 
         $article = D('article');
         $article_list = $article->getUserArticle();
-
-        dump($article_list);
 
         // 分配信息到模板
         $active='active';
