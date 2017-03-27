@@ -20,18 +20,17 @@
                            <form role="form" method="post" action="askAct">
                                    <div class="form-group">
                                         <label>标题</label>
-                                        <input class="form-control" placeholder="请输入标题">
+                                        <input class="form-control" name="title" placeholder="请输入标题">
                                    </div>
                                     <div class="form-group">
                                         <label>内容</label>
-                                        <input class="form-control" placeholder="请输入内容">
+                                        <input class="form-control" name="content" placeholder="请输入内容">
                                    </div>
-
                                <div class="form-group">
                                    <label>关键词 : </label>
                                    <volist name="keysList" id="vo">
                                        <label class="checkbox-inline">
-                                           <input type="checkbox">{$vo.keyname}
+                                           <input type="checkbox" name="keys">{$vo.keyname}
                                        </label>
                                    </volist>
                                </div>
