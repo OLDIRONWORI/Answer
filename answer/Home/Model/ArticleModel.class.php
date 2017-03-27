@@ -32,6 +32,39 @@
             $data['userid'] = $userinfo['id'];
             $data['time'] = time();
             $data['usertype'] = $userinfo['type'];
+            $data['type'] = 0;
+
+            return $this->data($data)->add();
+        }
+
+        // 教师发表文章提交处理
+        public function publicsAct()
+        {
+            // 从cookie获取用户登录信息
+            $userinfo = cookie('userinfo');
+
+            // 接受参数
+            $title = I('post.title');
+            $content = I('post.content');
+            $keys = I('post.keys'); // 1,2,3,4,
+            $keystr = "";
+            foreach($keys as $key => $val){
+                $keystr .= $val . ',';
+            }
+
+            // 去掉最后一个 ,
+            $keystr = rtrim($keystr , ',');
+
+            // 剥离标签处理(预留)
+
+            // 插入数据库
+            $data['title'] = $title;
+            $data['content'] = $content;
+            $data['keys'] = $keystr;
+            $data['userid'] = $userinfo['id'];
+            $data['time'] = time();
+            $data['usertype'] = $userinfo['type'];
+            $data['type'] = 2;
 
             return $this->data($data)->add();
         }
