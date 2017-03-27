@@ -304,14 +304,14 @@
                          提问
                      </div> -->
                         <div class="panel-body">
-                           <form role="form" method="post" action="askAct">
+                           <form role="form" method="post" action="/Answer/Home/Stu/askAct">
                                    <div class="form-group">
                                         <label>标题</label>
-                                        <input class="form-control" name="title" placeholder="请输入标题">
+                                        <input class="form-control" name="title" placeholder="请输入标题" required="required">
                                    </div>
                                     <div class="form-group">
                                         <label>内容</label>
-                                        <input class="form-control" name="content" placeholder="请输入内容">
+                                        <input class="form-control" name="content" placeholder="请输入内容" required="required">
                                    </div>
                                <div class="form-group">
                                    <label>关键词 : </label>
@@ -319,7 +319,7 @@
                                            <input type="checkbox" name="keys"><?php echo ($vo["keyname"]); ?>
                                        </label><?php endforeach; endif; else: echo "" ;endif; ?>
                                </div>
-                                   <button type="button" class="btn btn-primary">提交</button>
+                                   <input type="submit" class="btn btn-primary" value="提交">
                                <!--    <button type="button" class="btn btn-outline btn-primary btn-lg btn-block">提交</button> -->
                            </form>
                         </div>

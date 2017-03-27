@@ -23,9 +23,10 @@
             $data['content'] = $content;
             $data['keys'] = $keys;
             $data['userid'] = $userinfo['id'];
+            $data['time'] = time();
             $data['usertype'] = $userinfo['type'];
 
-            $this->data($data)->add();
+            return $this->data($data)->add();
         }
 
         // 传入id获取文章
