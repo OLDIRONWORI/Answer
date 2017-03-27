@@ -21,10 +21,10 @@ class IndexController extends Controller
                 $this->redirect('Stu/ask');
             }else if($userinfo['type'] == 'teacher'){
                 // 教师
-                $this->redirect('Stu/ask');
+                $this->redirect('Teach/asked');
             }else if($userinfo['type'] == 'admin'){
                 // 管理员
-                $this->redirect('Stu/ask');
+                $this->redirect('Admin/index');
             }
         }
     }

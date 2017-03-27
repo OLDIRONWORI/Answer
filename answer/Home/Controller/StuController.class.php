@@ -8,9 +8,17 @@ class StuController extends Controller
     public function __construct()
     {
         parent::__construct();
+
+        $userinfo = cookie('userinfo');
+
         // 是否登录
-        if (!cookie('userinfo')) {
+        if (!$userinfo) {
             $this->redirect('Home/Login/login');
+        }
+
+        // 是否对应权限
+        if($userinfo['type'] != 'student'){
+            $this->error('您不是学生，无权访问此页面','Home/Login/login',3);
         }
     }
     // 后台主页面---提问界面
@@ -22,6 +30,7 @@ class StuController extends Controller
         // 获取keys数据
         $keys = D('keys');
         $keysList = $keys->getKeysList();
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);

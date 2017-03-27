@@ -8,11 +8,20 @@ class TeachController extends Controller
     public function __construct()
     {
         parent::__construct();
+
+        $userinfo = cookie('userinfo');
+
         // 是否登录
-        if (!cookie('userinfo')) {
-            redirect('Home/Login/login');
+        if (!$userinfo) {
+            $this->redirect('Home/Login/login');
+        }
+
+        // 是否对应权限
+        if($userinfo['type'] != 'teacher'){
+            $this->error('您不是教师，无权访问此页面','Home/Login/login',3);
         }
     }
+
     // 后台主页面---回答问题
     public function asked()
     {
@@ -24,6 +33,7 @@ class TeachController extends Controller
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
+
     //收藏夹
     public function collect()
     {
@@ -35,6 +45,7 @@ class TeachController extends Controller
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
+
     //收藏夹-问题
     public function question()
     {
@@ -46,6 +57,7 @@ class TeachController extends Controller
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
+
     //收藏夹-文章
     public function article()
     {
@@ -57,6 +69,7 @@ class TeachController extends Controller
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
+
     //发表文章
     public function publics()
     {
@@ -68,6 +81,7 @@ class TeachController extends Controller
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
+
     //已回答问题
     public function questioned()
     {
