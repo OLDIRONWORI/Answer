@@ -72,11 +72,19 @@ class StuController extends Controller
         $this->assign('article_lists', $article_lists);
         $this->display();
     }
+
     //寻找老师
     public function find()
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 查询教师列表
+        $teacher = D('teacher');
+        $teacher_list = $teacher->getTeacherList();
+
+        dump($teacher_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -88,10 +96,17 @@ class StuController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $article = D('article');
+        $article_list = $article->getUserArticle();
+
+        dump($article_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('question', $active);
+        $this->assign('article_list', $article_list);
         $this->display();
     }
 

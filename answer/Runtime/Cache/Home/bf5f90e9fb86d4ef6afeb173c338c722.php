@@ -307,17 +307,16 @@
                            <form role="form" method="post" action="askAct">
                                    <div class="form-group">
                                         <label>标题</label>
-                                        <input class="form-control" placeholder="请输入标题">
+                                        <input class="form-control" name="title" placeholder="请输入标题">
                                    </div>
                                     <div class="form-group">
                                         <label>内容</label>
-                                        <input class="form-control" placeholder="请输入内容">
+                                        <input class="form-control" name="content" placeholder="请输入内容">
                                    </div>
-
                                <div class="form-group">
                                    <label>关键词 : </label>
                                    <?php if(is_array($keysList)): $i = 0; $__LIST__ = $keysList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label class="checkbox-inline">
-                                           <input type="checkbox"><?php echo ($vo["keyname"]); ?>
+                                           <input type="checkbox" name="keys"><?php echo ($vo["keyname"]); ?>
                                        </label><?php endforeach; endif; else: echo "" ;endif; ?>
                                </div>
                                    <button type="button" class="btn btn-primary">提交</button>

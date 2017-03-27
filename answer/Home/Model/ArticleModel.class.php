@@ -8,6 +8,9 @@
         // 学生提问提交处理
         public function askAct()
         {
+            // 从cookie获取用户登录信息
+            $userinfo = cookie('userinfo');
+
             // 接受参数
             $title = I('post.title');
             $content = I('post.content');
@@ -19,6 +22,8 @@
             $data['title'] = $title;
             $data['content'] = $content;
             $data['keys'] = $keys;
+            $data['userid'] = $userinfo['id'];
+            $data['usertype'] = $userinfo['type'];
 
             $this->data($data)->add();
         }
@@ -37,6 +42,17 @@
             $list['type'] = $type[$list['type']];
 
             return $list;
+        }
+
+        // 获取所有该用户问题列表
+        public function getUserArticle(){
+            // 从cookie获取用户登录信息
+            $userinfo = cookie('userinfo');
+
+            $where['userid'] = $userinfo['id'];
+            $where['usertype'] = $userinfo['type'];
+
+            return $this->where($where)->select();
         }
     }
 ?>
