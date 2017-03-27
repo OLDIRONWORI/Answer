@@ -114,62 +114,58 @@
                                 <a href="#"><i class="fa fa-dashboard fa-fw"></i> 学生管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
                                     <li>
-                                        <a href="blank.html">学生添加</a>
+                                        <a href="__ROOT__/Home/Admin/stu_add" class="{$ad_adds}">学生添加</a>
                                     </li>
                                     <li>
-                                        <a href="login.html">学生列表</a>
+                                        <a href="__ROOT__/Home/Admin/stu_table" class="{$ad_table}">学生列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
-                            <li class="">
-                                <a href="#"><i class="fa fa-files-o fa-fw"></i> 教师管理<span class="fa arrow"></span></a>
+                            <li>
+                                <a href="#" ><i class="fa fa-files-o fa-fw"></i> 教师管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
                                     <li>
-                                        <a href="blank.html">教师添加</a>
+                                        <a href="__ROOT__/Home/Admin/teach_add" class="{$teach_add}">教师添加</a>
                                     </li>
                                     <li>
-                                        <a href="login.html">教师列表</a>
+                                        <a href="__ROOT__/Home/Admin/teach_add" class="{$teach_table}">教师列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-edit fa-fw"></i> 文章列表</a>
+                                <a href="__ROOT__/Home/Admin/article" class="{$teach_article}"></i> 文章列表</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-wrench fa-fw"></i> 问题列表</a>
+                                <a href="__ROOT__/Home/Admin/question" class="{$question}"></i> 问题列表</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
+                                <a href="__ROOT__/Home/Admin/order" class="{$order}"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
                             </li>
                             <li>
-                                <a href="index.html"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
+                                <a href="__ROOT__/Home/Admin/keywords" class="{$keywords}"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
                             </li>
                             <li class="">
                                 <a href="#"><i class="fa fa-tasks fa-fw"></i> 班级管理<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
                                     <li>
-                                        <a href="blank.html">添加班级</a>
+                                        <a href="__ROOT__/Home/Admin/add_grade" class="{$add_grade}">添加班级</a>
                                     </li>
                                     <li>
-                                        <a href="login.html">添加系</a>
+                                        <a href="__ROOT__/Home/Admin/add_class" class="{$add_class}">添加系</a>
                                     </li>
                                     <li>
-                                        <a href="login.html">添加班级</a>
+                                        <a href="__ROOT__/Home/Admin/add_tie" class="{$add_tie}">添加班级</a>
                                     </li>
                                     <li>
-                                        <a href="login.html">班级列表</a>
+                                        <a href="__ROOT__/Home/Admin/classList" class="{$classList}">班级列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
                             </li>
                         </ul>
                         <elseif condition="$userinfo.type == 'teacher'"/>
-
-
-
-
                         <!--教师-->
                         <ul class="nav in" id="side-menu">
                             <li>
