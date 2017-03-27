@@ -14,14 +14,21 @@
             // 接受参数
             $title = I('post.title');
             $content = I('post.content');
-            $keys = rtrim(I('post.keys') , ','); // 1,2,3,4,
+            $keys = I('post.keys'); // 1,2,3,4,
+            $keystr = "";
+            foreach($keys as $key => $val){
+                $keystr .= $val . ',';
+            }
+
+            // 去掉最后一个 ,
+            $keystr = rtrim($keystr , ',');
 
             // 剥离标签处理(预留)
 
             // 插入数据库
             $data['title'] = $title;
             $data['content'] = $content;
-            $data['keys'] = $keys;
+            $data['keys'] = $keystr;
             $data['userid'] = $userinfo['id'];
             $data['time'] = time();
             $data['usertype'] = $userinfo['type'];

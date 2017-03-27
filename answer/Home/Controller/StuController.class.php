@@ -52,6 +52,7 @@ class StuController extends Controller
             $this->error('提交失败,请检查输入');
         }
     }
+    
 
     //收藏夹
     public function collect()
