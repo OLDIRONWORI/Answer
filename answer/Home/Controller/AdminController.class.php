@@ -30,7 +30,6 @@ class AdminController extends Controller
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('question', $active);
-        $this->display('Admin/home');
         $this->display();
     }
 
