@@ -130,11 +130,31 @@ class TeachController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 获取keys数据
+        $keys = D('keys');
+        $keysList = $keys->getKeysList();
+
         // 分配信息到模板
         $active='active';
         $this->assign('tea_publics', $active);
+        $this->assign('keysList', $keysList);
         $this->assign('userinfo', $userinfo);
         $this->display();
+    }
+
+    // 发表文章提交处理
+    public function publicsAct()
+    {
+        $article = D('article');
+
+        $insert = $article->publicsAct();
+
+        if($insert){
+            $this->success('提交成功','ask',2);
+        }else{
+            $this->error('提交失败,请检查输入');
+        }
     }
 
     //已回答问题
