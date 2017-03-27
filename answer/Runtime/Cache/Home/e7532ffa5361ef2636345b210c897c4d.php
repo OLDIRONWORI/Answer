@@ -309,25 +309,14 @@
                                             <th>Username</th>
                                         </tr>
                                     </thead>
+
                                     <tbody>
-                                        <tr>
+                                    <?php if(is_array($keysList)): $i = 0; $__LIST__ = $keysList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                             <td>1</td>
                                             <td>Mark</td>
                                             <td>Otto</td>
                                             <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
+                                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                                     </tbody>
                                 </table>
                             </div>
