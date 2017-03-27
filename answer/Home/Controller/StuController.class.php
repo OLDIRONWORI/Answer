@@ -47,7 +47,7 @@ class StuController extends Controller
         $insert = $article->askAct();
 
         if($insert){
-            $this->success('提交成功','Home/Stu/ask',2);
+            $this->success('提交成功','ask',2);
         }else{
             $this->error('提交失败,请检查输入');
         }
