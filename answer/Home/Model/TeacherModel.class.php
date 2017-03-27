@@ -7,11 +7,8 @@
     {
         // 查询所有教师信息
         public function getTeacherList(){
-
             return $this->select();
-
         }
-
         // 验证登录是否成功
         public function verifyLogin($phone , $password)
         {
