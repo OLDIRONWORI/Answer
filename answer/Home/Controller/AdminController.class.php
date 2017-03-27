@@ -26,6 +26,8 @@ class AdminController extends Controller
     //管理员首页
     public function home()
     {
+        $userinfo = cookie('userinfo');
+        $this->assign('userinfo',$userinfo);
         $this->display();
     }
 
