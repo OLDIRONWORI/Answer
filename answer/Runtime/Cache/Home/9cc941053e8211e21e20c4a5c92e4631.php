@@ -314,7 +314,7 @@
                                 <td><?php echo ($vo["title"]); ?></td>
                                 <td><?php echo ($vo["content"]); ?></td>
                                 <td><?php echo ($vo["type"]); ?></td>
-                                <td>@<?php echo ($vo["time"]); ?></td>
+                                <td><?php echo ($vo["time"]); ?></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

@@ -310,11 +310,11 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <?php if(is_array($article_lists)): $i = 0; $__LIST__ = $article_lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <?php if(is_array($teacher_list)): $i = 0; $__LIST__ = $teacher_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                 <td><?php echo ($vo["realname"]); ?></td>
                                 <td><?php echo ($vo["phone"]); ?></td>
                                 <td><?php echo ($vo["classid"]); ?></td>
-                                <td>@<?php echo ($vo["leisuretime"]); ?></td>
+                                <td><?php echo ($vo["leisuretime"]); ?></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

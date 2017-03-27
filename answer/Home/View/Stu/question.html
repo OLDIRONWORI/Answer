@@ -16,19 +16,23 @@
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                         <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
+                                            <th>用户类型(usertype)</th>
+                                            <th>题目(title)</th>
+                                            <th>内容(content)</th>
+                                            <th>关键词(keys)</th>
+                                            <th>类型(type)</th>
+                                            <th>时间(time)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                     <volist name="article_list" id="vo">
                                         <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
+                                            <td>{$vo.usertype}</td>
+                                            <td>{$vo.title}</td>
+                                            <td>{$vo.content}</td>
+                                            <td>{$vo.keys}</td>
+                                            <td>{$vo.type}</td>
+                                            <td>{$vo.time}</td>
                                         </tr>
                                     </volist>
                                     </tbody>

@@ -303,18 +303,22 @@
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                         <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
+                                            <th>用户类型(usertype)</th>
+                                            <th>题目(title)</th>
+                                            <th>内容(content)</th>
+                                            <th>关键词(keys)</th>
+                                            <th>类型(type)</th>
+                                            <th>时间(time)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                     <?php if(is_array($article_list)): $i = 0; $__LIST__ = $article_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
+                                            <td><?php echo ($vo["usertype"]); ?></td>
+                                            <td><?php echo ($vo["title"]); ?></td>
+                                            <td><?php echo ($vo["content"]); ?></td>
+                                            <td><?php echo ($vo["keys"]); ?></td>
+                                            <td><?php echo ($vo["type"]); ?></td>
+                                            <td><?php echo ($vo["time"]); ?></td>
                                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                                     </tbody>
                                 </table>
