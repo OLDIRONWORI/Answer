@@ -73,8 +73,6 @@ class StuController extends Controller
             $article_lists[] = $article->getArticleDetail($val['id']);
         }
 
-        dump($article_lists);
-
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);

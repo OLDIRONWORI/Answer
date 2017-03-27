@@ -27,8 +27,21 @@ class TeachController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 查出所有未被回答的问题
+        $article = D('article');
+        $data = $article->getAwaitArticleList();
+
+        $list = $data['list'];
+        $show = $data['show'];
+
+        dump($list[0]);
+
         // 分配信息到模板
         $active='active';
+
+        $this->assign('list',$list);// 赋值数据集
+        $this->assign('show',$show);// 赋值分页输出
         $this->assign('tea_asked', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
@@ -51,10 +64,31 @@ class TeachController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 查询出所有收藏的内容
+        $collect = D('collect');
+        $collect_list = $collect->getCollectList();
+
+        // 查询出所有内容的详情
+        $article = D('article');
+        $article_lists = array();
+
+        // 遍历存查询出所有详情
+        foreach($collect_list as $key => $val){
+            $info = $article->getArticleDetail($val['articleid']);
+
+            if($info['type'] == '问题' || $info['type'] == '已解答的问题'){
+                $article_lists[] = $info;
+            }
+        }
+
+        dump($article_lists);
+
         // 分配信息到模板
         $active='active';
         $this->assign('tea_question', $active);
         $this->assign('userinfo', $userinfo);
+        $this->assign('article_lists', $article_lists);
         $this->display();
     }
 
@@ -63,9 +97,30 @@ class TeachController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 查询出所有收藏的内容
+        $collect = D('collect');
+        $collect_list = $collect->getCollectList();
+
+        // 查询出所有内容的详情
+        $article = D('article');
+        $article_lists = array();
+
+        // 遍历存查询出所有详情
+        foreach($collect_list as $key => $val){
+            $info = $article->getArticleDetail($val['articleid']);
+
+            if($info['type'] == '文章'){
+                $article_lists[] = $info;
+            }
+        }
+
+        dump($article_lists);
+
         // 分配信息到模板
         $active='active';
         $this->assign('tea_article', $active);
+        $this->assign('article_lists', $article_lists);
         $this->assign('userinfo', $userinfo);
         $this->display();
     }
@@ -87,10 +142,25 @@ class TeachController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 查询出当前登录用户的回答
+        $reply = D('reply');
+        $infos = $reply->getReplyUserReplyList();
+
+        // 遍历存查询出所有详情
+        $article = D('article');
+        $reply_list = array();
+        foreach($infos as $key => $val){
+            $reply_list[] = $article->getArticleDetail($val['articleid']);
+        }
+
+        dump($reply_list);
+
         // 分配信息到模板
          $active='active';
         $this->assign('tea_questioned', $active);
         $this->assign('userinfo', $userinfo);
+        $this->assign('reply_list', $reply_list);
         $this->display();
     }
 
