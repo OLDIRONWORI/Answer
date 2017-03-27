@@ -52,7 +52,7 @@ class StuController extends Controller
             $this->error('提交失败,请检查输入');
         }
     }
-    
+
 
     //收藏夹
     public function collect()
@@ -99,6 +99,7 @@ class StuController extends Controller
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('find', $active);
+        $this->assign('teacher_list', $teacher_list);
         $this->display();
     }
     //历史问题
