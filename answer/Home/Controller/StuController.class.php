@@ -18,7 +18,7 @@ class StuController extends Controller
 
         // 是否对应权限
         if($userinfo['type'] != 'student'){
-            $this->error('您不是学生，无权访问此页面','Home/Login/login',3);
+            $this->error('您不是学生，无权访问此页面','Login/login',3);
         }
     }
     // 后台主页面---提问界面

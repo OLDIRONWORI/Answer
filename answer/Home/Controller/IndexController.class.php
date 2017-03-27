@@ -24,7 +24,7 @@ class IndexController extends Controller
                 $this->redirect('Teach/asked');
             }else if($userinfo['type'] == 'admin'){
                 // 管理员
-                $this->redirect('Admin/index');
+                $this->redirect('Admin/home');
             }
         }
     }

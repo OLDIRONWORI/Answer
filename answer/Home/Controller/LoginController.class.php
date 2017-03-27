@@ -56,12 +56,11 @@ class LoginController extends Controller
         // 成功与否的重定向
         if($stulogin ){
             //学生跳转
-            $this->assign('name',$name);
             $this->redirect('Home/Stu/ask');
         }else if($tealogin){
             $this->redirect('Home/Teach/asked');
         }else if($admlogin){
-            $this->redirect('Index/home');
+            $this->redirect('Home/Admin/home');
         }else{
             $this->error('登录失败,请检查输入');
         }
