@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="155" column="72" lean-forward="false" selection-start-line="155" selection-start-column="72" selection-end-line="155" selection-end-column="72" />
+            <state relative-caret-position="741">
+              <caret line="173" column="27" lean-forward="true" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#if#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
@@ -545,7 +545,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490596924590</updated>
-      <workItem from="1490596925797" duration="3291000" />
+      <workItem from="1490596925797" duration="3747000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -561,11 +561,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490600167116</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="15:35 by dexing&#10;">
+      <created>1490600223143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490600223143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3291000" />
+    <option name="totallyTimeSpent" value="3747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="277" y="0" width="1571" height="1040" extended-state="0" />
@@ -754,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="155" column="72" lean-forward="false" selection-start-line="155" selection-start-column="72" selection-end-line="155" selection-end-column="72" />
+        <state relative-caret-position="741">
+          <caret line="173" column="27" lean-forward="true" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#if#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
