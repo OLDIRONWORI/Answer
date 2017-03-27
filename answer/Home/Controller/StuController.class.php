@@ -10,7 +10,7 @@ class StuController extends Controller
         parent::__construct();
         // 是否登录
         if (!cookie('userinfo')) {
-            redirect('Home/Login/login');
+            $this->redirect('Home/Login/login');
         }
     }
     // 后台主页面---提问界面
@@ -36,6 +36,12 @@ class StuController extends Controller
         $article = D('article');
 
         $insert = $article->askAct();
+
+        if($insert){
+            $this->success('提交成功','Home/Stu/ask',2);
+        }else{
+            $this->error('提交失败,请检查输入');
+        }
     }
 
     //收藏夹
