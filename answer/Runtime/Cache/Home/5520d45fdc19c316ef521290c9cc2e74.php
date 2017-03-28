@@ -171,7 +171,7 @@
                                         <a href="/working/Answer/Home/Admin/teach_add" class="<?php echo ($teach_add); ?>">教师添加</a>
                                     </li>
                                     <li>
-                                        <a href="/working/Answer/Home/Admin/teach_add" class="<?php echo ($teach_table); ?>">教师列表</a>
+                                        <a href="/working/Answer/Home/Admin/teach_table" class="<?php echo ($teach_table); ?>">教师列表</a>
                                     </li>
                                 </ul>
                                 <!-- /.nav-second-level -->
@@ -186,7 +186,7 @@
                                 <a href="/working/Answer/Home/Admin/order" class="<?php echo ($order); ?>"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
                             </li>
                             <li>
-                                <a href="/working/Answer/Home/Admin/keywords" class="<?php echo ($keywords); ?>"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
+                                <a href="/working/Answer/Home/Admin/add_keys" class="<?php echo ($add_keys); ?>"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
                             </li>
                             <li class="">
                                 <a href="#"><i class="fa fa-tasks fa-fw"></i> 班级管理<span class="fa arrow"></span></a>
