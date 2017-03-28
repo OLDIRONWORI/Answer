@@ -53,7 +53,9 @@ class AdminController extends Controller
         $student = D('student');
         $student_list = $student->getStudentList();
 
-        dump($student_list);
+        foreach($student_list as $key => $val){
+            $val['time'] = date("Y-m-d H:i:s" , $val['time']);
+        }
 
         // 分配信息到模板
         $active='active';
