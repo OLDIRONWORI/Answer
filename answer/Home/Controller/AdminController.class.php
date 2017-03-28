@@ -49,10 +49,17 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $student = D('student');
+        $student_list = $student->getStudentList();
+
+        dump($student_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('ad_table', $active);
+        $this->assign('student_list', $student_list);
         $this->display();
     }
     //教师添加

@@ -8,7 +8,7 @@
         // 查询所有学生信息
         public function getStudentList(){
 
-            return $this->select();
+            return $this->order('`time` DESC')->select();
 
         }
 
