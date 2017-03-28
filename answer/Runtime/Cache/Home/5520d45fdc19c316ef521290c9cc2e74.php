@@ -293,7 +293,6 @@
             <div class="panel-heading">
                问题列表
             </div>
-            <!-- /.panel-heading -->
             <div class="panel-body">
                 <div class="table-responsive">
                     <table class="table table-striped table-bordered table-hover">
