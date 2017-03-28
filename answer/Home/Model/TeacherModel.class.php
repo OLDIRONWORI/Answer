@@ -7,8 +7,11 @@
     {
         // 查询所有教师信息
         public function getTeacherList(){
-            return $this->select();
+
+            return $this->order('`time` DESC')->select();
+
         }
+
         // 验证登录是否成功
         public function verifyLogin($phone , $password)
         {
@@ -24,6 +27,14 @@
             }else{
                 return false;
             }
+        }
+
+        // 入参id获取信息
+        public function getTeacherInfo($teacherid)
+        {
+            $where['id'] = $teacherid;
+
+            return $this->where($where)->field('id,realname,classid,phone,time')->find();
         }
     }
 ?>

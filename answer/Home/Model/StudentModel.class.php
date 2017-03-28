@@ -28,5 +28,13 @@
                 return false;
             }
         }
+
+        // 入参id获取信息
+        public function getStudentInfo($studentid)
+        {
+            $where['id'] = $studentid;
+
+            return $this->where($where)->field('id,realname,classid,phone,time')->find();
+        }
     }
 ?>

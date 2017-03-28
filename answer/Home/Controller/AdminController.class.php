@@ -68,6 +68,7 @@ class AdminController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
+
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('teach_add', $active);
@@ -78,10 +79,17 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $teacher = D('teacher');
+        $teacher_list = $teacher->getTeacherList();
+
+        dump($teacher_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('teach_table', $active);
+        $this->assign('teacher_list', $teacher_list);
         $this->display();
     }
     //文章列表
@@ -89,10 +97,16 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $article = D("article");
+        $article_list = $article->getArticleList();
+        dump($article_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('ad_article', $active);
+        $this->assign('article_list', $article_list);
         $this->display();
     }
     //问题列表
@@ -100,10 +114,16 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $article = D("article");
+        $question_list = $article->getQuestionList();
+        dump($question_list[0]);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('ad_question', $active);
+        $this->assign('question_list', $question_list);
         $this->display();
     }
     //预约列表
@@ -111,23 +131,56 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $appointment = D('appointment');
+        $appointment_list = $appointment->getAppointmentList();
+
+        $student = D('student');
+        $teacher = D('teacher');
+
+        // 遍历出师生信息
+        $lists = array();
+        foreach($appointment_list as $key => $val){
+            $lists = $val;
+            $lists['studentid'] = $student->getStudentInfo($lists['studentid']);
+            $lists['teacherid'] = $teacher->getTeacherInfo($lists['teacherid']);
+        }
+
+        dump($lists);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('ad_order', $active);
+        $this->assign('lists', $lists);
         $this->display();
     }
-    //关键字管理
-    public function keywords()
+
+    //关键字添加
+    public function add_keys()
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
-        $this->assign('ad_keywords', $active);
+        $this->assign('add_keys', $active);
         $this->display();
     }
+
+    // 关键字列表
+    public function keys_table()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('userinfo', $userinfo);
+        $this->assign('keys_table', $active);
+        $this->display();
+    }
+
     //添加年级
     public function add_grade(){
         $userinfo = cookie('userinfo');

@@ -111,6 +111,20 @@
 
             return $data;
         }
+
+        // 文章列表
+        public function getArticleList()
+        {
+            $where['type'] = 2;
+            return $this->where($where)->order('`time` DESC')->select();
+        }
+
+        // 问题列表
+        public function getQuestionList()
+        {
+            $where['type'] = array('lt' , 2);
+            return $this->where($where)->order('`time` DESC')->select();
+        }
     }
 ?>
 
