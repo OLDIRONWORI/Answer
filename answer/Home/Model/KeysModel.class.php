@@ -10,5 +10,13 @@
         {
             return $this->order('`order` desc')->select();
         }
+
+        // 入参id查询关键词
+        public function getKeysInfo($keysid)
+        {
+            $where['id'] = $keysid;
+
+            return $this->where($where)->find();
+        }
     }
 ?>

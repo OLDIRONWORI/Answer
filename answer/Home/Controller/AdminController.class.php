@@ -53,8 +53,13 @@ class AdminController extends Controller
         $student = D('student');
         $student_list = $student->getStudentList();
 
-        foreach($student_list as $key => $val){
+        // 实例化班级
+        $class = D('class');
+
+        foreach($student_list as $key => &$val){
             $val['time'] = date("Y-m-d H:i:s" , $val['time']);
+            $classInfo = $class->getClassInfo($val['classid']);
+            $val['classid'] = $classInfo['classname'];
         }
 
         // 分配信息到模板
@@ -64,6 +69,7 @@ class AdminController extends Controller
         $this->assign('student_list', $student_list);
         $this->display();
     }
+
     //教师添加
     public function teach_add()
     {
@@ -76,6 +82,7 @@ class AdminController extends Controller
         $this->assign('teach_add', $active);
         $this->display();
     }
+
     //教师列表
     public function teach_table()
     {
@@ -85,7 +92,14 @@ class AdminController extends Controller
         $teacher = D('teacher');
         $teacher_list = $teacher->getTeacherList();
 
-        dump($teacher_list);
+        // 实例化班级
+        $class = D('class');
+
+        foreach($teacher_list as $key => &$val){
+            $val['time'] = date("Y-m-d H:i:s" , $val['time']);
+            $classInfo = $class->getClassInfo($val['classid']);
+            $val['classid'] = $classInfo['classname'];
+        }
 
         // 分配信息到模板
         $active='active';
@@ -102,7 +116,35 @@ class AdminController extends Controller
 
         $article = D("article");
         $article_list = $article->getArticleList();
-        dump($article_list);
+
+        // 查出关键词
+        $keys = D('keys');
+        $typearr = array('未被解答的问题','已被解答的问题','文章');
+        foreach($article_list as $key => &$val){
+            $val['time'] = date("Y-m-d H:i:s" , $val['time']);
+            $val['keys'] = explode(',' , $val['keys']);
+
+            // 把关键字ID变成关键字名字
+            $keystr = '';
+            foreach($val['keys'] as $k => $v){
+                $keyInfo = $keys->getKeysInfo($v);
+                $keystr .= $keyInfo['keyname'] . ' | ';
+            }
+            $val['keys'] = rtrim($keystr , ' | ');
+
+            // 文章类型
+            $val['type'] = $typearr[$val['type']];
+        }
+
+        // 实例化关键词
+        $keys = D('keys');
+
+        foreach($article_list as $key => &$val){
+            $val['time'] = date("Y-m-d H:i:s" , $val['time']);
+            $keysInfo = $keys->getKeysInfo($val['classid']);
+
+
+        }
 
         // 分配信息到模板
         $active='active';
