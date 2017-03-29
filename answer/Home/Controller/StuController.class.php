@@ -115,6 +115,14 @@ class StuController extends Controller
         $this->display();
     }
 
+    // 学生添加
+    public function addStudent()
+    {
+        $student = D('student');
+
+        $add = $student->addStudent();
+    }
+
     // 获取系信息
     public function getSeriesList()
     {

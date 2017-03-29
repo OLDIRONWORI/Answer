@@ -36,5 +36,13 @@
 
             return $this->where($where)->field('id,realname,classid,phone,time')->find();
         }
+
+        // 学生添加
+        public function addStudent()
+        {
+            $post = I('post.');
+
+            
+        }
     }
 ?>

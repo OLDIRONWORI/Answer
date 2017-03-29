@@ -44,6 +44,7 @@ class AdminController extends Controller
         $this->assign('ad_adds', $active);
         $this->display();
     }
+
     //学生列表
     public function stu_table()
     {
@@ -108,6 +109,7 @@ class AdminController extends Controller
         $this->assign('teacher_list', $teacher_list);
         $this->display();
     }
+
     //文章列表
     public function article()
     {
@@ -170,6 +172,7 @@ class AdminController extends Controller
         $this->assign('question_list', $question_list);
         $this->display();
     }
+
     //预约列表
     public function order()
     {
@@ -181,13 +184,28 @@ class AdminController extends Controller
 
         $student = D('student');
         $teacher = D('teacher');
+        $class = D('class');
 
         // 遍历出师生信息
         $lists = array();
         foreach($appointment_list as $key => $val){
             $lists = $val;
-            $lists['studentid'] = $student->getStudentInfo($lists['studentid']);
-            $lists['teacherid'] = $teacher->getTeacherInfo($lists['teacherid']);
+            $stulists = $student->getStudentInfo($lists['studentid']);
+            $tealists = $teacher->getTeacherInfo($lists['teacherid']);
+
+            // 学生信息
+            unset($lists['studentid']);
+            $lists['sturealname'] = $stulists['realname'];
+            $lists['stuclassid'] = $class->getClassInfo($stulists['classid']);
+            $lists['stuclassid'] = $lists['stuclassid']['classname'];
+            $lists['stuphone'] = $stulists['phone'];
+
+            // 教师信息
+            unset($lists['teacherid']);
+            $lists['tearealname'] = $tealists['realname'];
+            $lists['teaclassid'] = $class->getClassInfo($tealists['classid']);
+            $lists['teaclassid'] = $lists['teaclassid']['classname'];
+            $lists['teaphone'] = $tealists['phone'];
         }
 
         dump($lists);
@@ -246,6 +264,7 @@ class AdminController extends Controller
         $this->assign('add_class', $active);
         $this->display();
     }
+
     //添加系
     public function add_tie()
     {
