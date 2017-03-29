@@ -39,10 +39,16 @@ class AdminController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
 
+        $class = D('class');
+        $class_list = $class->getClassList();
+
+        dump($class_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('ad_adds', $active);
+        $this->assign('class_list', $class_list);
         $this->display();
     }
 
@@ -54,7 +60,7 @@ class AdminController extends Controller
         $add = $student->addStudent();
 
         if($add){
-            $this->success('新增成功', 'Admin/stu_table');
+            $this->success('新增成功', 'stu_table');
         }else{
             $this->error('新增失败');
         }
@@ -92,10 +98,16 @@ class AdminController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
 
+        $class = D('class');
+        $class_list = $class->getClassList();
+
+        dump($class_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('teach_add', $active);
+        $this->assign('class_list', $class_list);
         $this->display();
     }
 
@@ -107,7 +119,7 @@ class AdminController extends Controller
         $add = $teacher->addTeacher();
 
         if($add){
-            $this->success('新增成功' , 'Admin/teach_add');
+            $this->success('新增成功' , 'teach_add');
         }else{
             $this->error('新增失败');
         }
@@ -272,7 +284,7 @@ class AdminController extends Controller
         $add = $keys->addKeys();
 
         if($add){
-            $this->success('新增成功' , 'Admin/keys_table');
+            $this->success('新增成功' , 'keys_table');
         }else{
             $this->error('新增失败');
         }
@@ -345,7 +357,7 @@ class AdminController extends Controller
         $add = $series->addSeriesAct();
 
         if($add){
-            $this->success('新增成功' , 'Admin/add_tie');
+            $this->success('新增成功' , 'add_tie');
         }else{
             $this->error('新增失败');
         }
