@@ -143,8 +143,17 @@
                             <li>
                                 <a href="__ROOT__/Home/Admin/order" class="{$order}"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
                             </li>
-                            <li>
-                                <a href="__ROOT__/Home/Admin/add_keys" class="{$add_keys}"><i class="fa fa-table fa-fw"></i> 关键字管理</a>
+                            <li class="">
+                                <a href="#"><i class="fa fa-tasks fa-fw"></i> 关键字管理<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse" aria-expanded="false" style="height: 0px;">
+                                    <li>
+                                        <a href="__ROOT__/Home/Admin/add_keys" class="{$add_keys}">关键字添加</a>
+                                    </li>
+                                    <li>
+                                        <a href="__ROOT__/Home/Admin/keys_table" class="{$keys_table}">关键字列表</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
                             </li>
                             <li class="">
                                 <a href="#"><i class="fa fa-tasks fa-fw"></i> 班级管理<span class="fa arrow"></span></a>

@@ -4,25 +4,48 @@
 <div id="page-wrapper" style="min-height: 475px;">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">用户:{$userinfo.realname}</h1>
+            <h1 class="page-header">添加班级</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <div class="jumbotron" style="padding: 48px 20px">
-                <h1>登录成功</h1>
-                <p>欢迎使用后台管理系统</p>
-                <p>
-                    <a role="button"  data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg"> 退出</a>
-                    <!--<a class="btn btn-primary btn-lg" role="button">退出</a>-->
-                </p>
+            <div class="panel panel-default">
+                <!--    <div class="panel-heading">
+                    提问
+                </div> -->
+                <div class="panel-body">
+                    <form role="form" method="post" action="__ROOT__/Home/Admin/addGradeAct">
+                        <div class="form-group">
+                            <label>系的id</label>
+                            <input class="form-control" type='text' name="seriesid" placeholder="请输入系的id" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>系的名称</label>
+                            <input class="form-control" type='text' name="gradename" placeholder="请输入系的名称" required="required">
+                        </div>
+
+                        <!--      <div class="form-group">
+                                  <label>班级</label>
+                                  <input class="form-control" type="text" name="classid" placeholder="请输入班级" required="required">
+                              </div>-->
+
+
+
+
+
+                        <input type="submit" class="btn btn-primary" value="提交">
+                        <!--    <button type="button" class="btn btn-outline btn-primary btn-lg btn-block">提交</button> -->
+                    </form>
+                </div>
+                <!--  -->
+                <!-- /.panel-body -->
             </div>
+            <!-- /.panel -->
         </div>
         <!-- /.col-lg-12 -->
     </div>
 </div>
 <!-- /#page-wrapper -->
-</div>
 <!-- /#wrapper -->
 <include file="./Public/template/footer.html" />

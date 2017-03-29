@@ -3,12 +3,12 @@
 <include file="./Public/template/nav.html" />
 <div id="page-wrapper" style="min-height: 475px;">
     <div class="col-lg-12">
-        <h1 class="page-header">问题</h1>
+        <h1 class="page-header">学生</h1>
     </div>
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                问题列表
+                学生列表
             </div>
             <!-- /.panel-heading -->
             <div class="panel-body">
@@ -16,28 +16,15 @@
                     <table class="table table-striped table-bordered table-hover">
                         <thead>
                         <tr>
-                            <th>学生名字</th>
-                            <th>学生班级</th>
-                            <th>学生电话</th>
-
-                            <th>教师名字</th>
-                            <th>教师班级</th>
-                            <th>教师电话</th>
-
-                            <th>预约时间</th>
+                            <th>关键字(keyname)</th>
+                            <th>排序等级(order)</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <volist name="lists" id="vo">
+                        <volist name="keys_list" id="vo">
                             <tr>
-                                <td>{$vo.sturealname}</td>
-                                <td>{$vo.stuclassid}</td>
-                                <td>{$vo.stuphone}</td>
-                                <td>{$vo.tearealname}</td>
-                                <td>{$vo.teaclassid}</td>
-                                <td>{$vo.teaphone}</td>
-
-                                <td>{$vo.appointmenttime}</td>
+                                <td>{$vo.keyname}</td>
+                                <td>{$vo.order}</td>
                             </tr>
                         </volist>
                         </tbody>
