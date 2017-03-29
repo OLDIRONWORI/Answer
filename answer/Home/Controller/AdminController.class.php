@@ -40,7 +40,7 @@ class AdminController extends Controller
         $userinfo = cookie('userinfo');
 
         $class = D('class');
-        $class_list = $class->getClassList();
+        $class_list = $class->getAllClassList();
 
         dump($class_list);
 
@@ -99,7 +99,7 @@ class AdminController extends Controller
         $userinfo = cookie('userinfo');
 
         $class = D('class');
-        $class_list = $class->getClassList();
+        $class_list = $class->getAllClassList();
 
         dump($class_list);
 

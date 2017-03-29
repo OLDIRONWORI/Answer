@@ -5,12 +5,19 @@ use Think\Model;
 
 class ClassModel extends Model
 {
+    // 获取年级下的班级
     public function getClassList(){
 
-        $where['seriesid'] = I("post.sid");
+        $where['grade'] = I("post.gid");
 
         return $this->where($where)->select();
 
+    }
+
+    // 获取所有班级列表
+    public function getAllClassList()
+    {
+        return $this->select();
     }
 
     // 入参id查询班级信息
