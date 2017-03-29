@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/template/nav.html" afterPath="$PROJECT_DIR$/Public/template/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Runtime/Cache/Home/919d81ae9f6dceefd242dc6cb10361b7.php" afterPath="$PROJECT_DIR$/answer/Runtime/Cache/Home/919d81ae9f6dceefd242dc6cb10361b7.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,101 +29,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="415" column="33" lean-forward="false" selection-start-line="415" selection-start-column="23" selection-end-line="415" selection-end-column="33" />
+            <state relative-caret-position="446">
+              <caret line="403" column="59" lean-forward="true" selection-start-line="403" selection-start-column="59" selection-end-line="403" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="146" column="40" lean-forward="false" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_grade.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_class.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_class.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="24" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_tie.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keys_table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/keys_table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stu_table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classList.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="506">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_keys.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_keys.html">
+      <file leaf-file-name="GradeModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+            <state relative-caret-position="550">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeriesModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -136,12 +84,10 @@
       <find>_sendmobile</find>
       <find>lists</find>
       <find>$class</find>
-      <find>add_keys</find>
-      <find>keys_table</find>
-      <find>grade</find>
-      <find>关键字管理</find>
-      <find>add_class</find>
-      <find>classList</find>
+      <find>init</find>
+      <find>$announcement</find>
+      <find>SELECT `id`,`content`,`url`,`time` FROM</find>
+      <find>_checkmobile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,7 +101,9 @@
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/keywords.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/order.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/question.html" />
+        <option value="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html" />
+        <option value="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/teach_table.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/home.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Teach/asked.html" />
@@ -173,19 +121,20 @@
         <option value="$PROJECT_DIR$/answer/Home/Model/StudentModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php" />
-        <option value="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_keyTable.html" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_keys.html" />
-        <option value="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/keys_table.html" />
+        <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/controller/home/index.action.php" />
+        <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/controller/go/index.action.php" />
+        <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/templates/yungou/fwy-html/index.index.html" />
+        <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/templates/yungou/pc/js/passwordStrength-min.js" />
+        <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/controller/member/finduser.action.php" />
         <option value="$PROJECT_DIR$/Public/template/nav.html" />
+        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
+        <option value="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
+        <option value="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
+        <option value="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
       </list>
     </option>
   </component>
@@ -197,10 +146,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="101" />
-    <option name="width" value="1784" />
-    <option name="height" value="1086" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,6 +336,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -408,6 +357,117 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\xampp\htdocs\Answer\answer\Home\Model" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Admin/classList.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -485,7 +545,8 @@
       <workItem from="1490689257220" duration="159000" />
       <workItem from="1490690007047" duration="5035000" />
       <workItem from="1490749704042" duration="6441000" />
-      <workItem from="1490759677940" duration="5436000" />
+      <workItem from="1490761402034" duration="2989000" />
+      <workItem from="1490765292348" duration="9985000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -585,48 +646,48 @@
       <option name="project" value="LOCAL" />
       <updated>1490759241049</updated>
     </task>
-    <task id="LOCAL-00015" summary="12:10 by dexing&#10;">
-      <created>1490760650215</created>
+    <task id="LOCAL-00015" summary="16:22 by dexing&#10;">
+      <created>1490762359037</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1490760650215</updated>
+      <updated>1490762359037</updated>
     </task>
-    <task id="LOCAL-00016" summary="13:34 by dexing&#10;">
-      <created>1490765650819</created>
+    <task id="LOCAL-00016" summary="16:22 by dexing&#10;">
+      <created>1490765312951</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1490765650819</updated>
+      <updated>1490765312951</updated>
     </task>
     <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39947000" />
+    <option name="totallyTimeSpent" value="47485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="101" width="1784" height="1086" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16855204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16402715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0749736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07399577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,23 +701,13 @@
     <MESSAGE value="15:35 by dexing&#10;" />
     <MESSAGE value=" 18:06 by dexing&#10;" />
     <MESSAGE value="16:22 by dexing&#10;" />
-    <MESSAGE value="12:10 by dexing&#10;" />
-    <MESSAGE value="13:34 by dexing&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="13:34 by dexing&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="16:22 by dexing&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -709,6 +760,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/keywords.html" />
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/order.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -721,6 +779,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -783,32 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2245">
-          <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/template/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/template/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -878,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php___jb_old___" />
     <entry file="file://$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,104 +939,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="666">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html">
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="842">
+          <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html">
+    <entry file="file://$PROJECT_DIR$/../PhpStromGit/NEWRETAIL/project/controller/go/index.action.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_keys.html">
+    <entry file="file://$PROJECT_DIR$/../PhpStromGit/NEWRETAIL/project/templates/yungou/fwy-html/index.index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+        <state relative-caret-position="31">
+          <caret line="636" column="44" lean-forward="true" selection-start-line="636" selection-start-column="44" selection-end-line="636" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/keys_table.html">
+    <entry file="file://$PROJECT_DIR$/Public/template/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="358">
+          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/template/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="146" column="40" lean-forward="false" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
+        <state relative-caret-position="440">
+          <caret line="161" column="90" lean-forward="false" selection-start-line="161" selection-start-column="90" selection-end-line="161" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/article.html">
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="38" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_class.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
+    <entry file="file://$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="415" column="33" lean-forward="false" selection-start-line="415" selection-start-column="23" selection-end-line="415" selection-end-column="33" />
+        <state relative-caret-position="550">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="506">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="403" column="59" lean-forward="true" selection-start-line="403" selection-start-column="59" selection-end-line="403" selection-end-column="59" />
           <folding />
         </state>
       </provider>

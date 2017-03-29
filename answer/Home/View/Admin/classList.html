@@ -16,14 +16,16 @@
                     <table class="table table-striped table-bordered table-hover">
                         <thead>
                         <tr>
-                            <th>系的ID</th>
-                            <th>班级的名字</th>
+                            <th>所属系(seriesname)</th>
+                            <th>所属年级(gradename)</th>
+                            <th>班级名称(classname)</th>
                         </tr>
                         </thead>
                         <tbody>
                         <volist name="class_list" id="vo">
                             <tr>
-                                <td>{$vo.gradeid}</td>
+                                <td>{$vo.seriesname}</td>
+                                <td>{$vo.gradename}</td>
                                 <td>{$vo.classname}</td>
                             </tr>
                         </volist>

@@ -18,6 +18,14 @@
             return $this->select();
         }
 
+        // 入参id获取年级信息
+        public function getGradeInfo($gradeid)
+        {
+            $where['id'] = $gradeid;
+
+            return $this->where($where)->find();
+        }
+
         // 添加年级
         public function addGradeAct()
         {

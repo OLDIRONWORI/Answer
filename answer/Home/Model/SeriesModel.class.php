@@ -17,6 +17,14 @@
             return $this->select();
         }
 
+        // 入参id获取系信息
+        public function getSeriesInfo($seriesid)
+        {
+            $where['id'] = $seriesid;
+
+            return $this->where($where)->find();
+        }
+
         // 添加系
         public function addSeriesAct()
         {

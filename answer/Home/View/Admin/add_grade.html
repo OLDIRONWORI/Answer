@@ -4,7 +4,7 @@
 <div id="page-wrapper" style="min-height: 475px;">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">添加班级</h1>
+            <h1 class="page-header">添加年级</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -17,8 +17,14 @@
                 <div class="panel-body">
                     <form role="form" method="post" action="__ROOT__/Home/Admin/addGradeAct">
                         <div class="form-group">
-                            <label>系的id</label>
-                            <input class="form-control" type='text' name="seriesid" placeholder="请输入系的id" required="required">
+                            <div class="form-group">
+                                <label>所属系</label>
+                                <select class="form-control" name="seriesid">
+                                    <volist name="series_list" id="vo">
+                                        <option value="{$vo.id}">{$vo.seriesname}</option>
+                                    </volist>
+                                </select>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label>系的名称</label>

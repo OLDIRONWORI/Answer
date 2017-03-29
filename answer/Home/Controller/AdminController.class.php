@@ -42,8 +42,6 @@ class AdminController extends Controller
         $class = D('class');
         $class_list = $class->getAllClassList();
 
-        dump($class_list);
-
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -100,8 +98,6 @@ class AdminController extends Controller
 
         $class = D('class');
         $class_list = $class->getAllClassList();
-
-        dump($class_list);
 
         // 分配信息到模板
         $active='active';
@@ -205,7 +201,6 @@ class AdminController extends Controller
 
         $article = D("article");
         $question_list = $article->getQuestionList();
-        dump($question_list[0]);
 
         // 分配信息到模板
         $active='active';
@@ -253,8 +248,6 @@ class AdminController extends Controller
             $i++;
         }
 
-        dump($lists);
-
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -299,8 +292,6 @@ class AdminController extends Controller
         $keys = D('keys');
         $keys_list = $keys->getKeysList();
 
-        dump($keys_list);
-
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -315,8 +306,6 @@ class AdminController extends Controller
 
         $series = D('series');
         $series_list = $series->getAllSeriesList();
-
-        dump($series_list);
 
         // 分配信息到模板
         $active='active';
@@ -348,8 +337,6 @@ class AdminController extends Controller
 
         $grade = D('grade');
         $grade_list = $grade->getAllGradeList();
-
-        dump($grade_list);
 
         // 分配信息到模板
         $active='active';
@@ -407,7 +394,18 @@ class AdminController extends Controller
         $class = D("class");
         $class_list = $class->getAllClassList();
 
-        dump($class_list);
+        $grade = D('grade');
+        $series = D('series');
+
+        foreach($class_list as $key => &$val){
+            $gradeinfo = $grade->getGradeInfo($val['gradeid']);
+            $seriesinfo = $series->getSeriesInfo($gradeinfo['seriesid']);
+
+            $val['seriesname'] = $seriesinfo['seriesname'];
+            $val['gradename'] = $gradeinfo['gradename'];
+
+            unset($val['gradeid']);
+        }
 
         // 分配信息到模板
         $active='active';
