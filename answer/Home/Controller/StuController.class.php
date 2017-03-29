@@ -53,7 +53,6 @@ class StuController extends Controller
         }
     }
 
-
     //收藏夹
     public function collect()
     {
@@ -69,8 +68,10 @@ class StuController extends Controller
         $article_lists = array();
 
         // 遍历存查询出所有详情
-        foreach($collect_list as $key => $val){
-            $article_lists[] = $article->getArticleDetail($val['id']);
+        if($article_lists){
+            foreach($collect_list as $key => $val){
+               $article_lists[] = $article->getArticleDetail($val['id']);
+            }
         }
 
         // 分配信息到模板

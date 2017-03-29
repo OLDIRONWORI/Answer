@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/template/nav.html" afterPath="$PROJECT_DIR$/Public/template/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Runtime/Cache/Home/919d81ae9f6dceefd242dc6cb10361b7.php" afterPath="$PROJECT_DIR$/answer/Runtime/Cache/Home/919d81ae9f6dceefd242dc6cb10361b7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +21,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="403" column="59" lean-forward="true" selection-start-line="403" selection-start-column="59" selection-end-line="403" selection-end-column="59" />
+            <state relative-caret-position="578">
+              <caret line="409" column="18" lean-forward="true" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StuController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="807">
+              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Model/CollectModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,6 +110,8 @@
       <find>$announcement</find>
       <find>SELECT `id`,`content`,`url`,`time` FROM</find>
       <find>_checkmobile</find>
+      <find>getArticleDetail</find>
+      <find>getCollectList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +141,6 @@
         <option value="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php" />
         <option value="&lt;238a5e37-eebd-445c-9616-5e6ac05ef356&gt;/home/wwwroot/common/send.fun.php" />
         <option value="&lt;238a5e37-eebd-445c-9616-5e6ac05ef356&gt;/home/wwwroot/controller/adminwei/dingdan.action.php" />
-        <option value="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/StudentModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php" />
@@ -135,6 +158,7 @@
         <option value="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
         <option value="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" />
       </list>
     </option>
   </component>
@@ -546,7 +570,7 @@
       <workItem from="1490690007047" duration="5035000" />
       <workItem from="1490749704042" duration="6441000" />
       <workItem from="1490761402034" duration="2989000" />
-      <workItem from="1490765292348" duration="9985000" />
+      <workItem from="1490765292348" duration="10732000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -660,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490765312951</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="17:09 by Jun&#10;">
+      <created>1490778581018</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1490778581018</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47485000" />
+    <option name="totallyTimeSpent" value="48232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -701,7 +732,8 @@
     <MESSAGE value="15:35 by dexing&#10;" />
     <MESSAGE value=" 18:06 by dexing&#10;" />
     <MESSAGE value="16:22 by dexing&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="16:22 by dexing&#10;" />
+    <MESSAGE value="17:09 by Jun&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="17:09 by Jun&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -826,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Model/CollectModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Stu/ask.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -871,14 +895,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/code.inc.php" />
     <entry file="file://$USER_HOME$/Documents/config.inc.php" />
-    <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="121" column="15" lean-forward="true" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -900,14 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1051,8 +1059,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="403" column="59" lean-forward="true" selection-start-line="403" selection-start-column="59" selection-end-line="403" selection-end-column="59" />
+        <state relative-caret-position="578">
+          <caret line="409" column="18" lean-forward="true" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Model/CollectModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding />
         </state>
       </provider>
