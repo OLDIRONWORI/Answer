@@ -13,6 +13,22 @@
 
         }
 
+        // 所有年级
+        public function getAllGradeList(){
+            return $this->select();
+        }
+
+        // 添加年级
+        public function addGradeAct()
+        {
+            $post = I('post.');
+
+            $data['seriesid'] = $post['seriesid'];
+            $data['gradename'] = $post['gradename'];
+
+            return $this->data($data)->add();
+        }
+
     }
 
 ?>

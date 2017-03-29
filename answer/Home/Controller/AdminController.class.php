@@ -312,10 +312,17 @@ class AdminController extends Controller
     // 添加年级
     public function add_grade(){
         $userinfo = cookie('userinfo');
+
+        $series = D('series');
+        $series_list = $series->getAllSeriesList();
+
+        dump($series_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('add_grade', $active);
+        $this->assign('series_list', $series_list);
         $this->display();
     }
 
@@ -323,6 +330,13 @@ class AdminController extends Controller
     public function addGradeAct()
     {
         $grade = D('grade');
+        $add = $grade->addGradeAct();
+
+        if($add){
+            $this->success('新增成功' , 'add_grade');
+        }else{
+            $this->error('新增失败');
+        }
 
     }
 
@@ -331,11 +345,31 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $grade = D('grade');
+        $grade_list = $grade->getAllGradeList();
+
+        dump($grade_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('add_class', $active);
+        $this->assign('grade_list', $grade_list);
         $this->display();
+    }
+
+    // 添加班级执行
+    public function addClassAct()
+    {
+        $class = D('class');
+        $add = $class->addClassAct();
+
+        if($add){
+            $this->success('新增成功' , 'add_class');
+        }else{
+            $this->error('新增失败');
+        }
     }
 
     // 添加系
@@ -343,6 +377,7 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -368,10 +403,17 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        $class = D("class");
+        $class_list = $class->getAllClassList();
+
+        dump($class_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('classList', $active);
+        $this->assign('class_list', $class_list);
         $this->display();
     }
 

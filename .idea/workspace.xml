@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/keys_table.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/template/nav.html" afterPath="$PROJECT_DIR$/Public/template/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_keys.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/order.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="319" column="5" lean-forward="true" selection-start-line="319" selection-start-column="5" selection-end-line="319" selection-end-column="5" />
+            <state relative-caret-position="249">
+              <caret line="405" column="0" lean-forward="true" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,8 +50,38 @@
       <file leaf-file-name="add_grade.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="406">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_class.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_class.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="24" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_tie.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -69,21 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stu_add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html">
+      <file leaf-file-name="stu_table.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="43" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stu_table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
+      <file leaf-file-name="classList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -94,16 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
               <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -126,8 +144,10 @@
       <find>$class</find>
       <find>add_keys</find>
       <find>keys_table</find>
-      <find>关键字管理</find>
       <find>grade</find>
+      <find>关键字管理</find>
+      <find>add_class</find>
+      <find>classList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,10 +157,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/article.html" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
-        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/keywords.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/order.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/question.html" />
@@ -172,6 +189,9 @@
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/keys_table.html" />
         <option value="$PROJECT_DIR$/Public/template/nav.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" />
+        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
+        <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
+        <option value="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
       </list>
     </option>
   </component>
@@ -183,10 +203,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-59" />
-    <option name="y" value="279" />
+    <option name="x" value="202" />
     <option name="width" value="1784" />
-    <option name="height" value="1086" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -471,7 +490,7 @@
       <workItem from="1490689257220" duration="159000" />
       <workItem from="1490690007047" duration="5035000" />
       <workItem from="1490749704042" duration="6441000" />
-      <workItem from="1490759677940" duration="959000" />
+      <workItem from="1490759677940" duration="3957000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -571,17 +590,24 @@
       <option name="project" value="LOCAL" />
       <updated>1490759241049</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12:10 by dexing&#10;">
+      <created>1490760650215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1490760650215</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35470000" />
+    <option name="totallyTimeSpent" value="38468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-59" y="279" width="1784" height="1086" extended-state="0" />
+    <frame x="202" y="0" width="1784" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16855204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16402715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -612,7 +638,8 @@
     <MESSAGE value="15:35 by dexing&#10;" />
     <MESSAGE value=" 18:06 by dexing&#10;" />
     <MESSAGE value="16:22 by dexing&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="16:22 by dexing&#10;" />
+    <MESSAGE value="12:10 by dexing&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="12:10 by dexing&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -679,27 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/keywords.html" />
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/order.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -719,13 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -909,14 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -933,14 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="146" column="40" lean-forward="false" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/keys_table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -949,18 +932,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="146" column="40" lean-forward="false" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="406">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/stu_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="319" column="5" lean-forward="true" selection-start-line="319" selection-start-column="5" selection-end-line="319" selection-end-column="5" />
+        <state relative-caret-position="249">
+          <caret line="405" column="0" lean-forward="true" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
           <folding />
         </state>
       </provider>

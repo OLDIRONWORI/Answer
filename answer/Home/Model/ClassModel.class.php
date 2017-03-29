@@ -27,6 +27,17 @@ class ClassModel extends Model
 
         return $this->where($where)->find();
     }
+
+    // 添加班级
+    public function addClassAct()
+    {
+        $post = I('post.');
+
+        $data['gradeid'] = $post['gradeid'];
+        $data['classname'] = $post['classname'];
+
+        return $this->data($data)->add();
+    }
 }
 
 ?>
