@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/SeriesModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/classList.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="405" column="0" lean-forward="true" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+            <state relative-caret-position="565">
+              <caret line="415" column="33" lean-forward="false" selection-start-line="415" selection-start-column="23" selection-end-line="415" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -107,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classList.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="classList.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="189">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -203,9 +197,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
+    <option name="x" value="36" />
+    <option name="y" value="101" />
     <option name="width" value="1784" />
-    <option name="height" value="1040" />
+    <option name="height" value="1086" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -490,7 +485,7 @@
       <workItem from="1490689257220" duration="159000" />
       <workItem from="1490690007047" duration="5035000" />
       <workItem from="1490749704042" duration="6441000" />
-      <workItem from="1490759677940" duration="3957000" />
+      <workItem from="1490759677940" duration="5436000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -597,14 +592,21 @@
       <option name="project" value="LOCAL" />
       <updated>1490760650215</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="13:34 by dexing&#10;">
+      <created>1490765650819</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1490765650819</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38468000" />
+    <option name="totallyTimeSpent" value="39947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="0" width="1784" height="1040" extended-state="0" />
+    <frame x="36" y="101" width="1784" height="1086" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16855204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,7 +641,8 @@
     <MESSAGE value=" 18:06 by dexing&#10;" />
     <MESSAGE value="16:22 by dexing&#10;" />
     <MESSAGE value="12:10 by dexing&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="12:10 by dexing&#10;" />
+    <MESSAGE value="13:34 by dexing&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="13:34 by dexing&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -980,18 +983,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="565">
+          <caret line="415" column="33" lean-forward="false" selection-start-line="415" selection-start-column="23" selection-end-line="415" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="405" column="0" lean-forward="true" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
