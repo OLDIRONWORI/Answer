@@ -4,11 +4,6 @@
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/StudentModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/StudentModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php" afterPath="$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,68 +24,8 @@
       <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="344" column="53" lean-forward="true" selection-start-line="344" selection-start-column="53" selection-end-line="344" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GradeModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/GradeModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/ClassModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StuController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/StudentModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeysModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="666">
+              <caret line="243" column="21" lean-forward="true" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -109,6 +44,7 @@
     <findStrings>
       <find>ad_adds</find>
       <find>_sendmobile</find>
+      <find>lists</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -448,7 +384,7 @@
       <workItem from="1490665580629" duration="12780000" />
       <workItem from="1490689257220" duration="159000" />
       <workItem from="1490690007047" duration="5035000" />
-      <workItem from="1490749704042" duration="3043000" />
+      <workItem from="1490749704042" duration="5538000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -527,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490750676797</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="16:22 by dexing&#10;">
+      <created>1490752765026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490752765026</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31113000" />
+    <option name="totallyTimeSpent" value="33608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -575,14 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1053">
@@ -915,10 +850,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php___jb_old___">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="351" column="4" lean-forward="false" selection-start-line="351" selection-start-column="4" selection-end-line="365" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="344" column="53" lean-forward="true" selection-start-line="344" selection-start-column="53" selection-end-line="344" selection-end-column="53" />
+        <state relative-caret-position="666">
+          <caret line="243" column="21" lean-forward="true" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="21" />
           <folding />
         </state>
       </provider>

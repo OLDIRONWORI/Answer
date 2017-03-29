@@ -218,24 +218,27 @@ class AdminController extends Controller
 
         // 遍历出师生信息
         $lists = array();
+        $i = 0;
         foreach($appointment_list as $key => $val){
-            $lists = $val;
-            $stulists = $student->getStudentInfo($lists['studentid']);
-            $tealists = $teacher->getTeacherInfo($lists['teacherid']);
+            $lists[$i] = $val;
+            $stulists = $student->getStudentInfo($lists[$i]['studentid']);
+            $tealists = $teacher->getTeacherInfo($lists[$i]['teacherid']);
 
             // 学生信息
-            unset($lists['studentid']);
-            $lists['sturealname'] = $stulists['realname'];
-            $lists['stuclassid'] = $class->getClassInfo($stulists['classid']);
-            $lists['stuclassid'] = $lists['stuclassid']['classname'];
-            $lists['stuphone'] = $stulists['phone'];
+            unset($lists[$i]['studentid']);
+            $lists[$i]['sturealname'] = $stulists['realname'];
+            $lists[$i]['stuclassid'] = $class->getClassInfo($stulists['classid']);
+            $lists[$i]['stuclassid'] = $lists[$i]['stuclassid']['classname'];
+            $lists[$i]['stuphone'] = $stulists['phone'];
 
             // 教师信息
-            unset($lists['teacherid']);
-            $lists['tearealname'] = $tealists['realname'];
-            $lists['teaclassid'] = $class->getClassInfo($tealists['classid']);
-            $lists['teaclassid'] = $lists['teaclassid']['classname'];
-            $lists['teaphone'] = $tealists['phone'];
+            unset($lists[$i]['teacherid']);
+            $lists[$i]['tearealname'] = $tealists['realname'];
+            $lists[$i]['teaclassid'] = $class->getClassInfo($tealists['classid']);
+            $lists[$i]['teaclassid'] = $lists[$i]['teaclassid']['classname'];
+            $lists[$i]['teaphone'] = $tealists['phone'];
+
+            $i++;
         }
 
         dump($lists);
