@@ -36,5 +36,21 @@
 
             return $this->where($where)->field('id,realname,classid,phone,time')->find();
         }
+
+        // 教师添加
+        public function addTeacher()
+        {
+            $post = I('post.');
+
+            // 预留标签剥离，数据校验
+
+            $data['realname'] = $post['realname'];
+            $data['classid'] = $post['classid'];
+            $data['phone'] = $post['phone'];
+            $data['password'] = md5($post['password']);
+            $data['time'] = time();
+
+            return $this->data($data)->add();
+        }
     }
 ?>

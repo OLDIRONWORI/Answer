@@ -3,15 +3,16 @@
 
     use Think\Model;
 
-    class ClassModel extends Model
+    class GradeModel extends Model
     {
-        public function getClassList(){
+        public function getGradeList(){
 
             $where['seriesid'] = I("post.gid");
 
             return $this->where($where)->select();
 
         }
+
     }
 
 ?>

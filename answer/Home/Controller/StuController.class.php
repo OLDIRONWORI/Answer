@@ -98,6 +98,7 @@ class StuController extends Controller
         $this->assign('teacher_list', $teacher_list);
         $this->display();
     }
+
     //历史问题
     public function question()
     {
@@ -113,14 +114,6 @@ class StuController extends Controller
         $this->assign('question', $active);
         $this->assign('article_list', $article_list);
         $this->display();
-    }
-
-    // 学生添加
-    public function addStudent()
-    {
-        $student = D('student');
-
-        $add = $student->addStudent();
     }
 
     // 获取系信息

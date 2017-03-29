@@ -33,11 +33,12 @@ class AdminController extends Controller
         $this->display();
     }
 
-    //学生添加
+    // 学生添加
     public function stu_add()
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -45,7 +46,21 @@ class AdminController extends Controller
         $this->display();
     }
 
-    //学生列表
+    // 学生添加执行
+    public function addStudentAct()
+    {
+        // 学生添加
+        $student = D('student');
+        $add = $student->addStudent();
+
+        if($add){
+            $this->success('新增成功', 'Admin/stu_table');
+        }else{
+            $this->error('新增失败');
+        }
+    }
+
+    // 学生列表
     public function stu_table()
     {
         // 从cookie获取用户登录信息
@@ -71,20 +86,34 @@ class AdminController extends Controller
         $this->display();
     }
 
-    //教师添加
+    // 教师添加
     public function teach_add()
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
-        // 分配信息到模板
 
+        // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('teach_add', $active);
         $this->display();
     }
 
-    //教师列表
+    // 教师添加执行
+    public function addTeacherAct()
+    {
+        // 教师添加
+        $teacher = D('teacher');
+        $add = $teacher->addTeacher();
+
+        if($add){
+            $this->success('新增成功' , 'Admin/teach_add');
+        }else{
+            $this->error('新增失败');
+        }
+    }
+
+    // 教师列表
     public function teach_table()
     {
         // 从cookie获取用户登录信息
@@ -155,6 +184,7 @@ class AdminController extends Controller
         $this->assign('article_list', $article_list);
         $this->display();
     }
+
     //问题列表
     public function question()
     {
@@ -223,11 +253,26 @@ class AdminController extends Controller
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('add_keys', $active);
         $this->display();
+    }
+
+    // 关键字添加执行
+    public function addKeysAct()
+    {
+        // 关键字
+        $keys = D('keys');
+        $add = $keys->addKeys();
+
+        if($add){
+            $this->success('新增成功' , 'Admin/keys_table');
+        }else{
+            $this->error('新增失败');
+        }
     }
 
     // 关键字列表
@@ -236,14 +281,20 @@ class AdminController extends Controller
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
 
+        $keys = D('keys');
+        $keys_list = $keys->getKeysList();
+
+        dump($keys_list);
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
         $this->assign('keys_table', $active);
+        $this->assign('keys_list', $keys_list);
         $this->display();
     }
 
-    //添加年级
+    // 添加年级
     public function add_grade(){
         $userinfo = cookie('userinfo');
         // 分配信息到模板
@@ -253,7 +304,14 @@ class AdminController extends Controller
         $this->display();
     }
 
-    //添加班级
+    // 添加年级执行
+    public function addGradeAct()
+    {
+        $grade = D('grade');
+
+    }
+
+    // 添加班级
     public function add_class()
     {
         // 从cookie获取用户登录信息
@@ -265,7 +323,7 @@ class AdminController extends Controller
         $this->display();
     }
 
-    //添加系
+    // 添加系
     public function add_tie()
     {
         // 从cookie获取用户登录信息
@@ -277,7 +335,20 @@ class AdminController extends Controller
         $this->display();
     }
 
-    //班级列表
+    // 添加系执行
+    public function addSeries()
+    {
+        $series = D('series');
+        $add = $series->addSeriesAct();
+
+        if($add){
+            $this->success('新增成功' , 'Admin/add_tie');
+        }else{
+            $this->error('新增失败');
+        }
+    }
+
+    // 班级列表
     public function classList()
     {
         // 从cookie获取用户登录信息

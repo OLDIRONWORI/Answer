@@ -5,7 +5,7 @@
 
     class KeysModel extends Model
     {
-        // 学生提问提交处理
+        // 关键字列表
         public function getKeysList()
         {
             return $this->order('`order` desc')->select();
@@ -17,6 +17,17 @@
             $where['id'] = $keysid;
 
             return $this->where($where)->find();
+        }
+
+        // 关键字添加
+        public function addKeys()
+        {
+            $post = I('post.');
+
+            $data['keyname'] = $post['keyname'];
+            $data['order'] = $post['order'];
+
+            return $this->data($data)->add();
         }
     }
 ?>
