@@ -14,9 +14,9 @@ class LoginController extends Controller
     // 跳转到注册界面
     public function register()
     {
-        $select = I("post.select");
+        // $select = I("post.select");
 
-        $this->assign('select', $select);
+        // $this->assign('select', $select);
         $this->display();
     }
 
