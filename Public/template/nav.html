@@ -68,11 +68,27 @@
                 <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
             </a>
             <ul class="dropdown-menu dropdown-user">
-                <li><a href="#"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a>
-                </li>
-                <!--      <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                      </li>-->
-                <li class="divider"> {$userinfo.realname}  </li>
+
+                <!-- 判断身份，跳转到不同的个人中心 -->
+                <if condition="$userinfo['type'] eq 'admin'">
+
+                        <li><a href="{:U('Home/Admin/home')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
+                        <a href="{:U('Home/Admin/home')}"><li class="divider"> {$userinfo.realname} </li></a>
+
+                    <elseif condition="$userinfo['type'] eq 'teacher'"/>
+
+                        <li><a href="{:U('Home/Teach/asked')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
+                        <a href="{:U('Home/Teach/asked')}"><li class="divider"> {$userinfo.realname} </li></a>
+
+                    <else />
+
+                        <li><a href="{:U('Home/Stu/ask')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
+                        <a href="{:U('Home/Stu/ask')}"><li class="divider"> {$userinfo.realname} </li></a>
+
+                </if>
+
+
+
                 <li>
                     <!--href="{:U('Home/Login/loginOut')}"-->
                     <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>

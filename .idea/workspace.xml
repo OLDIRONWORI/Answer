@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Login/register.html" afterPath="$PROJECT_DIR$/answer/Home/View/Login/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/template/nav.html" afterPath="$PROJECT_DIR$/Public/template/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,28 +22,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="finduser.action.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/member/finduser.action.php">
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="111" column="37" lean-forward="true" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
-              <folding>
-                <marker date="0" expanded="true" signature="751:809" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="1129:1187" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="1472:1545" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="2232:2290" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="2553:2625" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="3842:3899" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="3958:4021" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="4285:4342" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="4673:4743" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="4964:5036" ph="select value... @##_caches" />
-                <marker date="0" expanded="true" signature="5538:5647" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="5668:5778" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="6409:6518" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="6541:6651" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="6754:6842" ph="UPDATE `@##_m... " />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +35,8 @@
       <file leaf-file-name="index.action.php" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/go/index.action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <marker date="0" expanded="true" signature="485:595" ph="select * fro... @##_shoplist" />
                 <marker date="0" expanded="true" signature="641:774" ph="select *,`sh... @##_shoplist" />
@@ -65,157 +48,117 @@
                 <marker date="0" expanded="true" signature="2363:2436" ph="select * fro... @##_shaidan" />
                 <marker date="0" expanded="true" signature="2475:2550" ph="select * fro... @##_shaidan" />
                 <marker date="0" expanded="true" signature="2613:2670" ph="SELECT `id`,... @##_announcement" />
-                <marker date="0" expanded="true" signature="2833:2940" ph="SELECT `cate... @##_category" />
-                <marker date="0" expanded="true" signature="3255:3355" ph="SELECT `cate... @##_category" />
-                <marker date="0" expanded="true" signature="3458:3520" ph="SELECT `cate... @##_category" />
-                <marker date="0" expanded="true" signature="3458:3537" ph="SELECT `cate... @##_category" />
-                <marker date="0" expanded="true" signature="3615:3676" ph="..." />
-                <marker date="0" expanded="true" signature="4531:4598" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="4673:4779" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="4815:4898" ph="select catei... @##_category" />
-                <marker date="0" expanded="true" signature="5366:5436" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="5550:5671" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="5730:5820" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="5910:5980" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="6098:6197" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="6243:6312" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="6577:6697" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="6821:6911" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="7031:7130" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="7242:7311" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="8283:8350" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="8425:8513" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="8549:8632" ph="select catei... @##_category" />
-                <marker date="0" expanded="true" signature="9100:9170" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="9284:9405" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="9464:9554" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="9644:9714" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="9832:9931" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="9977:10046" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="10311:10431" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="10555:10645" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="10765:10864" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="10976:11045" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="12131:12201" ph="select id,ca... @##_jf_brand" />
-                <marker date="0" expanded="true" signature="12274:12365" ph="select id,ca... @##_jf_brand" />
-                <marker date="0" expanded="true" signature="12401:12484" ph="select catei... @##_category" />
-                <marker date="0" expanded="true" signature="12950:13020" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="13134:13267" ph="select id fr... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="13326:13428" ph="select id fr... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="13518:13588" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="13706:13817" ph="select id fr... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="13863:13944" ph="select id fr... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="14209:14341" ph="select * fro... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="14465:14567" ph="select * fro... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="14687:14798" ph="select * fro... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="14910:14991" ph="select * fro... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="15303:15363" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="15681:15756" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="15863:16000" ph="select * fro... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="16039:16107" ph="select * fro... @##_category" />
-                <marker date="0" expanded="true" signature="16142:16202" ph="select * fro... @##_brand" />
-                <marker date="0" expanded="true" signature="16462:16587" ph="select * fro... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="16621:16747" ph="select * fro... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="16796:16883" ph="select id,qi... @##_shoplist" />
-                <marker date="0" expanded="true" signature="17122:17139" ph="..." />
-                <marker date="0" expanded="true" signature="18639:18702" ph="select * fro... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="19018:19096" ph="select * fro... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="19203:19328" ph="select * fro... @##_member_go_jf_record" />
-                <marker date="0" expanded="true" signature="19368:19436" ph="select * fro... @##_category" />
-                <marker date="0" expanded="true" signature="19471:19534" ph="select * fro... @##_jf_brand" />
-                <marker date="0" expanded="true" signature="19794:19922" ph="select * fro... @##_member_go_jf_record" />
-                <marker date="0" expanded="true" signature="19956:20085" ph="select * fro... @##_member_go_jf_record" />
-                <marker date="0" expanded="true" signature="20134:20224" ph="select id,qi... @##_jf_shoplist" />
-                <marker date="0" expanded="true" signature="20466:20483" ph="..." />
-                <marker date="0" expanded="true" signature="21612:21668" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="22106:22174" ph="select * fro... @##_category" />
-                <marker date="0" expanded="true" signature="22206:22268" ph="select * fro... @##_brand" />
-                <marker date="0" expanded="true" signature="22573:22718" ph="select sum(g... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="22825:22984" ph="select time " />
-                <marker date="0" expanded="true" signature="23089:23216" ph="select gouco... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="24397:24522" ph="select * fro... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="24555:24664" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="24712:24803" ph="select id,si... @##_shoplist" />
-                <marker date="0" expanded="true" signature="25827:25904" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="26073:26176" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="26270:26356" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="26397:26457" ph="select * fro... @##_member_go_record" />
-                <marker date="0" expanded="true" signature="28054:28121" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="28196:28302" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="28338:28421" ph="select catei... @##_category" />
-                <marker date="0" expanded="true" signature="28889:28959" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="29073:29192" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="29251:29339" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="29429:29499" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="29617:29714" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="29760:29827" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="30092:30210" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="30334:30422" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="30542:30639" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="30751:30818" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="31170:31239" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="31480:31548" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="32450:32517" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="32591:32697" ph="select id,ca... @##_brand" />
-                <marker date="0" expanded="true" signature="32733:32816" ph="select catei... @##_category" />
-                <marker date="0" expanded="true" signature="33287:33357" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="33475:33588" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="33650:33732" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="33825:33895" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="34017:34108" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="34156:34217" ph="select id fr... @##_shoplist" />
-                <marker date="0" expanded="true" signature="34490:34602" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="34729:34811" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="34933:35024" ph="select * fro... @##_shoplist" />
-                <marker date="0" expanded="true" signature="35138:35199" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="2833:2855" ph="SELECT `cate... @##_category" />
+                <marker date="0" expanded="true" signature="2833:2933" ph="SELECT `cate... @##_category" />
+                <marker date="0" expanded="true" signature="3036:3115" ph="SELECT `cate... @##_category" />
+                <marker date="0" expanded="true" signature="4024:4091" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="4166:4272" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="4308:4391" ph="select catei... @##_category" />
+                <marker date="0" expanded="true" signature="4859:4929" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="5043:5164" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="5223:5313" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="5403:5473" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="5591:5690" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="5736:5805" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="6070:6190" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="6314:6404" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="6524:6623" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="6735:6804" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="7776:7843" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="7918:8006" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="8042:8125" ph="select catei... @##_category" />
+                <marker date="0" expanded="true" signature="8593:8663" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="8777:8898" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="8957:9047" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="9137:9207" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="9325:9424" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="9470:9539" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="9804:9924" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="10048:10138" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="10258:10357" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="10469:10538" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="11624:11694" ph="select id,ca... @##_jf_brand" />
+                <marker date="0" expanded="true" signature="11767:11858" ph="select id,ca... @##_jf_brand" />
+                <marker date="0" expanded="true" signature="11894:11977" ph="select catei... @##_category" />
+                <marker date="0" expanded="true" signature="12443:12513" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="12627:12760" ph="select id fr... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="12819:12921" ph="select id fr... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="13011:13081" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="13199:13310" ph="select id fr... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="13356:13437" ph="select id fr... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="13702:13834" ph="select * fro... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="13958:14060" ph="select * fro... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="14180:14291" ph="select * fro... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="14403:14484" ph="select * fro... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="14796:14856" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="15174:15249" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="15356:15493" ph="select * fro... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="15532:15600" ph="select * fro... @##_category" />
+                <marker date="0" expanded="true" signature="15635:15695" ph="select * fro... @##_brand" />
+                <marker date="0" expanded="true" signature="15955:16080" ph="select * fro... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="16114:16240" ph="select * fro... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="16289:16376" ph="select id,qi... @##_shoplist" />
+                <marker date="0" expanded="true" signature="16615:16632" ph="..." />
+                <marker date="0" expanded="true" signature="18132:18195" ph="select * fro... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="18511:18589" ph="select * fro... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="18696:18821" ph="select * fro... @##_member_go_jf_record" />
+                <marker date="0" expanded="true" signature="18861:18929" ph="select * fro... @##_category" />
+                <marker date="0" expanded="true" signature="18964:19027" ph="select * fro... @##_jf_brand" />
+                <marker date="0" expanded="true" signature="19287:19415" ph="select * fro... @##_member_go_jf_record" />
+                <marker date="0" expanded="true" signature="19449:19578" ph="select * fro... @##_member_go_jf_record" />
+                <marker date="0" expanded="true" signature="19627:19717" ph="select id,qi... @##_jf_shoplist" />
+                <marker date="0" expanded="true" signature="19959:19976" ph="..." />
+                <marker date="0" expanded="true" signature="21105:21161" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="21599:21667" ph="select * fro... @##_category" />
+                <marker date="0" expanded="true" signature="21699:21761" ph="select * fro... @##_brand" />
+                <marker date="0" expanded="true" signature="22066:22211" ph="select sum(g... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="22318:22477" ph="select time " />
+                <marker date="0" expanded="true" signature="22582:22709" ph="select gouco... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="23890:24015" ph="select * fro... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="24048:24157" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="24205:24296" ph="select id,si... @##_shoplist" />
+                <marker date="0" expanded="true" signature="25320:25397" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="25566:25669" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="25763:25849" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="25890:25950" ph="select * fro... @##_member_go_record" />
+                <marker date="0" expanded="true" signature="27547:27614" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="27689:27795" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="27831:27914" ph="select catei... @##_category" />
+                <marker date="0" expanded="true" signature="28382:28452" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="28566:28685" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="28744:28832" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="28922:28992" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="29110:29207" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="29253:29320" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="29585:29703" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="29827:29915" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="30035:30132" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="30244:30311" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="30663:30732" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="30973:31041" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="31943:32010" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="32084:32190" ph="select id,ca... @##_brand" />
+                <marker date="0" expanded="true" signature="32226:32309" ph="select catei... @##_category" />
+                <marker date="0" expanded="true" signature="32780:32850" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="32968:33081" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="33143:33225" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="33318:33388" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="33510:33601" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="33649:33710" ph="select id fr... @##_shoplist" />
+                <marker date="0" expanded="true" signature="33983:34095" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="34222:34304" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="34426:34517" ph="select * fro... @##_shoplist" />
+                <marker date="0" expanded="true" signature="34631:34692" ph="select * fro... @##_shoplist" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.fun.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/common/global.fun.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="452" column="32" lean-forward="true" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="32" />
-              <folding>
-                <marker date="0" expanded="true" signature="15444:16563" ph="..." />
-                <marker date="0" expanded="true" signature="15450:16473" ph="..." />
-                <marker date="0" expanded="true" signature="15498:16399" ph="..." />
-                <marker date="0" expanded="true" signature="15868:16037" ph="{...}" />
-                <marker date="0" expanded="true" signature="16043:16266" ph="{...}" />
-                <marker date="0" expanded="true" signature="22680:22742" ph="SELECT name @##_category" />
-                <marker date="0" expanded="true" signature="23643:23731" ph="Select id Fr... @##_activity_lottery_pay_log" />
-                <marker date="0" expanded="true" signature="23827:23909" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="23932:24071" ph="INSERT INTO `@##_activity_lottery_pay_log`... " />
-                <marker date="0" expanded="true" signature="24639:24712" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="24739:24876" ph="INSERT INTO `@##_member_account`... " />
-                <marker date="0" expanded="true" signature="32384:32447" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="34572:34634" ph="SELECT * FRO... @##_member_grading" />
-                <marker date="0" expanded="true" signature="34702:34874" ph="INSERT INTO `@##_member_recodes`... " />
-                <marker date="0" expanded="true" signature="34916:35087" ph="INSERT INTO `@##_member_recodes`... " />
-                <marker date="0" expanded="true" signature="35122:35201" ph="SELECT * FRO... @##_member_grading" />
-                <marker date="0" expanded="true" signature="35220:35391" ph="INSERT INTO `@##_member_recodes`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+            <state relative-caret-position="220">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -234,8 +177,48 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/template/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="242">
               <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="77" column="72" lean-forward="true" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StuController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeachController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2700">
+              <caret line="127" column="53" lean-forward="true" selection-start-line="127" selection-start-column="53" selection-end-line="127" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -244,28 +227,8 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/template/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Login/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+            <state relative-caret-position="242">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -314,7 +277,6 @@
         <option value="$PROJECT_DIR$/answer/Home/Model/CollectModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/ReplyModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Stu/ask.html" />
-        <option value="$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Teach/publics.html" />
         <option value="$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/Model/AppointmentModel.class.php" />
@@ -330,7 +292,6 @@
         <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/templates/yungou/fwy-html/index.index.html" />
         <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/templates/yungou/pc/js/passwordStrength-min.js" />
         <option value="&lt;d053c391-3527-447c-9040-1367b83ba372&gt;/home/wwwroot/controller/member/finduser.action.php" />
-        <option value="$PROJECT_DIR$/Public/template/nav.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_grade.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/add_class.html" />
@@ -342,11 +303,13 @@
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" />
         <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/common/global.fun.php" />
-        <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/member/finduser.action.php" />
         <option value="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Login/register.html" />
         <option value="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" />
+        <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/member/finduser.action.php" />
         <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/go/index.action.php" />
+        <option value="$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php" />
+        <option value="$PROJECT_DIR$/Public/template/nav.html" />
       </list>
     </option>
   </component>
@@ -789,7 +752,7 @@
       <workItem from="1490749704042" duration="6441000" />
       <workItem from="1490761402034" duration="2989000" />
       <workItem from="1490765292348" duration="13267000" />
-      <workItem from="1490836035016" duration="8949000" />
+      <workItem from="1490836035016" duration="9692000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -931,18 +894,25 @@
       <option name="project" value="LOCAL" />
       <updated>1490844766571</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="17:09 by Jun&#10;">
+      <created>1490845458192</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1490845458192</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59716000" />
+    <option name="totallyTimeSpent" value="60459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1081,13 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="164" column="56" lean-forward="false" selection-start-line="164" selection-start-column="56" selection-end-line="164" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/code.inc.php" />
     <entry file="file://$USER_HOME$/Documents/config.inc.php" />
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
@@ -1132,14 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PhpStromGit/NEWRETAIL/project/controller/go/index.action.php" />
     <entry file="file://$PROJECT_DIR$/../PhpStromGit/NEWRETAIL/project/templates/yungou/fwy-html/index.index.html" />
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/add_tie.html">
@@ -1168,14 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1259,34 +1206,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="159" column="58" lean-forward="false" selection-start-line="159" selection-start-column="58" selection-end-line="159" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/template/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/template/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Login/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1299,18 +1230,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
+    <entry file="file://$PROJECT_DIR$/Public/template/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+        <state relative-caret-position="242">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
+    <entry file="file://$PROJECT_DIR$/Public/template/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+        <state relative-caret-position="242">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="127" column="53" lean-forward="true" selection-start-line="127" selection-start-column="53" selection-end-line="127" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/StuController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/template/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="77" column="72" lean-forward="true" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
           <folding />
         </state>
       </provider>

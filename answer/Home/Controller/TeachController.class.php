@@ -35,8 +35,6 @@ class TeachController extends Controller
         $list = $data['list'];
         $show = $data['show'];
 
-        dump($list[0]);
-
         // 分配信息到模板
         $active='active';
 
@@ -82,8 +80,6 @@ class TeachController extends Controller
             }
         }
 
-        dump($article_lists);
-
         // 分配信息到模板
         $active='active';
         $this->assign('tea_question', $active);
@@ -114,8 +110,6 @@ class TeachController extends Controller
                 $article_lists[] = $info;
             }
         }
-
-        dump($article_lists);
 
         // 分配信息到模板
         $active='active';
@@ -174,8 +168,6 @@ class TeachController extends Controller
             $reply_list[] = $article->getArticleDetail($val['articleid']);
         }
 
-        dump($reply_list);
-
         // 分配信息到模板
          $active='active';
         $this->assign('tea_questioned', $active);
@@ -183,47 +175,6 @@ class TeachController extends Controller
         $this->assign('reply_list', $reply_list);
         $this->display();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // 获取系信息
-    public function getSeriesList()
-    {
-        $series = D("series");
-        $series_list = $series->getGradeList();
-
-        $this->ajaxReturn($series_list);
-    }
-
-    // 获取年级信息
-    public function getGradeList()
-    {
-        $grade = D("grade");
-        $grade_list = $grade->getGradeList();
-
-        $this->ajaxReturn($grade_list);
-    }
-
-    // 获取班级信息
-    public function getClassList()
-    {
-
-        $class = D("class");
-        $class_list = $class->getGradeList();
-
-        $this->ajaxReturn($class_list);
-    }
-
 }
 
 ?>
