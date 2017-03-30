@@ -5,15 +5,14 @@ use Think\Controller;
 
 class IndexController extends Controller
 {
-    public function __construct()
+    public function index()
     {
-        parent::__construct();
-
         $userinfo = cookie('userinfo');
-
         // 是否登录
         if (!$userinfo) {
             $this->redirect('Home/Login/login');
+        }else{
+            $this->redirect('Home/Index/question/act/home');
         }
     }
 
@@ -141,8 +140,11 @@ class IndexController extends Controller
     // 搜索执行
     public function selectAct()
     {
+        $userinfo = cookie('userinfo');
+        $act = I('get.act');
+
         $post = I('post.');
-dump($post);
+
         $article = D('article');
         $keys = D('keys');
         if($post['type'] < 3){
@@ -151,17 +153,18 @@ dump($post);
         }else{
             // keys
             $keylist = $keys->getIdToName($post['title']);
-dump($keylist);
+
             if($keylist){
                 $arr = $article->getAllArticleList();
                 $articlearr = array();
 
                 foreach($arr as $key => $val){
                     foreach($keylist as $k => $v){
-                        echo strpos($val['keys'] , $v);
-                        dump($boo);
+                        $boo = strstr($val['keys'] , $v['id']);
+                        
                         if($boo){
-                            $articlearr = $val;
+                            $val['time'] = date('Y-m-d H:i:s');
+                            $articlearr[] = $val;
                         }
                     }
                 }
@@ -171,9 +174,30 @@ dump($keylist);
 
         }
 
-        dump($articlearr);
+        $this->assign('userinfo' , $userinfo);
+        $this->assign('act' , $act);
+        $this->assign('articlearr' , $articlearr);
+        $this->assign('title' , $post['title']);
+        $this->display();
     }
 
+    // 收藏问题或文章
+    public function collectAct()
+    {
+        $arcticleid = I('get.id');
+        $url = I('get.url');
+        $userinfo = cookie('userinfo');
+
+        $collect = D('collect');
+
+        $add = $collect->collectAct($arcticleid);
+
+        if($add){
+            $this->success('收藏成功', '/Answer/Home/Index/' . $url . '/act/home');
+        }else{
+            $this->error('收藏失败');
+        }
+    }
 
     /**
      * 二维数组排序

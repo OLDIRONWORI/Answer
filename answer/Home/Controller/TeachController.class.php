@@ -169,12 +169,45 @@ class TeachController extends Controller
         }
 
         // 分配信息到模板
-         $active='active';
+        $active='active';
         $this->assign('tea_questioned', $active);
         $this->assign('userinfo', $userinfo);
         $this->assign('reply_list', $reply_list);
         $this->display();
     }
+
+
+
+    // 设置空闲时间
+    public function setTime()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
+
+        $teacher = D('teacher');
+        $teacherTime = $teacher->getTime();
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('userinfo', $userinfo);
+        $this->assign('teacherTime', $teacherTime);
+        $this->display();
+    }
+
+    // 可预约时间设定
+    public function setTimeAct()
+    {
+        $teacher = D('teacher');
+
+        $update = $teacher->getTimeAct(); 
+
+        if($update){
+            $this->success('提交成功','setTime',2);
+        }else{
+            $this->error('提交失败,请检查选择');
+        }
+    }
+
 }
 
 ?>

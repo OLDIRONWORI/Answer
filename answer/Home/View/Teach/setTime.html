@@ -1,0 +1,39 @@
+<include file="./Public/template/header.html" />
+<!-- Navigation -->
+<include file="./Public/template/nav.html" />
+<div id="page-wrapper" style="min-height: 475px;">
+    <div class="col-lg-12">
+        <h1 class="page-header">收藏夹-问题</h1>
+    </div>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+               问题列表
+            </div>
+            <div class="panel-body">
+        
+                <form role="form" method="post" action="__ROOT__/Home/Teach/setTimeAct">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label>可预约时间&nbsp;&nbsp;</label>
+                            <for start="0" end="23">
+                                <if condition="in_array($i , $teacherTime) ">
+                                    <input type="checkbox" name="leisuretime[]" value="{$i}" checked>{$i} &nbsp;&nbsp; 
+                                <else />
+                                    <input type="checkbox" name="leisuretime[]" value="{$i}">{$i} &nbsp;&nbsp; 
+                                </if>
+                            </for>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="提交">
+                </form>
+
+                <!-- /.table-responsive -->
+            </div>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+</div>
+<include file="./Public/template/footer.html" />

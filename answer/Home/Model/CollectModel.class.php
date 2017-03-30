@@ -17,6 +17,19 @@
 
             return $this->where($where)->select();
         }
+
+        // 收藏
+        public function collectAct($articleid)
+        {
+            $userinfo = cookie('userinfo');
+            
+            $data['userid'] = $userinfo['id'];
+            $data['articleid'] = $articleid;
+            $data['usertype'] = $userinfo['type'];
+            $data['time'] = time();
+
+            return $add = $this->data($data)->add();
+        }
     }
 
 

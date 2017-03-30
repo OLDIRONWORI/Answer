@@ -20,6 +20,7 @@
                             <th>联系电话(phone)</th>
                             <th>班级编号(classid)</th>
                             <th>空闲时间(leisuretime)</th>
+                            <th>预约(collect)</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -29,6 +30,7 @@
                                 <td>{$vo.phone}</td>
                                 <td>{$vo.classid}</td>
                                 <td>{$vo.leisuretime}</td>
+                                <td><a href="{:U('Home/Stu/studentToTeacherCollect/id/' . $vo['id'])}">预约</a></td>
                             </tr>
                         </volist>
                         </tbody>

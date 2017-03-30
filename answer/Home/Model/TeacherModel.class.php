@@ -52,5 +52,49 @@
 
             return $this->data($data)->add();
         }
+
+        // 空闲时间数组
+        public function getTime()
+        {
+            $userinfo = cookie('userinfo');
+
+            $where['id'] = $userinfo['id'];
+            $leisuretime = $this->where($where)->field('leisuretime')->find();
+
+            $leisuretime = explode(',' , $leisuretime['leisuretime']);
+
+            return $leisuretime;
+        }
+
+        public function getTimeId($id)
+        {
+            $where['id'] = $id;
+            $leisuretime = $this->where($where)->field('leisuretime')->find();
+
+            $leisuretime = explode(',' , $leisuretime['leisuretime']);
+
+            return $leisuretime;
+        }
+
+        // 空闲时间设定
+        public function getTimeAct()
+        {
+            $leisuretime = I('post.leisuretime');
+
+            $userinfo = cookie('userinfo');
+
+            $str = '';
+
+            foreach($leisuretime as $key => $val){
+                $str .= $val . ',';
+            }
+
+            $str = rtrim($str , ',');
+
+            $data['leisuretime'] = $str;
+            $where['id'] = $userinfo['id'];
+            
+            return $this->data($data)->where($where)->save();
+        }
     }
 ?>

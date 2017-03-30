@@ -122,7 +122,7 @@
                 <!--&lt;!&ndash; /input-group &ndash;&gt;-->
                 <!--</li>-->
                 <div class="sidebar-nav navbar-collapse">
-                    <if condition="$userinfo.type == 'admin'">
+                    <if condition="$userinfo.type == 'admin' and $act neq 'home'">
                         <!--管理员-->
                         <ul class="nav in" id="side-menu">
                             <li>
@@ -150,10 +150,10 @@
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="__ROOT__/Home/Admin/article" class="{$teach_article}"></i> 文章列表</a>
+                                <a href="__ROOT__/Home/Admin/article" class="{$teach_article}"><i class="fa fa-files-o fa-fw"></i> 文章列表</a>
                             </li>
                             <li>
-                                <a href="__ROOT__/Home/Admin/question" class="{$question}"></i> 问题列表</a>
+                                <a href="__ROOT__/Home/Admin/question" class="{$question}"><i class="fa fa-sitemap fa-fw"></i> 问题列表</a>
                             </li>
                             <li>
                                 <a href="__ROOT__/Home/Admin/order" class="{$order}"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
@@ -189,7 +189,7 @@
                                 <!-- /.nav-second-level -->
                             </li>
                         </ul>
-                        <elseif condition="$userinfo.type == 'teacher'"/>
+                        <elseif condition="$userinfo.type == 'teacher' and $act neq 'home'"/>
                         <!--教师-->
                         <ul class="nav in" id="side-menu">
                             <li>
@@ -208,14 +208,17 @@
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="{:u('Teach/publics')}" class="{$tea_publics}"><i class="fa fa-wrench fa-fw"></i> 发表文章（扩展:存草稿）</a>
+                                <a href="{:u('Teach/publics')}" class="{$tea_publics}"><i class="fa fa-wrench fa-fw"></i> 发表文章</a>
                             </li>
                             <li>
                                 <a href="{:u('Teach/questioned')}" class="{$tea_questioned}"><i class="fa fa-table fa-fw"></i> 已回答问题</a>
                             </li>
+                            <li>
+                                <a href="{:u('Teach/setTime')}" class="{$tea_questioned}"><i class="fa fa-wrench fa-fw"></i> 设置可预约时间</a>
+                            </li>
                         </ul>
 
-                        <elseif condition="$userinfo.type == 'status'"/>
+                        <elseif condition="$userinfo.type == 'student' and $act neq 'home'"/>
                         <!--学生-->
                         <ul class="nav in" id="side-menu">
                             <li>

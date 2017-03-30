@@ -21,6 +21,7 @@
                             <th>内容(content)</th>
                             <th>关键字(keysname)</th>
                             <th>时间(time)</th>
+                            <th>操作(action)</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -30,6 +31,7 @@
                                 <td>{$vo.content}</td>
                                 <td>{$vo.keysname}</td>
                                 <td>{$vo.time}</td>
+                                <td><a href="{:U('Hoeme/Index/collectAct/id/' . $vo['id'])}">收藏</a></td>
                             </tr>
                         </volist>
                         </tbody>

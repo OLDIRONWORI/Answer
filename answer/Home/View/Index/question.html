@@ -21,6 +21,7 @@
                             <th>内容(content)</th>
                             <th>关键字(keysname)</th>
                             <th>时间(time)</th>
+                            <th>操作(action)</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -30,6 +31,13 @@
                                 <td>{$vo.content}</td>
                                 <td>{$vo.keysname}</td>
                                 <td>{$vo.time}</td>
+                                <td>
+                                    <a href="{:U('Home/Index/collectAct/id/' . $vo['id'] . '/url/question')}">收藏</a>
+
+                                    <if condition="$userinfo.type == 'teacher'">
+                                        &nbsp;&nbsp;<a href="{:U('Home/Index/answerAct/id/' . $vo['id'] . '/url/question')}">解答</a>
+                                    </if>
+                                </td>
                             </tr>
                         </volist>
                         </tbody>

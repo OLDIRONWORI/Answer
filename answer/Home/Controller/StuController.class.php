@@ -76,9 +76,9 @@ class StuController extends Controller
         $article_lists = array();
 
         // 遍历存查询出所有详情
-        if($article_lists){
+        if($collect_list){
             foreach($collect_list as $key => $val){
-               $article_lists[] = $article->getArticleDetail($val['id']);
+               $article_lists[] = $article->getArticleDetail($val['articleid']);
             }
         }
 
@@ -154,6 +154,37 @@ class StuController extends Controller
         $this->ajaxReturn($class_list);
     }
 
+    // 预约时间
+    public function studentToTeacherCollect()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
+        $teacherid = I('get.id');
+
+        $teacher = D('teacher');
+        $teacherTime = $teacher->getTimeId($teacherid);
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('userinfo', $userinfo);
+        $this->assign('teacherid', $teacherid);
+        $this->assign('teacherTime', $teacherTime);
+        $this->display();
+    }
+
+    //执行
+    public function setTimeAct()
+    {
+        $appointment = D('appointment');
+
+        $add = $appointment->setTimeAct(); 
+
+        if($add){
+            $this->success('提交成功','find',2);
+        }else{
+            $this->error('提交失败,请检查选择');
+        }
+    }
 }
 
 ?>
