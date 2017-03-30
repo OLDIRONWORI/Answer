@@ -73,12 +73,8 @@ class LoginController extends Controller
         $admlogin = $tea->verifyLogin($post['code'], $post['password']);
 
         // 成功与否的重定向
-        if($stulogin){
-            //学生跳转
-            $this->redirect('Home/Index/index');
-        }else if($tealogin){
-            $this->redirect('Home/Index/index');
-        }else if($admlogin){
+        if($stulogin || $tealogin || $admlogin){
+            //成功跳转
             $this->redirect('Home/Index/index');
         }else{
             $this->error('登录失败,请检查输入');
