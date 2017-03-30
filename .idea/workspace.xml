@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6815f31b-a95a-41a4-85ac-77acfce8ec45" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/answer/Home/View/Login/selectRegister.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answer/Home/View/Index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" afterPath="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Home/View/Login/register.html" afterPath="$PROJECT_DIR$/answer/Home/View/Login/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer/Runtime/Cache/Home/919d81ae9f6dceefd242dc6cb10361b7.php" afterPath="$PROJECT_DIR$/answer/Runtime/Cache/Home/919d81ae9f6dceefd242dc6cb10361b7.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,37 +23,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="finduser.action.php" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/member/finduser.action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="498">
+              <caret line="111" column="37" lean-forward="true" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
               <folding>
                 <marker date="0" expanded="true" signature="751:809" ph="SELECT * FRO... @##_member" />
                 <marker date="0" expanded="true" signature="1129:1187" ph="SELECT * FRO... @##_member" />
                 <marker date="0" expanded="true" signature="1472:1545" ph="UPDATE `@##_m... " />
                 <marker date="0" expanded="true" signature="2232:2290" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="2470:2542" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="3714:3771" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="3830:3893" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="4157:4214" ph="SELECT * FRO... @##_member" />
-                <marker date="0" expanded="true" signature="4545:4615" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="4836:4908" ph="select value... @##_caches" />
-                <marker date="0" expanded="true" signature="5410:5519" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="5540:5650" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="6281:6390" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="6413:6523" ph="select * fro... @##_member" />
-                <marker date="0" expanded="true" signature="6626:6714" ph="UPDATE `@##_m... " />
+                <marker date="0" expanded="true" signature="2553:2625" ph="UPDATE `@##_m... " />
+                <marker date="0" expanded="true" signature="3842:3899" ph="SELECT * FRO... @##_member" />
+                <marker date="0" expanded="true" signature="3958:4021" ph="UPDATE `@##_m... " />
+                <marker date="0" expanded="true" signature="4285:4342" ph="SELECT * FRO... @##_member" />
+                <marker date="0" expanded="true" signature="4673:4743" ph="UPDATE `@##_m... " />
+                <marker date="0" expanded="true" signature="4964:5036" ph="select value... @##_caches" />
+                <marker date="0" expanded="true" signature="5538:5647" ph="select * fro... @##_member" />
+                <marker date="0" expanded="true" signature="5668:5778" ph="select * fro... @##_member" />
+                <marker date="0" expanded="true" signature="6409:6518" ph="select * fro... @##_member" />
+                <marker date="0" expanded="true" signature="6541:6651" ph="select * fro... @##_member" />
+                <marker date="0" expanded="true" signature="6754:6842" ph="UPDATE `@##_m... " />
               </folding>
             </state>
           </provider>
@@ -65,26 +52,26 @@
       <file leaf-file-name="global.fun.php" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/common/global.fun.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="457" column="4" lean-forward="false" selection-start-line="457" selection-start-column="4" selection-end-line="458" selection-end-column="62" />
+            <state relative-caret-position="264">
+              <caret line="452" column="32" lean-forward="true" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="32" />
               <folding>
-                <marker date="0" expanded="true" signature="15566:16685" ph="..." />
-                <marker date="0" expanded="true" signature="15572:16595" ph="..." />
-                <marker date="0" expanded="true" signature="15620:16521" ph="..." />
-                <marker date="0" expanded="true" signature="15990:16159" ph="{...}" />
-                <marker date="0" expanded="true" signature="16165:16388" ph="{...}" />
-                <marker date="0" expanded="true" signature="22802:22864" ph="SELECT name @##_category" />
-                <marker date="0" expanded="true" signature="23765:23853" ph="Select id Fr... @##_activity_lottery_pay_log" />
-                <marker date="0" expanded="true" signature="23949:24031" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="24054:24193" ph="INSERT INTO `@##_activity_lottery_pay_log`... " />
-                <marker date="0" expanded="true" signature="24761:24834" ph="UPDATE `@##_m... " />
-                <marker date="0" expanded="true" signature="24861:24998" ph="INSERT INTO `@##_member_account`... " />
-                <marker date="0" expanded="true" signature="32506:32569" ph="SELECT catei... @##_category" />
-                <marker date="0" expanded="true" signature="34694:34756" ph="SELECT * FRO... @##_member_grading" />
-                <marker date="0" expanded="true" signature="34824:34996" ph="INSERT INTO `@##_member_recodes`... " />
-                <marker date="0" expanded="true" signature="35038:35209" ph="INSERT INTO `@##_member_recodes`... " />
-                <marker date="0" expanded="true" signature="35244:35323" ph="SELECT * FRO... @##_member_grading" />
-                <marker date="0" expanded="true" signature="35342:35513" ph="INSERT INTO `@##_member_recodes`... " />
+                <marker date="0" expanded="true" signature="15444:16563" ph="..." />
+                <marker date="0" expanded="true" signature="15450:16473" ph="..." />
+                <marker date="0" expanded="true" signature="15498:16399" ph="..." />
+                <marker date="0" expanded="true" signature="15868:16037" ph="{...}" />
+                <marker date="0" expanded="true" signature="16043:16266" ph="{...}" />
+                <marker date="0" expanded="true" signature="22680:22742" ph="SELECT name @##_category" />
+                <marker date="0" expanded="true" signature="23643:23731" ph="Select id Fr... @##_activity_lottery_pay_log" />
+                <marker date="0" expanded="true" signature="23827:23909" ph="UPDATE `@##_m... " />
+                <marker date="0" expanded="true" signature="23932:24071" ph="INSERT INTO `@##_activity_lottery_pay_log`... " />
+                <marker date="0" expanded="true" signature="24639:24712" ph="UPDATE `@##_m... " />
+                <marker date="0" expanded="true" signature="24739:24876" ph="INSERT INTO `@##_member_account`... " />
+                <marker date="0" expanded="true" signature="32384:32447" ph="SELECT catei... @##_category" />
+                <marker date="0" expanded="true" signature="34572:34634" ph="SELECT * FRO... @##_member_grading" />
+                <marker date="0" expanded="true" signature="34702:34874" ph="INSERT INTO `@##_member_recodes`... " />
+                <marker date="0" expanded="true" signature="34916:35087" ph="INSERT INTO `@##_member_recodes`... " />
+                <marker date="0" expanded="true" signature="35122:35201" ph="SELECT * FRO... @##_member_grading" />
+                <marker date="0" expanded="true" signature="35220:35391" ph="INSERT INTO `@##_member_recodes`... " />
               </folding>
             </state>
           </provider>
@@ -93,8 +80,28 @@
       <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="8" selection-end-line="120" selection-end-column="9" />
+            <state relative-caret-position="534">
+              <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -142,6 +149,7 @@
       <find>getArticleDetail</find>
       <find>getCollectList</find>
       <find>_message</find>
+      <find>findmobilecheck</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,9 +198,10 @@
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/stu_add.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Admin/teach_add.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Login/register.html" />
-        <option value="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" />
         <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/common/global.fun.php" />
         <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/member/finduser.action.php" />
+        <option value="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php" />
       </list>
     </option>
   </component>
@@ -209,7 +218,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -315,33 +326,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Answer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Answer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="answer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
+              <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,7 +618,7 @@
       <workItem from="1490749704042" duration="6441000" />
       <workItem from="1490761402034" duration="2989000" />
       <workItem from="1490765292348" duration="13267000" />
-      <workItem from="1490836035016" duration="3014000" />
+      <workItem from="1490836035016" duration="8258000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -761,20 +746,27 @@
       <option name="project" value="LOCAL" />
       <updated>1490779310018</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="17:09 by Jun&#10;">
+      <created>1490839059859</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1490839059859</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53781000" />
+    <option name="totallyTimeSpent" value="59025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03911205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -810,14 +802,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/View/Admin/classList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -837,14 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,18 +1102,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="8" selection-end-line="120" selection-end-column="9" />
+        <state relative-caret-position="534">
+          <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="528">
+          <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
           <folding />
         </state>
       </provider>
