@@ -21,6 +21,7 @@ class StuController extends Controller
             $this->error('您不是学生，无权访问此页面','Login/login',3);
         }
     }
+
     // 后台主页面---提问界面
     public function ask()
     {
@@ -45,6 +46,13 @@ class StuController extends Controller
         $article = D('article');
 
         $insert = $article->askAct();
+
+        // 增加排序等级
+        $keysarr = I('post.keys');
+        $keys = D('keys');
+        foreach($keysarr as $key => $val){
+
+        }
 
         if($insert){
             $this->success('提交成功','ask',2);

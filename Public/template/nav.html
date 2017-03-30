@@ -64,34 +64,33 @@
         <!-- /.dropdown -->
         <!-- /.dropdown -->
         <li class="dropdown">
+            <a class="dropdown-toggle" href="{:U('Home/Index/question/act/home')}">
+                <i class="fa fa-home">首页</i>
+            </a>
+            <!-- /.dropdown-user -->
+        </li>
+
+
+        <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
             </a>
             <ul class="dropdown-menu dropdown-user">
-
                 <!-- 判断身份，跳转到不同的个人中心 -->
                 <if condition="$userinfo['type'] eq 'admin'">
-
-                        <li><a href="{:U('Home/Admin/home')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
-                        <a href="{:U('Home/Admin/home')}"><li class="divider"> {$userinfo.realname} </li></a>
-
-                    <elseif condition="$userinfo['type'] eq 'teacher'"/>
-
-                        <li><a href="{:U('Home/Teach/asked')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
-                        <a href="{:U('Home/Teach/asked')}"><li class="divider"> {$userinfo.realname} </li></a>
-
-                    <else />
-
-                        <li><a href="{:U('Home/Stu/ask')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
-                        <a href="{:U('Home/Stu/ask')}"><li class="divider"> {$userinfo.realname} </li></a>
-
+                    <li><a href="{:U('Home/Admin/home')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
+                    <li class="divider"><a href="{:U('Home/Admin/home')}"> {$userinfo.realname} </a></li>
+                <elseif condition="$userinfo['type'] eq 'teacher'"/>
+                    <li><a href="{:U('Home/Teach/asked')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
+                    <li class="divider"><a href="{:U('Home/Teach/asked')}"> {$userinfo.realname} </a></li>
+                <elseif condition="$userinfo['type'] eq 'student'"/>
+                    <li><a href="{:U('Home/Stu/ask')}"><i class="fa fa-user fa-fw"></i> {$userinfo.realname}  </a></li>
+                    <li class="divider"><a href="{:U('Home/Stu/ask')}"> {$userinfo.realname} </a></li>
                 </if>
-
-
 
                 <li>
                     <!--href="{:U('Home/Login/loginOut')}"-->
-                    <a  data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+                    <a data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -216,20 +215,7 @@
                             </li>
                         </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <else />
+                        <elseif condition="$userinfo.type == 'status'"/>
                         <!--学生-->
                         <ul class="nav in" id="side-menu">
                             <li>
@@ -243,6 +229,23 @@
                             </li>
                             <li>
                                 <a href="{:u('Stu/question')}" class="{$question}"><i class="fa fa-table fa-fw"></i> 历史问题</a>
+                            </li>
+                        </ul>
+
+                        <elseif condition="$act == 'home'"/>
+                        <!--首页-->
+                        <ul class="nav in" id="side-menu">
+                            <li>
+                                <a href="{:u('Home/Index/question/act/home')}" class="{$active}"><i class="fa fa-times"></i> 待解答问题</a>
+                            </li>
+                            <li>
+                                <a href="{:u('Home/Index/overQuestion/act/home')}" class="{$collect}"><i class="fa fa-check"></i> 已解答问题</a>
+                            </li>
+                            <li>
+                                <a href="{:u('Home/Index/article/act/home')}" class="{$find}"><i class="fa fa-stack-exchange"></i> 文章列表</a>
+                            </li>
+                            <li>
+                                <a href="{:u('Home/Index/select/act/home')}" class="{$find}"><i class="fa fa-search"></i> 内容搜索</a>
                             </li>
                         </ul>
                     </if>

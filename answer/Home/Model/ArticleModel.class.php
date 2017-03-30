@@ -5,6 +5,12 @@
 
     class ArticleModel extends Model
     {
+        // 所有article列表
+        public function getAllArticleList()
+        {
+            return $this->select();
+        }
+
         // 学生提问提交处理
         public function askAct()
         {
@@ -124,6 +130,35 @@
         {
             $where['type'] = array('lt' , 2);
             return $this->where($where)->order('`time` DESC')->select();
+        }
+
+        // 待解答问题
+        public function getAwaitSolveQuestionList()
+        {
+            $where['type'] = 0;
+            return $articlearr = $this->where($where)->select();
+        }
+
+        // 已解答问题
+        public function getOverQuestionList()
+        {
+            $where['type'] = 1;
+            return $articlearr = $this->where($where)->select();
+        }
+
+        // 文章
+        public function getToArticleList()
+        {
+            $where['type'] = 2;
+            return $articlearr = $this->where($where)->select();
+        }
+
+        // 入参类型,标题搜索文章
+        public function getTypeList($type , $title)
+        {
+            $where['type'] = array('eq' , $type);
+            $where['title'] = array('LIKE' , "%{$title}%");
+            return $articlearr = $this->where($where)->select();
         }
     }
 ?>
