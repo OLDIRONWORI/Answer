@@ -14,16 +14,35 @@ class LoginController extends Controller
     // 跳转到注册界面
     public function register()
     {
-        // $select = I("post.select");
+        // 查询出所有班级列表
+        $class = D('class');
+        $class_list = $class->getAllClassList();
 
-        // $this->assign('select', $select);
+        $this->assign('class_list', $class_list);
         $this->display();
     }
 
     // 注册处理，插入数据库
     public function registerAct()
     {
-        $post = I('post.');
+        $method = I('post.type');
+
+        if($method == 'student'){
+            // 学生注册
+            $stusent = D('student');
+            $add = $stusent->addStudent();
+        }else if($method == 'teacher'){
+            // 教师注册
+            $teacher = D('teacher');
+            $add = $teacher->addTeacher();
+        }
+
+        if($add){
+            $this->success('注册成功，请登录' , 'login');
+        }else{
+            $this->error('注册失败');
+        }
+
     }
 
     // 登录页面

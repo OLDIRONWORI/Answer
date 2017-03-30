@@ -60,7 +60,11 @@
                             </div>
                             <!-- Change this to a button or input when using this as a form -->
                             <!--<a href="index.html" >Login</a>-->
-                            <input type="submit" class="btn btn-lg btn-success btn-block"  value="提交" />
+                        <!--     <a href="<?php echo u('Login/selectRegister');?>" class="btn btn-lg btn-success btn-block"  >去注册</a> -->
+                         <input type="submit" class="btn btn-lg btn-success btn-block"  value="提交" />
+                        <a href="<?php echo u('Login/register');?>" class="btn btn-lg btn-success btn-block"  >去注册</a> 
+                         
+
                         </fieldset>
                     </form>
                 </div>
@@ -69,7 +73,7 @@
     </div>
 </div>
 
-<!--<a href="<?php echo u('Login/selectRegister');?>">去注册</a>-->
+
 
 <!-- jQuery Version 1.11.0 -->
 <script src="/Answer/Public/js/jquery-1.11.0.js"></script>

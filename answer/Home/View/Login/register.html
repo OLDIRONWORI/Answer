@@ -47,35 +47,42 @@
                             <h3 class="panel-title">用户注册</h3>
                         </div>
                         <div class="panel-body">
-                            <form role="form" action="">
+                            <form role="form" action="__ROOT__/Home/Login/registerAct" method="post">
                                 <fieldset>
                                     <div class="form-group">
-                                      <label>真是姓名</label>
-                                        <input class="form-control" placeholder="请输入真实姓名" name="email" type="username" autofocus>
+                                        <label>用户身份</label>
+                                        <select class="form-control" name="type">
+                                            <option value="teacher">teacher</option>
+                                            <option value="student">student</option>
+                                        </select>
                                     </div>
                                     <div class="form-group">
-                                      <label>电话号码</label>
-                                        <input class="form-control" placeholder="请输入电话号码" name="phone" type="number" value="">
+                                        <label>真实姓名</label>
+                                        <input class="form-control" placeholder="请输入真实姓名" name="realname"
+                                               type="username" autofocus>
                                     </div>
                                     <div class="form-group">
-                                      <label>密码</label>
-                                        <input class="form-control" placeholder="请输入密码" name="password" type="password" value="">
+                                        <label>电话号码</label>
+                                        <input class="form-control" placeholder="请输入电话号码" name="phone" type="number"
+                                               value="">
                                     </div>
                                     <div class="form-group">
-                                      <label>班级</label>
-                                        <input class="form-control" placeholder="请输入班级" name="gradename" type="text" value="">
+                                        <label>密码</label>
+                                        <input class="form-control" placeholder="请输入密码" name="password" type="password"
+                                               value="">
                                     </div>
                                     <div class="form-group">
-                            <label>用户身份</label>
-                            <select class="form-control" name="classid">
-                                <option value="teacher">teacher</option>
-                                 <option value="student">student</option>
-                            </select>
-                            </div>
+                                        <label>班级</label>
+                                        <select class="form-control" name="classid">
+                                            <volist name="class_list" id="vo">
+                                                <option value="{$vo.id}">{$vo.classname}</option>
+                                            </volist>
+                                        </select>
+                                    </div>
                                     <!-- Change this to a button or input when using this as a form -->
-                               <!--      <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a> -->
-                                     <input type="submit" class="btn btn-lg btn-success btn-block"  value="提交" />
-                                       <a href="{:u('Login/register')}" class="btn btn-lg btn-success btn-block"  >取消</a> 
+                                    <!--      <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a> -->
+                                    <input type="submit" class="btn btn-lg btn-success btn-block" value="注册"/>
+                                    <a href="{:u('Login/register')}" class="btn btn-lg btn-success btn-block">去登陆</a>
                                 </fieldset>
                             </form>
                         </div>
