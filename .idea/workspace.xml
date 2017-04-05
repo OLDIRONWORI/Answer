@@ -20,58 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Common/Conf/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeysModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answer/Home/View/Index/select.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,6 +43,7 @@
       <find>getCollectList</find>
       <find>_message</find>
       <find>findmobilecheck</find>
+      <find>goods_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,7 +91,6 @@
         <option value="$PROJECT_DIR$/answer/Home/View/Login/register.html" />
         <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/member/finduser.action.php" />
         <option value="$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php" />
-        <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/go/index.action.php" />
         <option value="$PROJECT_DIR$/answer/Home/Controller/StuController.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Index/index.html" />
         <option value="$PROJECT_DIR$/answer/Home/View/Index/question.html" />
@@ -152,6 +101,7 @@
         <option value="$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php" />
         <option value="$PROJECT_DIR$/answer/Home/View/Index/select.html" />
         <option value="$PROJECT_DIR$/answer/Common/Conf/config.php" />
+        <option value="&lt;918ae1f9-9b08-4a85-ae2a-c18d8f592755&gt;/home/wwwroot/controller/go/index.action.php" />
         <option value="$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php" />
       </list>
     </option>
@@ -471,139 +421,6 @@
       <recent name="F:\xampp\htdocs\Answer\answer\Home\Model" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Public/template/nav.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Common/Conf/config.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Controller/LoginController.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Controller/StuController.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Controller/TeachController.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Model/AppointmentModel.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Model/CollectModel.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/Model/TeacherModel.class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Admin/order.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Index/article.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Index/overQuestion.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Index/question.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Index/select.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Stu/find.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Teach/asked.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Teach/question.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Runtime/Cache/Home/1f3b2b0d5e89787f077d23c5005325ea.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Runtime/Cache/Home/5520d45fdc19c316ef521290c9cc2e74.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Runtime/Cache/Home/ef389b75e9ea8db781b85ebd62d123fb.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Index/selectAct.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Stu/studentToTeacherCollect.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/answer/Home/View/Teach/setTime.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
@@ -685,7 +502,8 @@
       <workItem from="1490836035016" duration="20946000" />
       <workItem from="1490875533926" duration="120000" />
       <workItem from="1490875668614" duration="4000" />
-      <workItem from="1490921950160" duration="1712000" />
+      <workItem from="1490921950160" duration="4825000" />
+      <workItem from="1491353935611" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="15:05 by dexing&#10;">
       <created>1490598368335</created>
@@ -855,18 +673,25 @@
       <option name="project" value="LOCAL" />
       <updated>1490922801679</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="17:09 by Jun&#10;">
+      <created>1490923932523</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1490923932523</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73549000" />
+    <option name="totallyTimeSpent" value="77309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1191,30 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/View/Index/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1223,10 +1024,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Model/KeysModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/Model/ArticleModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answer/Home/View/Index/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/answer/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="308">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
