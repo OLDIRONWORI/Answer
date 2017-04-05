@@ -35,6 +35,10 @@ class TeachController extends Controller
         $list = $data['list'];
         $show = $data['show'];
 
+        foreach($list as $key => &$val){
+            $val['time'] = date('Y-m-d H:i:s' , $val['time']);
+        }
+
         // 分配信息到模板
         $active='active';
 
@@ -43,6 +47,37 @@ class TeachController extends Controller
         $this->assign('tea_asked', $active);
         $this->assign('userinfo', $userinfo);
         $this->display();
+    }
+
+    // 回答问题页面
+    public function askeds()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
+
+        $article = D('article');
+        $articleinfo = $article->getArticleDetail(I('get.id'));
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('askeds', $active);
+        $this->assign('userinfo', $userinfo);
+        $this->assign('articleinfo', $articleinfo);
+        $this->display();
+    }
+
+    // 回答问题处理
+    public function askedsAct()
+    {
+        $reply = D('reply');
+
+        $add = $reply->askedsAct();
+
+        if($add){
+            $article = D('article');
+            $article->updateStatus(I('post.articleid'));
+            $this->redirect('asked');
+        }
     }
 
     //收藏夹
@@ -72,12 +107,16 @@ class TeachController extends Controller
         $article_lists = array();
 
         // 遍历存查询出所有详情
+        $i = 0;
         foreach($collect_list as $key => $val){
             $info = $article->getArticleDetail($val['articleid']);
 
             if($info['type'] == '问题' || $info['type'] == '已解答的问题'){
-                $article_lists[] = $info;
+                $article_lists[$i] = $info;
+                $article_lists[$i]['cid'] = $val['id'];
+                $i++;
             }
+
         }
 
         // 分配信息到模板
@@ -103,11 +142,14 @@ class TeachController extends Controller
         $article_lists = array();
 
         // 遍历存查询出所有详情
+        $i = 0;
         foreach($collect_list as $key => $val){
             $info = $article->getArticleDetail($val['articleid']);
 
             if($info['type'] == '文章'){
-                $article_lists[] = $info;
+                $article_lists[$i] = $info;
+                $article_lists[$i]['cid'] = $val['id'];
+                $i++;
             }
         }
 
@@ -145,7 +187,7 @@ class TeachController extends Controller
         $insert = $article->publicsAct();
 
         if($insert){
-            $this->success('提交成功','ask',2);
+            $this->redirect('publics');
         }else{
             $this->error('提交失败,请检查输入');
         }
@@ -176,13 +218,45 @@ class TeachController extends Controller
         $this->display();
     }
 
+    //查看预约
+    public function appointmentList()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
 
+        // 查询出当前登录用户的回答
+        $appointment = D('appointment');
+        $appointmentList = $appointment->appointmentList();
+
+        $student = D('student');
+        $class = D('class');
+        foreach($appointmentList as $key => &$val){
+            $studentinfo = $student->getStudentInfo($val['studentid']);
+            $val['realname'] = $studentinfo['realname'];
+            $classinfo = $class->getClassInfo($studentinfo['classid']);
+            $val['classname'] = $classinfo['classname'];
+        }
+
+        // 时间格式
+        $timearr = array('8:00 - 8:20' , '8:20 - 8:40' , '8:40 - 9:00' , '9:00 - 9:20' , '9:20 - 9:40' , '9:40 - 10:00' , '10:00 - 10:20' , '10:20 - 10:40' , '10:40 - 11:00' , '11:00 - 11:20' , '11:20 - 11:40' , '11:40 - 12:00' , '13:00 - 13:20' , '13:20 - 13:40' , '13:40 - 14:00' , '14:00 - 14:20' , '14:20 - 14:40' , '14:40 - 15:00' , '15:00 - 15:20' , '15:20 - 15:40' , '16:00 - 16:20' , '16:20 - 16:40' , '16:40 - 17:00');
+        $this->assign('timearr' , $timearr);
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('appointmentList', $appointmentList);
+        $this->assign('userinfo', $userinfo);
+        $this->display();
+    }
 
     // 设置空闲时间
     public function setTime()
     {
         // 从cookie获取用户登录信息
         $userinfo = cookie('userinfo');
+
+        // 时间格式
+        $timearr = array('8:00 - 8:20' , '8:20 - 8:40' , '8:40 - 9:00' , '9:00 - 9:20' , '9:20 - 9:40' , '9:40 - 10:00' , '10:00 - 10:20' , '10:20 - 10:40' , '10:40 - 11:00' , '11:00 - 11:20' , '11:20 - 11:40' , '11:40 - 12:00' , '13:00 - 13:20' , '13:20 - 13:40' , '13:40 - 14:00' , '14:00 - 14:20' , '14:20 - 14:40' , '14:40 - 15:00' , '15:00 - 15:20' , '15:20 - 15:40' , '16:00 - 16:20' , '16:20 - 16:40' , '16:40 - 17:00');
+        $this->assign('timearr' , $timearr);
 
         $teacher = D('teacher');
         $teacherTime = $teacher->getTime();
@@ -202,9 +276,33 @@ class TeachController extends Controller
         $update = $teacher->getTimeAct(); 
 
         if($update){
-            $this->success('提交成功','setTime',2);
+            $this->redirect('setTime');
         }else{
             $this->error('提交失败,请检查选择');
+        }
+    }
+
+    // 取消收藏文章
+    public function cancelarticle()
+    {
+        $collect = D('collect');
+
+        $del = $collect->cancel();
+
+        if($del){
+            $this->redirect('article');
+        }
+    }
+
+    // 取消收藏问题
+    public function cancelquestion()
+    {
+        $collect = D('collect');
+
+        $del = $collect->cancel();
+
+        if($del){
+            $this->redirect('question');
         }
     }
 

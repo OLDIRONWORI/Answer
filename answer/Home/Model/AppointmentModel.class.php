@@ -26,5 +26,15 @@
 
             return $this->data($data)->add();
         }
+
+        // 查看自己的预约
+        public function appointmentList()
+        {
+            $userinfo = cookie('userinfo');
+
+            $where['teacherid'] = $userinfo['id'];
+
+            return $this->where($where)->order('`id` DESC')->select();
+        }
     }
 ?>

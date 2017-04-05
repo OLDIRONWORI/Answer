@@ -18,9 +18,9 @@
                             <label>可预约时间&nbsp;&nbsp;</label>
                             <for start="0" end="23">
                                 <if condition="in_array($i , $teacherTime) ">
-                                    <input type="checkbox" name="leisuretime[]" value="{$i}" checked>{$i} &nbsp;&nbsp; 
+                                    <input type="checkbox" name="leisuretime[]" value="{$i}" checked>{$timearr[$i]} &nbsp;&nbsp; 
                                 <else />
-                                    <input type="checkbox" name="leisuretime[]" value="{$i}">{$i} &nbsp;&nbsp; 
+                                    <input type="checkbox" name="leisuretime[]" value="{$i}">{$timearr[$i]} &nbsp;&nbsp; 
                                 </if>
                             </for>
                         </div>

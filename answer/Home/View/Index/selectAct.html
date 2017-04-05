@@ -19,7 +19,8 @@
                         <tr>
                             <th>题目(title)</th>
                             <th>内容(content)</th>
-                            <th>关键字(keysname)</th>
+                            <th>类型(type)</th>
+                            <th>发表用户(username)</th>
                             <th>时间(time)</th>
                             <th>操作(action)</th>
                         </tr>
@@ -29,7 +30,8 @@
                             <tr>
                                 <td>{$vo.title}</td>
                                 <td>{$vo.content}</td>
-                                <td>{$vo.keysname}</td>
+                                <td>{$vo.type}</td>
+                                <td>{$vo.username}</td>
                                 <td>{$vo.time}</td>
                                 <td><a href="{:U('Home/Index/collectAct/id/' . $vo['id'] . '/url/select')}">收藏</a></td>
                             </tr>

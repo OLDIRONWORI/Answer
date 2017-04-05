@@ -30,6 +30,16 @@
 
             return $add = $this->data($data)->add();
         }
+
+        // 取消收藏
+        public function cancel()
+        {
+            $id = I('get.id');
+
+            $where['id'] = $id;
+
+            return $this->where($where)->delete();
+        }
     }
 
 

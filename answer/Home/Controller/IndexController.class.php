@@ -147,6 +147,11 @@ class IndexController extends Controller
 
         $article = D('article');
         $keys = D('keys');
+        $student = D('student');
+        $teacher = D('teacher');
+
+        $typearr = array("待解答问题" , "已解答问题" , "教师文章");
+
         if($post['type'] < 3){
             // article
             $articlearr = $article->getTypeList($post['type'] , $post['title']);
@@ -158,12 +163,22 @@ class IndexController extends Controller
                 $arr = $article->getAllArticleList();
                 $articlearr = array();
 
-                foreach($arr as $key => $val){
-                    foreach($keylist as $k => $v){
+                foreach($arr as $key => &$val){
+                    foreach($keylist as $k => &$v){
                         $boo = strstr($val['keys'] , $v['id']);
                         
                         if($boo){
                             $val['time'] = date('Y-m-d H:i:s');
+                            $val['type'] = $typearr[(int)$val['type']];
+                            
+                            if($val['usertype'] == 'student'){
+                                $ui = $student->getStudentInfo($val['userid']);
+                                $val['username'] = $ui['realname'];
+                            }else{
+                                $ui = $teacher->getTeacherInfo($val['userid']);
+                                $val['username'] = $ui['realname'];
+                            }
+
                             $articlearr[] = $val;
                         }
                     }
@@ -179,6 +194,41 @@ class IndexController extends Controller
         $this->assign('articlearr' , $articlearr);
         $this->assign('title' , $post['title']);
         $this->display();
+    }
+
+    // 回答问题页面
+    public function askeds()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
+
+        $article = D('article');
+        $articleinfo = $article->getArticleDetail(I('get.id'));
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('askeds', $active);
+        $this->assign('userinfo', $userinfo);
+        $this->assign('articleinfo', $articleinfo);
+        $this->assign('url', I('get.url'));
+        $this->display();
+    }
+
+    // 回答问题处理
+    public function askedsAct()
+    {
+        $reply = D('reply');
+        $url = I('get.url');
+
+        $add = $reply->askedsAct();
+
+        if($add){
+            $article = D('article');
+            $article->updateStatus(I('post.articleid'));
+            $this->success('回答成功', '/Answer/Home/Index/' . $url . '/act/home');
+        }else{
+            $this->error('回答失败');
+        }
     }
 
     // 收藏问题或文章

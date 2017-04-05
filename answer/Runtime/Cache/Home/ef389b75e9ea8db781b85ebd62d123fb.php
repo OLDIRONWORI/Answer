@@ -190,10 +190,10 @@
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="/Answer/Home/Admin/article" class="<?php echo ($teach_article); ?>"></i> 文章列表</a>
+                                <a href="/Answer/Home/Admin/article" class="<?php echo ($teach_article); ?>"><i class="fa fa-files-o fa-fw"></i> 文章列表</a>
                             </li>
                             <li>
-                                <a href="/Answer/Home/Admin/question" class="<?php echo ($question); ?>"></i> 问题列表</a>
+                                <a href="/Answer/Home/Admin/question" class="<?php echo ($question); ?>"><i class="fa fa-sitemap fa-fw"></i> 问题列表</a>
                             </li>
                             <li>
                                 <a href="/Answer/Home/Admin/order" class="<?php echo ($order); ?>"><i class="fa fa-sitemap fa-fw"></i> 预约列表</a>
@@ -332,6 +332,7 @@
                             <th>内容(content)</th>
                             <th>类型(type)</th>
                             <th>时间(time)</th>
+                            <th>操作(action)</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -340,6 +341,7 @@
                                 <td><?php echo ($vo["content"]); ?></td>
                                 <td><?php echo ($vo["type"]); ?></td>
                                 <td><?php echo ($vo["time"]); ?></td>
+                                <td><a href="<?php echo U('Home/Teach/cancelquestion/id/' . $vo['cid']);?>">取消收藏</a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

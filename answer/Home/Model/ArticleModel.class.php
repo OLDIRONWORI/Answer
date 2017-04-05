@@ -161,6 +161,15 @@
             return $articlearr = $this->where($where)->select();
         }
 
+        // 修改状态
+        public function updateStatus($id)
+        {
+            $where['id'] = $id;
+            $data['type'] = 1;
+
+            return $this->where($where)->save($data);
+        }
+
     }
 ?>
 
