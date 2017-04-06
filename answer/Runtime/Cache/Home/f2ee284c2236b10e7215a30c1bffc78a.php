@@ -256,6 +256,9 @@
                             <li>
                                 <a href="<?php echo u('Teach/setTime');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-wrench fa-fw"></i> 设置可预约时间</a>
                             </li>
+                            <li>
+                                <a href="<?php echo u('Teach/appointmentList');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-table fa-fw"></i> 预约列表</a>
+                            </li>
                         </ul>
 
                         <?php elseif($userinfo["type"] == 'student' and $act != 'home'): ?>

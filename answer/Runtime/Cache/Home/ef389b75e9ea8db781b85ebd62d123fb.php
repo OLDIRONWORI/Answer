@@ -256,6 +256,9 @@
                             <li>
                                 <a href="<?php echo u('Teach/setTime');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-wrench fa-fw"></i> 设置可预约时间</a>
                             </li>
+                            <li>
+                                <a href="<?php echo u('Teach/appointmentList');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-table fa-fw"></i> 预约列表</a>
+                            </li>
                         </ul>
 
                         <?php elseif($userinfo["type"] == 'student' and $act != 'home'): ?>
@@ -341,7 +344,8 @@
                                 <td><?php echo ($vo["content"]); ?></td>
                                 <td><?php echo ($vo["type"]); ?></td>
                                 <td><?php echo ($vo["time"]); ?></td>
-                                <td><a href="<?php echo U('Home/Teach/cancelquestion/id/' . $vo['cid']);?>">取消收藏</a></td>
+                                <td><a href="<?php echo U('Home/Teach/cancelquestion/id/' . $vo['cid']);?>">取消收藏</a>
+                                <a href="<?php echo U('Home/Teach/detail/id/' . $vo['id']);?>">详情</a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

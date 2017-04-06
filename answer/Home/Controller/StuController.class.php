@@ -76,10 +76,13 @@ class StuController extends Controller
         $article_lists = array();
 
         // 遍历存查询出所有详情
-        if($collect_list){
-            foreach($collect_list as $key => $val){
-               $article_lists[] = $article->getArticleDetail($val['articleid']);
-            }
+        $i = 0;
+        foreach($collect_list as $key => $val){
+            $info = $article->getArticleDetail($val['articleid']);
+
+            $article_lists[$i] = $info;
+            $article_lists[$i]['cid'] = $val['id'];
+            $i++;
         }
 
         // 分配信息到模板
@@ -88,6 +91,18 @@ class StuController extends Controller
         $this->assign('collect', $active);
         $this->assign('article_lists', $article_lists);
         $this->display();
+    }
+
+    // 取消收藏问题
+    public function cancelquestion()
+    {
+        $collect = D('collect');
+
+        $del = $collect->cancel();
+
+        if($del){
+            $this->redirect('collect');
+        }
     }
 
     //寻找老师
@@ -116,6 +131,12 @@ class StuController extends Controller
 
         $article = D('article');
         $article_list = $article->getUserArticle();
+
+        $arr = array('未解答' , '已解答' , '教师文章');
+        foreach($article_list as $key => &$val){
+            $val['time'] = date('Y-m-d H:i:s' , $val['time']);
+            $val['type'] = $arr[$val['type']];
+        }
 
         // 分配信息到模板
         $active='active';
@@ -188,6 +209,36 @@ class StuController extends Controller
         }else{
             $this->error('提交失败,请检查选择');
         }
+    }
+
+    // 详情
+    public function detail()
+    {
+        $arcticleid = I('get.id');
+        $userinfo = cookie('userinfo');
+
+        // 文章/问题
+        $article = D('article');
+        $articleinfo = $article->getArticleDetail($arcticleid);
+
+        // 解答
+        $reply = D('reply');
+        $replyList = $reply->getArticleReply($arcticleid);
+
+        $teacher = D('teacher');
+        foreach ($replyList as $key => &$val) {
+            $val['time'] = date('Y-m-d H:i:s' , $val['time']);
+
+            $uinfo = $teacher->getTeacherInfo($val['userid']);
+            $val['username'] = $uinfo['realname'];
+        }
+
+        $detail='detail';
+        $this->assign('active', $detail);
+        $this->assign('userinfo' , $userinfo);
+        $this->assign('articleinfo' , $articleinfo);
+        $this->assign('replyList' , $replyList);
+        $this->display();
     }
 }
 

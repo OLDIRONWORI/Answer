@@ -24,7 +24,7 @@
             // 从cookie获取用户登录信息
             $userinfo = cookie('userinfo');
 
-            $data['content'] = $post['content'];
+            $data['contents'] = $post['contents'];
             $data['articleid'] = $post['articleid'];
             $data['time'] = time();
             $data['userid'] = $userinfo['id'];
@@ -32,5 +32,11 @@
             return $this->data($data)->add();
         }
 
+        // 传入文章id获取所有回复
+        public function getArticleReply($articleid)
+        {
+            $where['articleid'] = $articleid;
+            return $this->where($where)->order('`time` DESC')->select();
+        }
     }
 ?>

@@ -306,6 +306,35 @@ class TeachController extends Controller
         }
     }
 
+    // 详情
+    public function detail()
+    {
+        $arcticleid = I('get.id');
+        $userinfo = cookie('userinfo');
+
+        // 文章/问题
+        $article = D('article');
+        $articleinfo = $article->getArticleDetail($arcticleid);
+
+        // 解答
+        $reply = D('reply');
+        $replyList = $reply->getArticleReply($arcticleid);
+
+        $teacher = D('teacher');
+        foreach ($replyList as $key => &$val) {
+            $val['time'] = date('Y-m-d H:i:s' , $val['time']);
+
+            $uinfo = $teacher->getTeacherInfo($val['userid']);
+            $val['username'] = $uinfo['realname'];
+        }
+
+        $detail='detail';
+        $this->assign('active', $detail);
+        $this->assign('userinfo' , $userinfo);
+        $this->assign('articleinfo' , $articleinfo);
+        $this->assign('replyList' , $replyList);
+        $this->display();
+    }
 }
 
 ?>

@@ -256,6 +256,9 @@
                             <li>
                                 <a href="<?php echo u('Teach/setTime');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-wrench fa-fw"></i> 设置可预约时间</a>
                             </li>
+                            <li>
+                                <a href="<?php echo u('Teach/appointmentList');?>" class="<?php echo ($tea_questioned); ?>"><i class="fa fa-table fa-fw"></i> 预约列表</a>
+                            </li>
                         </ul>
 
                         <?php elseif($userinfo["type"] == 'student' and $act != 'home'): ?>
@@ -332,6 +335,7 @@
                             <th>内容(content)</th>
                             <th>类型(type)</th>
                             <th>时间(time)</th>
+                            <th>操作(action)</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -340,6 +344,7 @@
                                 <td><?php echo ($vo["content"]); ?></td>
                                 <td><?php echo ($vo["type"]); ?></td>
                                 <td><?php echo ($vo["time"]); ?></td>
+                                <td><a href="<?php echo U('Home/Teach/detail/id/' . $vo['id']);?>">详情</a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

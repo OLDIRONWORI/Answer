@@ -210,7 +210,6 @@ class IndexController extends Controller
         $this->assign('askeds', $active);
         $this->assign('userinfo', $userinfo);
         $this->assign('articleinfo', $articleinfo);
-        $this->assign('url', I('get.url'));
         $this->display();
     }
 
@@ -218,7 +217,7 @@ class IndexController extends Controller
     public function askedsAct()
     {
         $reply = D('reply');
-        $url = I('get.url');
+        $url = I('post.url');
 
         $add = $reply->askedsAct();
 
@@ -287,6 +286,38 @@ class IndexController extends Controller
         return false;
     }
 
+    // 详情
+    public function detail()
+    {
+        $arcticleid = I('get.id');
+        $url = I('get.url');
+        $act = 'home';
+        $userinfo = cookie('userinfo');
+
+        // 文章/问题
+        $article = D('article');
+        $articleinfo = $article->getArticleDetail($arcticleid);
+
+        // 解答
+        $reply = D('reply');
+        $replyList = $reply->getArticleReply($arcticleid);
+
+        $teacher = D('teacher');
+        foreach ($replyList as $key => &$val) {
+            $val['time'] = date('Y-m-d H:i:s' , $val['time']);
+
+            $uinfo = $teacher->getTeacherInfo($val['userid']);
+            $val['username'] = $uinfo['realname'];
+        }
+
+        $detail='detail';
+        $this->assign('active', $detail);
+        $this->assign('userinfo' , $userinfo);
+        $this->assign('articleinfo' , $articleinfo);
+        $this->assign('replyList' , $replyList);
+        $this->assign('act' , $act);
+        $this->display();
+    }
 }
 
 ?>

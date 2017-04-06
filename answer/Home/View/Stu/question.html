@@ -22,6 +22,7 @@
                                             <th>关键词(keys)</th>
                                             <th>类型(type)</th>
                                             <th>时间(time)</th>
+                                            <th>操作(action)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -33,6 +34,7 @@
                                             <td>{$vo.keys}</td>
                                             <td>{$vo.type}</td>
                                             <td>{$vo.time}</td>
+                                            <td><a href="{:U('Home/Stu/detail/id/' . $vo['id'])}">详情</a></td>
                                         </tr>
                                     </volist>
                                     </tbody>

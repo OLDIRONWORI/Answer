@@ -31,7 +31,10 @@
                                 <td>{$vo.content}</td>
                                 <td>{$vo.keysname}</td>
                                 <td>{$vo.time}</td>
-                                <td><a href="{:U('Home/Index/collectAct/id/' . $vo['id'] . '/url/article')}">收藏</a></td>
+                                <td>
+                                    <a href="{:U('Home/Index/collectAct/id/' . $vo['id'] . '/url/article')}">收藏</a>
+                                    <a href="{:U('Home/Index/detail/id/' . $vo['id'] . '/url/article')}">详情</a>
+                                </td>
                             </tr>
                         </volist>
                         </tbody>

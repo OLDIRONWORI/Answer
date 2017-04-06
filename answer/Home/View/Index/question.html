@@ -37,6 +37,8 @@
                                     <if condition="$userinfo.type == 'teacher'">
                                         &nbsp;&nbsp;<a href="{:U('Home/Index/askeds/id/' . $vo['id'] . '/url/question')}">解答</a>
                                     </if>
+
+                                    <a href="{:U('Home/Index/detail/id/' . $vo['id'] . '/url/question')}">详情</a>
                                 </td>
                             </tr>
                         </volist>

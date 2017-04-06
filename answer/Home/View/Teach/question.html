@@ -30,7 +30,8 @@
                                 <td>{$vo.content}</td>
                                 <td>{$vo.type}</td>
                                 <td>{$vo.time}</td>
-                                <td><a href="{:U('Home/Teach/cancelquestion/id/' . $vo['cid'])}">取消收藏</a></td>
+                                <td><a href="{:U('Home/Teach/cancelquestion/id/' . $vo['cid'])}">取消收藏</a>
+                                <a href="{:U('Home/Teach/detail/id/' . $vo['id'])}">详情</a></td>
                             </tr>
                         </volist>
                         </tbody>
