@@ -55,7 +55,7 @@ class StuController extends Controller
         }
 
         if($insert){
-            $this->success('提交成功','ask',2);
+            $this->redirect('ask');
         }else{
             $this->error('提交失败,请检查输入');
         }
@@ -205,7 +205,7 @@ class StuController extends Controller
         $add = $appointment->setTimeAct(); 
 
         if($add){
-            $this->success('提交成功','find',2);
+            $this->redirect('find');
         }else{
             $this->error('提交失败,请检查选择');
         }

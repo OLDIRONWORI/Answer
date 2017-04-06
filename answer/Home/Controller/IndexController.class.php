@@ -225,7 +225,7 @@ class IndexController extends Controller
         if($add){
             $article = D('article');
             $article->updateStatus(I('post.articleid'));
-            $this->success('回答成功', '/Answer/Home/Index/' . $url . '/act/home');
+            $this->redirect('/Answer/Home/Index/' . $url . '/act/home');
         }else{
             $this->error('回答失败');
         }
@@ -243,7 +243,7 @@ class IndexController extends Controller
         $add = $collect->collectAct($arcticleid);
 
         if($add){
-            $this->success('收藏成功', '/Answer/Home/Index/' . $url . '/act/home');
+            $this->redirect('/Answer/Home/Index/' . $url . '/act/home');
         }else{
             $this->error('收藏失败');
         }

@@ -282,6 +282,24 @@ class TeachController extends Controller
         }
     }
 
+    // 收藏问题或文章
+    public function collectAct()
+    {
+        $arcticleid = I('get.id');
+        $userinfo = cookie('userinfo');
+        $url = I('get.url');
+
+        $collect = D('collect');
+
+        $add = $collect->collectAct($arcticleid);
+
+        if($add){
+            $this->redirect($url);
+        }else{
+            $this->error('收藏失败');
+        }
+    }
+
     // 取消收藏文章
     public function cancelarticle()
     {

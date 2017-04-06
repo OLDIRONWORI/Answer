@@ -31,7 +31,9 @@
                                 <td>{$vo.content}</td>
                                 <td>{$vo.keys}</td>
                                 <td>{$vo.time}</td>
-                                <td><a href="{:U('Home/Teach/askeds/id/' . $vo['id'])}">回答问题</a></td>
+                                <td><a href="{:U('Home/Teach/askeds/id/' . $vo['id'])}">回答问题</a>
+                                <a href="{:U('Home/Teach/collectAct/id/' . $vo['id'] . '/url/asked')}">收藏</a>
+                                </td>
                             </tr>
                         </volist>
                         <tr>

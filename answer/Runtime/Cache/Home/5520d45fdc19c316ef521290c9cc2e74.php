@@ -345,7 +345,9 @@
                                 <td><?php echo ($vo["content"]); ?></td>
                                 <td><?php echo ($vo["keys"]); ?></td>
                                 <td><?php echo ($vo["time"]); ?></td>
-                                <td><a href="<?php echo U('Home/Teach/askeds/id/' . $vo['id']);?>">回答问题</a></td>
+                                <td><a href="<?php echo U('Home/Teach/askeds/id/' . $vo['id']);?>">回答问题</a>
+                                <a href="<?php echo U('Home/Teach/collectAct/id/' . $vo['id'] . '/url/asked');?>">收藏</a>
+                                </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         <tr>
                             <td></td>
