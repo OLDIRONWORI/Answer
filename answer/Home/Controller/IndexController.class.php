@@ -210,6 +210,7 @@ class IndexController extends Controller
         $this->assign('askeds', $active);
         $this->assign('userinfo', $userinfo);
         $this->assign('articleinfo', $articleinfo);
+        $this->assign('act' , 'home');
         $this->display();
     }
 
