@@ -115,6 +115,20 @@ class StuController extends Controller
         $teacher = D('teacher');
         $teacher_list = $teacher->getTeacherList();
 
+        // 时间格式
+        $timearr = array('8:00 - 8:20' , '8:20 - 8:40' , '8:40 - 9:00' , '9:00 - 9:20' , '9:20 - 9:40' , '9:40 - 10:00' , '10:00 - 10:20' , '10:20 - 10:40' , '10:40 - 11:00' , '11:00 - 11:20' , '11:20 - 11:40' , '11:40 - 12:00' , '13:00 - 13:20' , '13:20 - 13:40' , '13:40 - 14:00' , '14:00 - 14:20' , '14:20 - 14:40' , '14:40 - 15:00' , '15:00 - 15:20' , '15:20 - 15:40' , '16:00 - 16:20' , '16:20 - 16:40' , '16:40 - 17:00');
+
+        foreach($teacher_list as $key => &$val){
+            $arr = explode(',' , $val['leisuretime']);
+
+            $str = '';
+            foreach($arr as $k => &$v){
+                $str .= $timearr[$v] . ' | ';
+            }
+
+            $val['leisuretime'] = rtrim($str , ' | ');
+        }
+
         // 分配信息到模板
         $active='active';
         $this->assign('userinfo', $userinfo);
@@ -201,11 +215,14 @@ class StuController extends Controller
     public function setTimeAct()
     {
         $appointment = D('appointment');
+        $teacher = D('teacher');
+
+        $teacher->setLTime();
 
         $add = $appointment->setTimeAct(); 
 
         if($add){
-            $this->redirect('find');
+            $this->redirect('appointmentList');
         }else{
             $this->error('提交失败,请检查选择');
         }
@@ -239,6 +256,54 @@ class StuController extends Controller
         $this->assign('articleinfo' , $articleinfo);
         $this->assign('replyList' , $replyList);
         $this->display();
+    }
+
+    //查看预约
+    public function appointmentList()
+    {
+        // 从cookie获取用户登录信息
+        $userinfo = cookie('userinfo');
+
+        // 查询出当前登录用户的回答
+        $appointment = D('appointment');
+        $appointmentList = $appointment->appointmentList();
+
+        $student = D('teacher');
+        $class = D('class');
+        foreach($appointmentList as $key => &$val){
+            $studentinfo = $student->getTeacherInfo($val['studentid']);
+            $val['realname'] = $studentinfo['realname'];
+            $classinfo = $class->getClassInfo($studentinfo['classid']);
+            $val['classname'] = $classinfo['classname'];
+        }
+
+        // 时间格式
+        $timearr = array('8:00 - 8:20' , '8:20 - 8:40' , '8:40 - 9:00' , '9:00 - 9:20' , '9:20 - 9:40' , '9:40 - 10:00' , '10:00 - 10:20' , '10:20 - 10:40' , '10:40 - 11:00' , '11:00 - 11:20' , '11:20 - 11:40' , '11:40 - 12:00' , '13:00 - 13:20' , '13:20 - 13:40' , '13:40 - 14:00' , '14:00 - 14:20' , '14:20 - 14:40' , '14:40 - 15:00' , '15:00 - 15:20' , '15:20 - 15:40' , '16:00 - 16:20' , '16:20 - 16:40' , '16:40 - 17:00');
+        $this->assign('timearr' , $timearr);
+
+        // 分配信息到模板
+        $active='active';
+        $this->assign('appointmentList', $appointmentList);
+        $this->assign('userinfo', $userinfo);
+        $this->display();
+    }
+
+    // 取消预约
+    public function cancelappointment()
+    {
+        $appointment = D('appointment');
+
+        $info = $appointment->cancelappointment();
+
+        $teacher = D('teacher');
+
+        $del = $teacher->addTime($info['teacherid'] , $info['appointmenttime']);
+
+        if($del){
+            $this->redirect('appointmentList');
+        }else{
+            $this->error('失败');
+        }
     }
 }
 

@@ -353,6 +353,18 @@ class TeachController extends Controller
         $this->assign('replyList' , $replyList);
         $this->display();
     }
+
+    // 取消预约
+    public function cancelappointment()
+    {
+        $appointment = D('appointment');
+
+        $del = $appointment->cancelappointment();
+
+        if($del){
+            $this->redirect('appointmentList');
+        }
+    }
 }
 
 ?>

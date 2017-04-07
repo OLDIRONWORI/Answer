@@ -36,5 +36,19 @@
 
             return $this->where($where)->order('`id` DESC')->select();
         }
+
+        // 取消预约
+        public function cancelappointment()
+        {
+            $id = I('get.id');
+
+            $where['id'] = $id;
+
+            $info = $this->where($where)->find();
+
+            $this->where($where)->delete();
+
+            return $info;
+        }
     }
 ?>

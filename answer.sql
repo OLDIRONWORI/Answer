@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : host
+Source Server         : mysql
 Source Server Version : 50505
-Source Host           : 127.0.0.1:3306
+Source Host           : localhost:3306
 Source Database       : answer
 
 Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2017-03-29 19:45:37
+Date: 2017-04-07 20:58:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -41,12 +41,13 @@ CREATE TABLE `an_appointment` (
   `teacherid` int(11) NOT NULL DEFAULT '0' COMMENT '教师id',
   `appointmenttime` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '约定时间 1,2.3',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of an_appointment
 -- ----------------------------
-INSERT INTO `an_appointment` VALUES ('1', '1', '1', '1111111111');
+INSERT INTO `an_appointment` VALUES ('3', '1', '5', '1');
+INSERT INTO `an_appointment` VALUES ('5', '1', '1', '2');
 
 -- ----------------------------
 -- Table structure for an_article
@@ -62,40 +63,41 @@ CREATE TABLE `an_article` (
   `type` tinyint(1) NOT NULL DEFAULT '0' COMMENT '文章类型 0：提问 1：已被解答的问题 2：文章',
   `time` int(11) NOT NULL DEFAULT '0' COMMENT '时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=125 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of an_article
 -- ----------------------------
-INSERT INTO `an_article` VALUES ('4', '1', 'student', 'asd', 'asdasd', '1,2,3', '0', '0');
+INSERT INTO `an_article` VALUES ('4', '1', 'student', 'asd', 'asdasd', '1,2,3', '1', '0');
 INSERT INTO `an_article` VALUES ('5', '1', 'teacher', 'asd', 'asdasd', '1,2,3', '2', '0');
-INSERT INTO `an_article` VALUES ('6', '1', 'student', '231', '342', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('7', '1', 'student', '223131', '324242', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('8', '1', 'student', 'asd', 'asdasd', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('9', '1', 'student', 'kljlkj', 'kljklj', '1,2,3', '0', '1490585603');
+INSERT INTO `an_article` VALUES ('6', '1', 'student', '231', '342', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('7', '1', 'student', '223131', '324242', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('8', '1', 'student', 'asd', 'asdasd', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('9', '1', 'student', 'kljlkj', 'kljklj', '1,2,3', '1', '1490585603');
 INSERT INTO `an_article` VALUES ('10', '1', 'student', '1111111111', '222222222222', '1,2,3', '1', '0');
-INSERT INTO `an_article` VALUES ('11', '1', 'student', '111', '222', '1,2,3', '0', '1490585747');
-INSERT INTO `an_article` VALUES ('12', '1', 'student', 'asd', 'asdsd', '1,2,3', '0', '1490586983');
-INSERT INTO `an_article` VALUES ('13', '1', 'student', 'sdf', 'dsf', '1,2,3', '0', '1490587543');
-INSERT INTO `an_article` VALUES ('14', '1', 'student', 'df', 'sadf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('15', '1', 'student', 'sdf', 'f', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('16', '1', 'student', 'sf', 'sdf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('17', '1', 'student', 'sdf', 'sf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('18', '1', 'student', 'sdf', 'sdf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('19', '1', 'student', 'sdf', 'sdf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('20', '1', 'student', 'sdf', 'dsf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('21', '1', 'student', 'sdf', 'sdf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('22', '1', 'student', 'sdf', 'sdf', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('23', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('24', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('25', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('26', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('27', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('28', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('29', '1', 'student', '', '', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('30', '1', 'student', '123', '123', '1,2,3', '0', '0');
-INSERT INTO `an_article` VALUES ('31', '1', 'student', '水电费了', '水电费困了就睡来看', '1,2,3', '0', '1490605101');
-INSERT INTO `an_article` VALUES ('32', '1', 'student', '阿斯达所', '阿萨德阿萨德', '1,2,3', '0', '1490605476');
+INSERT INTO `an_article` VALUES ('11', '1', 'student', '111', '222', '1,2,3', '1', '1490585747');
+INSERT INTO `an_article` VALUES ('12', '1', 'student', 'asd', 'asdsd', '1,2,3', '1', '1490586983');
+INSERT INTO `an_article` VALUES ('13', '1', 'student', 'sdf', 'dsf', '1,2,3', '1', '1490587543');
+INSERT INTO `an_article` VALUES ('14', '1', 'student', 'df', 'sadf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('15', '1', 'student', 'sdf', 'f', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('16', '1', 'student', 'sf', 'sdf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('17', '1', 'student', 'sdf', 'sf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('18', '1', 'student', 'sdf', 'sdf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('19', '1', 'student', 'sdf', 'sdf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('20', '1', 'student', 'sdf', 'dsf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('21', '1', 'student', 'sdf', 'sdf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('22', '1', 'student', 'sdf', 'sdf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('23', '1', 'student', 'sdf', 'sdf', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('24', '1', 'student', 'sdf', '水电费了	水电费困了就睡来看', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('25', '1', 'student', 'sdf', '水电费了	水电费困了就睡来看', '4', '1', '0');
+INSERT INTO `an_article` VALUES ('26', '1', 'student', 'sdf', '水电费了	水电费困了就睡来看', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('27', '1', 'student', 'sdf', '水电费了	水电费困了就睡来看', '1,2,3', '0', '0');
+INSERT INTO `an_article` VALUES ('28', '1', 'student', 'sdf', '水电费了	水电费困了水电费了	水电费困了就睡来看睡来看', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('29', '1', 'student', 'sdf', '水电费了	水电费困了就睡来看', '1,2,3', '0', '0');
+INSERT INTO `an_article` VALUES ('30', '1', 'student', '123', '123', '1,2,3', '1', '0');
+INSERT INTO `an_article` VALUES ('31', '1', 'student', '水电费了', '水电费困了就睡来看', '1,2,3', '1', '1490605101');
+INSERT INTO `an_article` VALUES ('32', '1', 'student', '阿斯达所', '阿萨德阿萨德', '1,2,3', '1', '1490605476');
+INSERT INTO `an_article` VALUES ('124', '1', 'teacher', '瑟瑟发抖', '士大夫但是', '5,1', '2', '1491396845');
 
 -- ----------------------------
 -- Table structure for an_class
@@ -127,14 +129,30 @@ CREATE TABLE `an_collect` (
   `usertype` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '收藏用户类型',
   `time` int(11) NOT NULL DEFAULT '0' COMMENT '收藏时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of an_collect
 -- ----------------------------
 INSERT INTO `an_collect` VALUES ('1', '1', '4', 'student', '0');
-INSERT INTO `an_collect` VALUES ('2', '1', '4', 'teacher', '0');
-INSERT INTO `an_collect` VALUES ('3', '1', '5', 'teacher', '0');
+INSERT INTO `an_collect` VALUES ('6', '1', '5', 'student', '1490883423');
+INSERT INTO `an_collect` VALUES ('7', '0', '0', '', '0');
+INSERT INTO `an_collect` VALUES ('8', '1', '4', 'student', '1491398884');
+INSERT INTO `an_collect` VALUES ('9', '1', '4', 'student', '1491398891');
+INSERT INTO `an_collect` VALUES ('10', '1', '25', 'student', '1491398894');
+INSERT INTO `an_collect` VALUES ('11', '1', '124', 'student', '1491399057');
+INSERT INTO `an_collect` VALUES ('14', '1', '16', 'teacher', '1491482410');
+INSERT INTO `an_collect` VALUES ('15', '1', '25', 'teacher', '1491482414');
+INSERT INTO `an_collect` VALUES ('16', '1', '124', 'teacher', '1491482439');
+INSERT INTO `an_collect` VALUES ('17', '1', '27', 'student', '1491487456');
+INSERT INTO `an_collect` VALUES ('18', '1', '27', 'student', '1491487510');
+INSERT INTO `an_collect` VALUES ('19', '1', '27', 'teacher', '1491488341');
+INSERT INTO `an_collect` VALUES ('20', '1', '29', 'teacher', '1491488354');
+INSERT INTO `an_collect` VALUES ('21', '1', '27', 'teacher', '1491566753');
+INSERT INTO `an_collect` VALUES ('22', '1', '27', 'teacher', '1491566836');
+INSERT INTO `an_collect` VALUES ('23', '1', '29', 'teacher', '1491566838');
+INSERT INTO `an_collect` VALUES ('24', '1', '25', 'teacher', '1491566842');
+INSERT INTO `an_collect` VALUES ('25', '1', '4', 'teacher', '1491566843');
 
 -- ----------------------------
 -- Table structure for an_grade
@@ -184,12 +202,37 @@ CREATE TABLE `an_reply` (
   `articleid` int(11) NOT NULL DEFAULT '0' COMMENT '文章id或问题id',
   `time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '解答时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of an_reply
 -- ----------------------------
 INSERT INTO `an_reply` VALUES ('1', 'qweqwe', '1', '10', '0');
+INSERT INTO `an_reply` VALUES ('2', 'qweqwe', '1', '31', '1491396135');
+INSERT INTO `an_reply` VALUES ('3', 'qweqwe', '1', '32', '1491396143');
+INSERT INTO `an_reply` VALUES ('4', 'qweqwe', '1', '25', '1491396699');
+INSERT INTO `an_reply` VALUES ('5', 'qweqwe', '1', '13', '1491396763');
+INSERT INTO `an_reply` VALUES ('6', 'qweqwe', '1', '12', '1491396767');
+INSERT INTO `an_reply` VALUES ('7', 'qweqwe', '1', '11', '1491396771');
+INSERT INTO `an_reply` VALUES ('8', 'qweqwe', '1', '28', '1491396785');
+INSERT INTO `an_reply` VALUES ('9', 'qweqwe', '1', '4', '1491479822');
+INSERT INTO `an_reply` VALUES ('10', 'qweqwe', '1', '9', '1491479884');
+INSERT INTO `an_reply` VALUES ('11', 'qweqwe', '1', '6', '1491479898');
+INSERT INTO `an_reply` VALUES ('12', 'qweqwe', '1', '7', '1491479903');
+INSERT INTO `an_reply` VALUES ('13', '是撒地方', '1', '8', '1491481806');
+INSERT INTO `an_reply` VALUES ('14', '胜多负少', '1', '14', '1491481815');
+INSERT INTO `an_reply` VALUES ('15', '士大夫但是', '1', '15', '1491481851');
+INSERT INTO `an_reply` VALUES ('16', '士大夫', '1', '30', '1491481857');
+INSERT INTO `an_reply` VALUES ('17', '是富士电机', '1', '16', '1491486183');
+INSERT INTO `an_reply` VALUES ('18', '士大夫', '1', '17', '1491486268');
+INSERT INTO `an_reply` VALUES ('19', '似懂非懂', '1', '18', '1491486282');
+INSERT INTO `an_reply` VALUES ('20', '士大夫', '1', '24', '1491486285');
+INSERT INTO `an_reply` VALUES ('21', '似的发射点', '1', '19', '1491486801');
+INSERT INTO `an_reply` VALUES ('22', '士大夫', '1', '20', '1491486957');
+INSERT INTO `an_reply` VALUES ('23', '斯达克警方\r\n', '1', '21', '1491487045');
+INSERT INTO `an_reply` VALUES ('24', '胜多负少', '1', '22', '1491487229');
+INSERT INTO `an_reply` VALUES ('25', '似的发射点', '1', '23', '1491487255');
+INSERT INTO `an_reply` VALUES ('26', '看见了空间', '1', '26', '1491487345');
 
 -- ----------------------------
 -- Table structure for an_series
@@ -247,8 +290,8 @@ CREATE TABLE `an_teacher` (
 -- ----------------------------
 -- Records of an_teacher
 -- ----------------------------
-INSERT INTO `an_teacher` VALUES ('1', '德兴', '1311', '4a7d1ed414474e4033ac29ccb8653d9b', '1', '', '0');
-INSERT INTO `an_teacher` VALUES ('2', '22', '22', 'b6d767d2f8ed5d21a44b0e5886680cb9', '22', '', '1490759146');
-INSERT INTO `an_teacher` VALUES ('3', '432', '432', 'faa9afea49ef2ff029a833cccc778fd0', '42334', '', '1490759302');
-INSERT INTO `an_teacher` VALUES ('4', '42342', '42342', '325bea27a4f7aa6a93d6cdd1d0156237', '432423', '', '1490759324');
-INSERT INTO `an_teacher` VALUES ('5', '543', '543', '81448138f5f163ccdba4acc69819f280', '1', '', '1490759890');
+INSERT INTO `an_teacher` VALUES ('1', '德兴', '1311', '4a7d1ed414474e4033ac29ccb8653d9b', '1', '6,3,1', '0');
+INSERT INTO `an_teacher` VALUES ('2', '22', '22', 'b6d767d2f8ed5d21a44b0e5886680cb9', '22', '1,2,3,16', '1490759146');
+INSERT INTO `an_teacher` VALUES ('3', '432', '432', 'faa9afea49ef2ff029a833cccc778fd0', '42334', '1,2,3,16', '1490759302');
+INSERT INTO `an_teacher` VALUES ('4', '42342', '42342', '325bea27a4f7aa6a93d6cdd1d0156237', '432423', '1,2,3,16', '1490759324');
+INSERT INTO `an_teacher` VALUES ('5', '543', '543', '81448138f5f163ccdba4acc69819f280', '1', '2,3,6', '1490759890');

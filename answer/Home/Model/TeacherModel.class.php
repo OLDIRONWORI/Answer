@@ -96,5 +96,39 @@
             
             return $this->data($data)->where($where)->save();
         }
+
+        // 改变空闲时间
+        public function setLTime()
+        {
+            $leisuretime = I('post.leisuretime');
+            $teacherid = I('post.id');
+
+            $where['id'] = $teacherid;
+
+            $info = $this->where($where)->find();
+
+            $str = str_replace($leisuretime , '' , $info['leisuretime']);
+
+            $str = str_replace(',,' , ',' , $str);
+
+            $str = ltrim($str , ',');
+            $str = rtrim($str , ',');
+
+            $data['leisuretime'] = $str;
+
+            return $this->where($where)->data($data)->save();
+        }
+
+        // 添加空闲时间
+        public function addTime($teacherid , $leisuretime)
+        {
+            $where['id'] = $teacherid;
+
+            $info = $this->where($where)->find();
+
+            $data['leisuretime'] = $info['leisuretime'] . ',' . $leisuretime;
+
+            return $this->where($where)->data($data)->save();
+        }
     }
 ?>
